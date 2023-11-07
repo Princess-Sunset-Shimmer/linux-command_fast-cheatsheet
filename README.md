@@ -70,15 +70,15 @@
         └─file-type
 ```
 - file type
-    - . for regular file
-    - c for character file
-    - b for block file
-    - d for directory
-    - l for symbolic link
+- - '.' for regular file
+- - 'c' for character file
+- - 'b' for block file
+- - 'd' for directory
+- - 'l' for symbolic link
 - permission
-    - r for readable
-    - w for writeable
-    - x for executable
-    - \- for unable
+- - 'r' for readable
+- - 'w for writeable
+- - 'x' for executable
+- - '\-' for unable
 - - - -
 ## .view and edit File
