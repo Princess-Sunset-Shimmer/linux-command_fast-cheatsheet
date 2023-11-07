@@ -22,7 +22,7 @@
 - **"?"**               /* any single character */
 - **"{jpg,bmp,png}"**   /* set of characters */
 - - - -
-- **"~"**               /* home directory */
-- **"."**               /* current directory */
+    - **"~"**               /* home directory */
+    - **"."**               /* current directory */
     - **".."**              /* previous directory */
 ## .system and command info
