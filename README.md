@@ -18,7 +18,7 @@
 - - '0' stands for standard-input
 - - '2' stands for standard-error
 - - - -
-```lua
+```c
         command ; command    /* multiple command */
         command | command    /* command pipeline */
         command $(command)   /* command substitution */
