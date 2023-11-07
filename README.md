@@ -1,6 +1,7 @@
 # linux command fast-cheatsheet
-- [general command](#general-command "goto general-command")
-# general command
+- [General Command](#General-Command "goto General-Command")
+- [use Terminal emulator as File explorer](#use-Terminal-emulator-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
+# General Command
 - [format style](#format-style "goto format-style")
 - [preprocess](#preprocess "goto preprocess")
 - [system and command info](#system-and-command-info "goto system-and-command-info")
@@ -35,3 +36,4 @@
         man opname         /* documentation about the command */
         type opname        /* show command type */
 ```
+# use Terminal emulator as File explorer
