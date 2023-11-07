@@ -27,3 +27,11 @@
 - **"."**               /* current directory */
 - **".."**              /* previous directory */
 ## .system and command info
+```
+        whoami             /* show user name */
+        uname -a           /* show system kernel version */
+```
+```
+        man opname         /* documentation about the command */
+        type opname        /* show command type */
+```
