@@ -18,10 +18,10 @@
 - ***command*** | ***command***    /* command pipeline */
 - ***command*** $(***command***)   /* command substitution */
 ## .preprocess
-- **'\*'**              /* any characters */
-- **'?'**               /* any single character */
+- **"\*"**              /* any characters */
+- **"?"**               /* any single character */
 - **"{jpg,bmp,png}"**   /* set of characters */
 - - - -
-- **'~'**               /* home directory */
-- **'.'**               /* current directory */
+- **"~"**               /* home directory */
+- **"."**               /* current directory */
 - **".."**              /* previous directory */
