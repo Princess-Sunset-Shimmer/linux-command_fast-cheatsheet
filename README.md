@@ -79,6 +79,6 @@
     - r for readable
     - w for writeable
     - x for executable
-    - - for unable
+    - \- for unable
 - - - -
 ## .view and edit File
