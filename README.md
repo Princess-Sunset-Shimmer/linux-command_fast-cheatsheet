@@ -5,7 +5,7 @@
 - [preprocess](#preprocess "goto preprocess")
 - [system and command info](#system-and-command-info "goto system-and-command-info")
 ## .format style
-<pre>   </pre> **opname** --options parameters /directories
+- **opname** --options parameters /directories
 - - - -
 - ***command*** 1> /redirection-directory
 - ***command*** 1>> /append-redirection-directory
@@ -19,7 +19,6 @@
 - ***command*** | ***command***    /* command pipeline */
 - ***command*** $(***command***)   /* command substitution */
 ## .preprocess
-
 - **"\*"**              /* any characters */
 - **"?"**               /* any single character */
 - **"{jpg, bmp, png}"** /* set of characters */
