@@ -16,5 +16,5 @@
 - ***command*** | ***command***    /* command pipeline */
 - ***command*** $(***command***)   /* command substitution */
 ## .preprocess
-- '*'       /* any characters */
+- '\*'      /* any characters */
 - '?'       /* any single character */
