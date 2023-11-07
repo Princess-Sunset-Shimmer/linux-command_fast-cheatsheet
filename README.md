@@ -16,8 +16,8 @@
 - ***command*** | ***command***    /* command pipeline */
 - ***command*** $(***command***)   /* command substitution */
 ## .preprocess
-- '\*'              /* any characters */
-- '?'               /* any single character */
-- "{jpg,bmp,png}"   /* set of characters */
+- **'\*'**              /* any characters */
+- **'?'**               /* any single character */
+- **"{jpg,bmp,png}"**   /* set of characters */
 - - - -
 - 
