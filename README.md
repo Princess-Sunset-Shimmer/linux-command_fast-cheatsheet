@@ -61,7 +61,7 @@
         ls -al /directory/ | wc -l  /* count files at /directory/ */
 ```
 - - - -
-```
+```asm
         .rw-r--r-- 3.6M user 14 Jul 02:43 file-name.pdf
         │ │  │  │        └─file-owner
         │ │  │  └─world-permission
