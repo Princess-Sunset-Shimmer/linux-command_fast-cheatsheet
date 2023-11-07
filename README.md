@@ -63,11 +63,22 @@
 - - - -
 ```
         .rw-r--r-- 3.6M user 14 Jul 02:43 file-name.pdf
-        │ │  │  │        └─file owner
-        │ │  │  └─world permission
-        │ │  └─group permission
-        │ └─owner permission
-        └─file type
+        │ │  │  │        └─file-owner
+        │ │  │  └─world-permission
+        │ │  └─group-permission
+        │ └─owner-permission
+        └─file-type
 ```
+- file type
+    - . for regular file
+    - c for character file
+    - b for block file
+    - d for directory
+    - l for symbolic link
+- permission
+    - r for readable
+    - w for writeable
+    - x for executable
+    - - for unable
 - - - -
 ## .view and edit File
