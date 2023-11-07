@@ -2,7 +2,7 @@
 
 # general
 ## .format
-- ***opname*** --options parameters /directories
+- **opname** --options parameters /directories
 - - - -
 - ***command*** 1> /redirection-directory
 - ***command*** 1>> /append-redirection-directory
@@ -12,4 +12,7 @@
     '2' stands for standard-error
 ```
 - - - -
+- ***command*** ; ***command***    /* multiple command */
+- ***command*** | ***command***    /* command pipeline */
+- ***command*** $(***command***)   /* command substitution */
 ## .preprocess
