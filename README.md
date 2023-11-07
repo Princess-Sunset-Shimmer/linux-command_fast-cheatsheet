@@ -69,13 +69,13 @@
         │ └─owner-permission
         └─file-type
 ```
-- file type
+- file type:
 - - '.' for regular file
 - - 'c' for character file
 - - 'b' for block file
 - - 'd' for directory
 - - 'l' for symbolic link
-- permission
+- file permission:
 - - 'r' for readable
 - - 'w for writeable
 - - 'x' for executable
