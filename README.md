@@ -6,10 +6,10 @@
 - [preprocess](#preprocess "goto preprocess")
 - [system and command info](#system-and-command-info "goto system-and-command-info")
 ## .format style
-```
+```lua
         opname --options parameters /directories
 ```
-```
+```lua
         command 1> /redirection-directory
         command 1>> /append-redirection-directory
 ```
