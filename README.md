@@ -1,1 +1,3 @@
-# linux-command_fast-cheatsheet
+# linux command fast-cheatsheet
+
+# general
