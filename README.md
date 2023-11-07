@@ -24,7 +24,7 @@
         command $(command)   /* command substitution */
 ```
 ## .preprocess
-```asm
+```c
         *               /* any characters */
         ?               /* any single character */
         {jpg, bmp, png} /* set of characters */
@@ -34,7 +34,7 @@
 - - \*.jpg /* all jpg files */
 - - \*.{jpg, pdf} /* all jpg and pdf files */
 - - - -
-```asm
+```c
         ~               /* home directory */
         .               /* current directory */
         ..              /* previous directory */
