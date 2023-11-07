@@ -61,6 +61,13 @@
         ls -al /directory/ | wc -l  /* count files at /directory/ */
 ```
 - - - -
--
+```
+        .rw-r--r-- 3.6M user 14 Jul 02:43 file-name.pdf
+        │ │  │  │        └─file owner
+        │ │  │  └─world permission
+        │ │  └─group permission
+        │ └─owner permission
+        └─file type
+```
 - - - -
 ## .view and edit File
