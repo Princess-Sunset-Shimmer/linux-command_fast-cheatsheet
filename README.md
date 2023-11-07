@@ -5,7 +5,9 @@
 - [preprocess](#preprocess "goto preprocess")
 - [system and command info](#system-and-command-info "goto system-and-command-info")
 ## .format style
-- **opname** --options parameters /directories
+<pre>
+    **opname** --options parameters /directories
+</pre>
 - - - -
 - ***command*** 1> /redirection-directory
 - ***command*** 1>> /append-redirection-directory
