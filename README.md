@@ -21,7 +21,7 @@
 
 - **"\*"**              /* any characters */
 - **"?"**               /* any single character */
-- **"{jpg,bmp,png}"**   /* set of characters */
+- **"{jpg, bmp, png}"** /* set of characters */
 - - - -
 - **"~"**               /* home directory */
 - **"."**               /* current directory */
