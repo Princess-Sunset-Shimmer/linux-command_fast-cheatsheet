@@ -26,8 +26,8 @@
 ## .preprocess
 ```asm
         "*"               /* any characters */
-        ?               /* any single character */
-        {jpg, bmp, png} /* set of characters */
+        "?"               /* any single character */
+        "{jpg, bmp, png}" /* set of characters */
 ```
 - - - -
 - example:
@@ -35,9 +35,9 @@
 - - \*.{jpg, pdf} /* all jpg and pdf files */
 - - - -
 ```asm
-        ~               /* home directory */
-        .               /* current directory */
-        ..              /* previous directory */
+        "~"               /* home directory */
+        "."               /* current directory */
+        ".."              /* previous directory */
 ```
 ## .system and command info
 ```
