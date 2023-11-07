@@ -1,6 +1,6 @@
 # linux command fast-cheatsheet
 
-# general
+# general command
 ## .format
 - **opname** --options parameters /directories
 - - - -
@@ -16,3 +16,5 @@
 - ***command*** | ***command***    /* command pipeline */
 - ***command*** $(***command***)   /* command substitution */
 ## .preprocess
+- '*'       /* any characters */
+- '?'       /* any single character */
