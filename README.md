@@ -60,4 +60,7 @@
         ls -al /directory/          /* list all files at directory, show files at current directory while /directory/ is not indicated */
         ls -al /directory/ | wc -l  /* count files at /directory/ */
 ```
+- - - -
+-
+- - - -
 ## .view and edit File
