@@ -3,5 +3,5 @@
 # general
 ## .format
 >> ***opname*** --options parameters /directories
->> ***command*** > /redirection-directory
+>> ***command*** 1> /redirection-directory
 ## .preprocess
