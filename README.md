@@ -31,8 +31,8 @@
 ```
 - - - -
 - example:
-- *.jpg /* all jpg files */
-- *.{jpg, pdf} /* all jpg and pdf files */
+- \*.jpg /* all jpg files */
+- \*.{jpg, pdf} /* all jpg and pdf files */
 - - - -
 ```
         ~               /* home directory */
