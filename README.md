@@ -24,4 +24,5 @@
 - - - -
 - **"~"**               /* home directory */
 - **"."**               /* current directory */
-- **".."**              /* previous directory */
+    - **".."**              /* previous directory */
+## .system and command info
