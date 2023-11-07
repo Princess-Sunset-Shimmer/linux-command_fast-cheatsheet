@@ -18,7 +18,7 @@
 - - '0' stands for standard-input
 - - '2' stands for standard-error
 - - - -
-```
+```c
         command ; command    /* multiple command */
         command | command    /* command pipeline */
         command $(command)   /* command substitution */
@@ -40,11 +40,11 @@
         ".."              /* previous directory */
 ```
 ## .system and command info
-```
+```c
         whoami             /* show user name */
         uname -a           /* show system kernel version */
 ```
-```
+```c
         man opname         /* documentation about the command */
         type opname        /* show command type */
 ```
@@ -52,11 +52,11 @@
 - [view and edit Directory](#view-and-edit-Directory "goto view-and-edit-directory")
 - [view and edit File](#view-and-edit-File "goto view-and-edit-File")
 ## .view and edit Directory
-```
+```c
         pwd                 /* show current directory */
         cd /directory/      /* change directory */
 ```
-```
+```c
         ls -al /directory/          /* list all files at directory, show files at current directory while /directory/ is not indicated */
         ls -al /directory/ | wc -l  /* count files at /directory/ */
 ```
