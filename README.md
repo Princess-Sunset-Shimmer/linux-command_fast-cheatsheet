@@ -3,6 +3,7 @@
 # general command
 - [format style](#format-style "goto format-style")
 - [preprocess](#preprocess "goto preprocess")
+- [system and command info](#system-and-command-info "goto system-and-command-info")
 ## .format style
 - **opname** --options parameters /directories
 - - - -
