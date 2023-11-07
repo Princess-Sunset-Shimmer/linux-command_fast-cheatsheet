@@ -1,7 +1,9 @@
 # linux command fast-cheatsheet
-
+- [general command](#general-command "goto general-command")
 # general command
-## .format
+- [format style](#format-style "goto format-style")
+- [preprocess](#preprocess "goto preprocess")
+## .format style
 - **opname** --options parameters /directories
 - - - -
 - ***command*** 1> /redirection-directory
