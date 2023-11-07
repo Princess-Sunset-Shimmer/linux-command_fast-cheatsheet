@@ -2,7 +2,6 @@
 
 # general
 ## .format
->
 >> opname -options parameters directories
 >> 
 ## .preprocess
