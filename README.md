@@ -44,4 +44,5 @@
         type opname        /* show command type */
 ```
 # use Terminal emulator as File explorer
-- [view and edit directory]()
+- [view and edit Directory](#view-and-edit-Directory "goto view-and-edit-directory")
+- [view and edit File](#view-and-edit-File "goto view-and-edit-File")
