@@ -29,6 +29,11 @@
         ?               /* any single character */
         {jpg, bmp, png} /* set of characters */
 ```
+- - - -
+- example:
+- *.jpg /* all jpg files */
+- *.{jpg, pdf} /* all jpg and pdf files */
+- - - -
 ```
         ~               /* home directory */
         .               /* current directory */
@@ -47,5 +52,12 @@
 - [view and edit Directory](#view-and-edit-Directory "goto view-and-edit-directory")
 - [view and edit File](#view-and-edit-File "goto view-and-edit-File")
 ## .view and edit Directory
-
+```
+        pwd                 /* show current directory */
+        cd /directory/      /* change directory */
+```
+```
+        ls -al /directory/          /* list all files at directory, show files at current directory while /directory/ is not indicated */
+        ls -al /directory/ | wc -l  /* count files at /directory/ */
+```
 ## .view and edit File
