@@ -25,7 +25,7 @@
 ```
 ## .preprocess
 ```asm
-        *               /* any characters */
+        "*"               /* any characters */
         ?               /* any single character */
         {jpg, bmp, png} /* set of characters */
 ```
