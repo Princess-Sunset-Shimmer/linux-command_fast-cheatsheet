@@ -24,7 +24,7 @@
         command $(command)   /* command substitution */
 ```
 ## .preprocess
-```asm
+```lua
         '*'               --> any characters
         '?'               --> any single character
         "{jpg, bmp, png}" --> set of characters
