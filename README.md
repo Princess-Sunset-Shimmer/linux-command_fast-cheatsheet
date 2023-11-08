@@ -85,6 +85,15 @@
 - - 'x' for executable
 - - '\-' for unable
 - - - -
+```
+        mkdir /directory-to-create/
+```
+```
+        cp -r /source-directory/ /destination-directory/
+```
+- - - -
+- - add option \-i for interactively confirm the copying action
+- - - -
 ## .view and edit File
 
 ## .permission control
