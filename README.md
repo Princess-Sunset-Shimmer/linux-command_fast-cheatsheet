@@ -45,6 +45,7 @@
 ```c
         whoami             /* show user name */
         uname -a           /* show system kernel version */
+        fastfetch
 ```
 ```c
         man opname         /* documentation about the command */
@@ -53,6 +54,7 @@
 # use Terminal emulator as File explorer
 - [view and edit Directory](#view-and-edit-Directory "goto view-and-edit-directory")
 - [view and edit File](#view-and-edit-File "goto view-and-edit-File")
+- [permission control](#permission-control "goto permission-control")
 ## .view and edit Directory
 ```c
         pwd                 /* show current directory */
@@ -84,3 +86,5 @@
 - - '\-' for unable
 - - - -
 ## .view and edit File
+
+## .permission control
