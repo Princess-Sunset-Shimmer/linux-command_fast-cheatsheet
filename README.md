@@ -20,8 +20,10 @@
 - - - -
 ```c
         command ; command    /* multiple command */
-        command | command    /* command pipeline */
-        command $(command)   /* command substitution */
+```
+```c
+        command | command    /* command pipeline, standard output to standard input*/
+        command $(command)   /* command substitution, standard output to argument input */
 ```
 ## .preprocess
 ```lua
