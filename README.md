@@ -59,13 +59,13 @@
         cd /directory/      /* change directory */
 ```
 ```c
-        ls -al /directory/          /* list all files at directory, show files at current directory while /directory/ is not indicated */
-        ls -al /directory/ | wc -l  /* count files at /directory/ */
+        ls -al /directory/file         /* list all files */
+        ls -al /directory/file | wc -l /* count files and directory */
 ```
 - - - -
 ```asm
-        .rw-r--r-- 3.6M user 14 Jul 02:43 file-name.pdf
-        │ │  │  │        └─file-owner
+        .rw-r--r-- 3.6 MB user 14 Jul 02:43 file-name.pdf
+        │ │  │  │          └─file-owner
         │ │  │  └─world-permission
         │ │  └─group-permission
         │ └─owner-permission
