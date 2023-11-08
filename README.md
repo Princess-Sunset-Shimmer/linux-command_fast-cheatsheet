@@ -18,12 +18,12 @@
 - - '0' stands for standard-input
 - - '2' stands for standard-error
 - - - -
-```c
-        command ; command    /* multiple command */
+```py
+        command ; command    # multiple command
 ```
-```c
-        command | command    /* command pipeline, standard output to standard input*/
-        command $(command)   /* command substitution, standard output to argument input */
+```py
+        command | command    # command pipeline, standard output to standard input
+        command $(command)   # command substitution, standard output to argument input
 ```
 ## .preprocess
 ```lua
@@ -42,27 +42,27 @@
         ".."              --> previous directory
 ```
 ## .system and command info
-```c
-        whoami             /* show user name */
-        uname -a           /* show system kernel version */
+```py
+        whoami             # show user name
+        uname -a           # show system kernel version
         fastfetch
 ```
-```c
-        man opname         /* documentation about the command */
-        type opname        /* show command type */
+```py
+        man opname         # documentation about the command
+        type opname        # show command type
 ```
 # use Terminal emulator as File explorer
 - [view and edit Directory](#view-and-edit-Directory "goto view-and-edit-directory")
 - [view and edit File](#view-and-edit-File "goto view-and-edit-File")
 - [permission control](#permission-control "goto permission-control")
 ## .view and edit Directory
-```c
-        pwd                            /* show current directory */
-        cd /directory/                 /* change directory */
+```py
+        pwd                            # show current directory
+        cd /directory/                 # change directory
 ```
-```c
-        ls -al /directory/file         /* list all files */
-        ls -al /directory/file | wc -l /* count files and directory */
+```py
+        ls -al /directory/file         # list all files
+        ls -al /directory/file | wc -l # count files and directory
 ```
 - - - -
 ```asm
@@ -85,17 +85,17 @@
 - - 'x' for executable
 - - '\-' for unable
 - - - -
-```
+```py
         mkdir /directory-to-create/
 ```
-```
+```py
         cp -r /source-directory/ /destination-directory/
         mv /soutce-directory/ /destination-directory/
 ```
 - - - -
 - - add option \-i for interactively confirm the copying action
 - - - -
-```
+```py
         rm -r /directory-be-removed/
 ```
 - - - -
