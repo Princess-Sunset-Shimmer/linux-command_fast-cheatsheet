@@ -65,6 +65,7 @@
 - - - -
 ```asm
         .rw-r--r-- 3.6 MB user 14 Jul 02:43 file-name.pdf
+        ^ ^  ^  ^          ^
         │ │  │  │          └─file-owner
         │ │  │  └─world-permission
         │ │  └─group-permission
