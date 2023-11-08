@@ -7,11 +7,11 @@
 - [system and command info](#system-and-command-info "goto system-and-command-info")
 ## .format style
 ```lua
-        opname --options parameters /directories
+        opname --options parameters /directories/files
 ```
 ```lua
-        command 1> /redirection-directory
-        command 1>> /append-redirection-directory
+        command 1> /redirection-directory/written-file
+        command 1>> /append-redirection-directory/written-file
 ```
 - - - -
 - - '1' is file discriptor stands for standard-output
