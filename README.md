@@ -90,9 +90,16 @@
 ```
 ```
         cp -r /source-directory/ /destination-directory/
+        mv /soutce-directory/ /destination-directory/
 ```
 - - - -
 - - add option \-i for interactively confirm the copying action
+- - - -
+```
+        rm -r /directory-be-removed/
+```
+- - - -
+- - add option \-f to add force to remove it
 - - - -
 ## .view and edit File
 
