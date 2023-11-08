@@ -57,8 +57,8 @@
 - [permission control](#permission-control "goto permission-control")
 ## .view and edit Directory
 ```c
-        pwd                 /* show current directory */
-        cd /directory/      /* change directory */
+        pwd                            /* show current directory */
+        cd /directory/                 /* change directory */
 ```
 ```c
         ls -al /directory/file         /* list all files */
@@ -102,5 +102,8 @@
 - - add option \-f to add force to remove it
 - - - -
 ## .view and edit File
-
+```py
+        file /directory/file                # show file attributes
+        file -name "*mlp-fim*" /directory/  # find the file from /directory/, file-name contain keyword mlp-fim
+```
 ## .permission control
