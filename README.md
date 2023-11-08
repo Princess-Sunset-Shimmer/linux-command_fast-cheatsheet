@@ -24,20 +24,20 @@
         command $(command)   /* command substitution */
 ```
 ## .preprocess
-```asm
-        "*"               /* any characters */
-        "?"               /* any single character */
-        "{jpg, bmp, png}" /* set of characters */
+```lua
+        '*'               --> any characters
+        '?'               --> any single character
+        "{jpg, bmp, png}" --> set of characters
 ```
 - - - -
 - example:
 - - \*.jpg /* all jpg files */
 - - \*.{jpg, pdf} /* all jpg and pdf files */
 - - - -
-```asm
-        "~"               /* home directory */
-        "."               /* current directory */
-        ".."              /* previous directory */
+```lua
+        '~'               --> home directory
+        '.'               --> current directory
+        ".."              --> previous directory
 ```
 ## .system and command info
 ```c
