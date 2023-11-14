@@ -7,7 +7,7 @@
 - [system and command info](#system-and-command-info "goto system-and-command-info")
 ## .format style
 ```lua
-        opname --options parameters /directories/files
+        opname --options parameters /source-directories/files /destination-directory/file
 ```
 ```lua
         command 1> /redirection-directory/written-file
