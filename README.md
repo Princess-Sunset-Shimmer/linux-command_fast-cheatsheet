@@ -86,11 +86,11 @@
 - - '\-' for unable
 - - - -
 ```py
-        mkdir /directory-to-create/
+        mkdir /directory-to-create/        # create directory
 ```
 ```py
-        cp -r /source-directory/ /destination-directory/
-        mv /soutce-directory/ /destination-directory/
+        cp -r /source-directory/ /destination-directory/        # copy directory
+        mv /soutce-directory/ /destination-directory/           # move directory
 ```
 - - - -
 - - add option \-i for interactively confirm the copying action
