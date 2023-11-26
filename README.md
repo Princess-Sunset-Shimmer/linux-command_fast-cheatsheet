@@ -5,7 +5,7 @@
 - [format style](#format-style "goto format-style")
 - [preprocess](#preprocess "goto preprocess")
 - [system and command info](#system-and-command-info "goto system-and-command-info")
-## .format style
+## format style
 ```lua
         opname --options parameters /source-directories/files /destination-directory/file
 ```
@@ -25,7 +25,7 @@
         command | command    # command pipeline, standard output to standard input
         command $(command)   # command substitution, standard output to argument input
 ```
-## .preprocess
+## preprocess
 ```lua
         '*'               --> any characters
         '?'               --> any single character
@@ -41,7 +41,7 @@
         '.'               --> current directory
         ".."              --> previous directory
 ```
-## .system and command info
+## system and command info
 ```py
         whoami             # show user name
         uname -a           # show system kernel version
@@ -55,7 +55,7 @@
 - [view and edit Directory](#view-and-edit-Directory "goto view-and-edit-directory")
 - [view and edit File](#view-and-edit-File "goto view-and-edit-File")
 - [permission control](#permission-control "goto permission-control")
-## .view and edit Directory
+## view and edit Directory
 ```py
         pwd                            # show current directory
         cd /directory/                 # change directory
