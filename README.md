@@ -104,6 +104,6 @@
 ## .view and edit File
 ```py
         file /directory/file                # show file attributes
-        file -name "*mlp-fim*" /directory/  # find the file from /directory/, file-name contain keyword mlp-fim
+        find /directory/ -name "*mlp-fim*"  # find the file from /directory/, file-name contain keyword mlp-fim
 ```
 ## .permission control
