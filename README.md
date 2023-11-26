@@ -27,9 +27,9 @@
 ```
 ## preprocess
 ```lua
-        '*'               --> any characters
-        '?'               --> any single character
-        "{jpg, bmp, png}" --> set of characters
+        *               --> any characters
+        ?               --> any single character
+        {jpg, bmp, png} --> set of characters
 ```
 - - - -
 - example:
