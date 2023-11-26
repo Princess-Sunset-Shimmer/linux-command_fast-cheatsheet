@@ -92,13 +92,16 @@
 ```py
         cp -r /source_directory/ /destination_directory/        # copy directory
         cp /source_directory/file /destination_directory/file   # copy file to new file
-        mv /soutce_directory/ /destination_directory/           # move directory
+        mv /source_directory/ /destination_directory/           # move directory
+        mv /source_directory/file /destination_directory/       # move file
+        mv file.c file.h                                        # rename file
 ```
 - - - -
 - - add option \-i for interactively confirm the copying action
 - - - -
 ```py
         rm -r /directory_be_removed/        # remove directory
+        rm /directory/file                  # remove file
 ```
 - - - -
 - - add option \-f to add force to remove it
