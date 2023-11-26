@@ -37,9 +37,9 @@
 - - \*.{jpg, pdf} /* all jpg and pdf files */
 - - - -
 ```lua
-        '~'               --> home directory
-        '.'               --> current directory
-        ".."              --> previous directory
+        ~               --> home directory
+        .               --> current directory
+        ..              --> previous directory
 ```
 ## system and command info
 ```py
