@@ -1,7 +1,7 @@
 # linux command fast-cheatsheet
 - [General Command](#General-Command "goto General-Command")
 - [use Terminal emulator as File explorer](#use-Terminal-emulator-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
-- [use Terminal emulator as Storage manager](#use-Terminal-emulator-as-Storage-mnanager "goto use-Terminal-emulator-as-Storage-manager")
+- [use Terminal emulator as Storage manager](#use-Terminal-emulator-as-Storage-manager "goto use-Terminal-emulator-as-Storage-manager")
 - [use Terminal emulator as Multi task manager](#use-Terminal-emulator-as-Multi-task-manager "goto use-Terminal-emulator-as-Multi-task-manager")
 - [use Terminal emulator as Archive manager](#use-Terminal-emulator-as-Archive-manager "goto use-Terminal-emulator-as-Archive-manager")
 # General Command
