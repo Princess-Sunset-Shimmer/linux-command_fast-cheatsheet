@@ -7,11 +7,11 @@
 - [system and command info](#system-and-command-info "goto system-and-command-info")
 ## format style
 ```lua
-        opname --options parameters /source-directories/files /destination-directory/file
+        opname --options parameters /source_directories/files /destination_directory/file
 ```
 ```lua
-        command 1> /redirection-directory/written-file
-        command 1>> /append-redirection-directory/written-file
+        command 1> /redirection_directory/written_file
+        command 1>> /append_redirection_directory/written_file
 ```
 - - - -
 - - '1' is file discriptor stands for standard-output
@@ -53,7 +53,6 @@
 ```
 # use Terminal emulator as File explorer
 - [view and edit Directory or File](#view-and-edit-Directory "goto view-and-edit-directory")
-- [view and edit File](#view-and-edit-File "goto view-and-edit-File")
 - [permission control](#permission-control "goto permission-control")
 ## view and edit Directory or File
 ```py
@@ -63,6 +62,8 @@
 ```py
         ls -al /directory/file         # list all files
         ls -al /directory/file | wc -l # count files and directory
+        find /starting_directory/ -name "*mlp-fim*"    # search file that contain keyword mlp-fim from starting-directory
+        file /directory/file                           # show file attributes
 ```
 - - - -
 ```asm
@@ -86,25 +87,22 @@
 - - '\-' for unable
 - - - -
 ```py
-        mkdir /directory-to-create/        # create directory
+        mkdir /new_directory/        # create directory
 ```
 ```py
-        cp -r /source-directory/ /destination-directory/        # copy directory
-        mv /soutce-directory/ /destination-directory/           # move directory
+        cp -r /source_directory/ /destination_directory/        # copy directory
+        cp /source_directory/file /destination_directory/file   # copy file to new file
+        mv /soutce_directory/ /destination_directory/           # move directory
 ```
 - - - -
 - - add option \-i for interactively confirm the copying action
 - - - -
 ```py
-        rm -r /directory-be-removed/        # remove directory
+        rm -r /directory_be_removed/        # remove directory
 ```
 - - - -
 - - add option \-f to add force to remove it
 - - - -
-## .view and edit File
-```py
-        file /directory/file                # show file attributes
-        find /directory/ -name "*mlp-fim*"  # find the file from /directory/, file-name contain keyword mlp-fim
-```
+
 
 ## .permission control
