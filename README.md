@@ -96,7 +96,7 @@
 - - add option \-i for interactively confirm the copying action
 - - - -
 ```py
-        rm -r /directory-be-removed/
+        rm -r /directory-be-removed/        # remove directory
 ```
 - - - -
 - - add option \-f to add force to remove it
