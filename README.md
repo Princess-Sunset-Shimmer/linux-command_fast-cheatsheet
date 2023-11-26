@@ -1,6 +1,7 @@
 # linux command fast-cheatsheet
 - [General Command](#General-Command "goto General-Command")
 - [use Terminal emulator as File explorer](#use-Terminal-emulator-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
+- [use Terminal emulator as Archive manager](#use-Terminal-emulator-as-Archive-manager "goto use-Terminal-emulator-as-Archive-manager")
 # General Command
 - [format style](#format-style "goto format-style")
 - [preprocess](#preprocess "goto preprocess")
@@ -107,5 +108,5 @@
 - - add option \-f to add force to remove it
 - - - -
 
-
 ## .permission control
+# use Terminal emulator as Archive manager
