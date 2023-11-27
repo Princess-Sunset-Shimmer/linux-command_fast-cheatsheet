@@ -8,7 +8,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
 # General Command
 - [syntax style](#syntax-style "goto syntax-style")
 - [preprocess](#preprocess "goto preprocess")
-- [system and command info](#system-and-command-info "goto system-and-command-info")
+- [system and info](#system-and-info "goto system-and-info")
 ## syntax style
 ```lua
         opname --options parameters /source_directories/files /destination_directory/file
@@ -45,15 +45,21 @@ Terminal emulator is the middle between the user and shell, shell is the program
         .               --> current directory
         ..              --> previous directory
 ```
-## system and command info
+## system and info
+```py
+        man opname         # documentation about the command
+        type opname        # show command type
+```
 ```py
         whoami             # show user name
         uname -a           # show system kernel version
         fastfetch
 ```
 ```py
-        man opname         # documentation about the command
-        type opname        # show command type
+        su -l username     # switch user and login as username user
+        su                 # switch user and login as root user
+        exit               # logout
+        passwd             # change password
 ```
 # use Terminal emulator as File explorer
 - [view and edit Directory or File](#view-and-edit-Directory "goto view-and-edit-directory")
