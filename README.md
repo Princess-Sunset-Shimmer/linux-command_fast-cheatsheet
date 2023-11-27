@@ -5,10 +5,10 @@
 - [use Terminal emulator as Multi task manager](#use-Terminal-emulator-as-Multi-task-manager "goto use-Terminal-emulator-as-Multi-task-manager")
 - [use Terminal emulator as Archive manager](#use-Terminal-emulator-as-Archive-manager "goto use-Terminal-emulator-as-Archive-manager")
 # General Command
-- [format style](#format-style "goto format-style")
+- [syntax style](#syntax-style "goto syntax-style")
 - [preprocess](#preprocess "goto preprocess")
 - [system and command info](#system-and-command-info "goto system-and-command-info")
-## format style
+## syntax style
 ```lua
         opname --options parameters /source_directories/files /destination_directory/file
 ```
