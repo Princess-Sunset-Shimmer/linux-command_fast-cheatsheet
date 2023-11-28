@@ -8,7 +8,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
 - [environment config](#environment-config "goto environment-config")
 # General Command
 - [syntax style](#syntax-style "goto syntax-style")
-- [preprocess](#preprocess "goto preprocess")
+- [special character](#special-character "goto special-character")
 - [system and info](#system-and-info "goto system-and-info")
 ## syntax style
 ```lua
@@ -30,7 +30,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
         command | command    # command pipeline, standard output to standard input
         command $(command)   # command substitution, standard output to argument input
 ```
-## preprocess
+## special character
 ```lua
         *               --> any characters
         ?               --> any single character
