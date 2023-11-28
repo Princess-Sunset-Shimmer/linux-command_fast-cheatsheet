@@ -5,6 +5,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
 - [use Terminal emulator as Storage manager](#use-Terminal-emulator-as-Storage-manager "goto use-Terminal-emulator-as-Storage-manager")
 - [use Terminal emulator as Multi task manager](#use-Terminal-emulator-as-Multi-task-manager "goto use-Terminal-emulator-as-Multi-task-manager")
 - [use Terminal emulator as Archive manager](#use-Terminal-emulator-as-Archive-manager "goto use-Terminal-emulator-as-Archive-manager")
+- [environment config](#environment-config "goto environment-config")
 # General Command
 - [syntax style](#syntax-style "goto syntax-style")
 - [preprocess](#preprocess "goto preprocess")
