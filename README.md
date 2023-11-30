@@ -125,5 +125,16 @@ Terminal emulator is the middle between the user and shell, shell is the program
 
 # linux file system fast-cheatsheet
 ```
-
+root─┬─home
+     ├─boot
+     ├─etc
+     ├─dev
+     ├─proc
+     ├─var
+     ├─tmp
+     └─usr─┬─bin
+           ├─lib
+           ├─include
+           ├─share
+           └─local
 ```
