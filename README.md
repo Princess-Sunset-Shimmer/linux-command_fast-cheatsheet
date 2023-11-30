@@ -122,3 +122,8 @@ Terminal emulator is the middle between the user and shell, shell is the program
 # use Terminal emulator as storage manager
 # use Terminal emulator as Multi task manager
 # use Terminal emulator as Archive manager
+
+# linux file system fast-cheatsheet
+```
+
+```
