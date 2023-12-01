@@ -93,7 +93,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
 - - 'd' for directory
 - file permission:
 - - 'r' for readable
-- - 'w for writeable
+- - 'w' for writeable
 - - 'x' for executable
 - - '\-' for unable
 - - - -
