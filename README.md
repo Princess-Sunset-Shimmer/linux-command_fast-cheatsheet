@@ -87,9 +87,9 @@ Terminal emulator is the middle between the user and shell, shell is the program
 ```
 - file type:
 - - '.' for regular file
+- - 'c' for character device file
+- - 'b' for block device file
 - - 'l' for symbolic link
-- - 'c' for character file /* device file */
-- - 'b' for block file /* device file */
 - - 'd' for directory
 - file permission:
 - - 'r' for readable
