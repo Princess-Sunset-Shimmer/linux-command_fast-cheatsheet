@@ -65,6 +65,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
 # use Terminal emulator as File explorer
 - [view and edit Directory or File](#view-and-edit-Directory "goto view-and-edit-directory")
 - [permission control](#permission-control "goto permission-control")
+- [linux file system fast view](#linux-file-system-fast-view "goto linux-file-system-fast-view")
 ## view and edit Directory or File
 ```py
         pwd                            # show current directory
