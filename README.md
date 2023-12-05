@@ -118,7 +118,11 @@ Terminal emulator is the middle between the user and shell, shell is the program
 - - add option \-f to add force to remove it
 - - - -
 
-## .permission control
+## permission control
+```py
+        sudo chown user_name /directory/file        # change file to new owner
+        sudo chmod 750                              # set file permission to rwxr-x---
+```
 ## linux file system fast-cheatsheet
 ```
 root─┬─home
