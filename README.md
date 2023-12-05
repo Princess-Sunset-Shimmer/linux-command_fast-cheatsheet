@@ -85,7 +85,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
         │ └─owner-permission
         └─file-type
 ```
-- file type:
+- file type
 - - '.' for regular file
 - - 'c' for character device file
 - - 'b' for block device file
@@ -123,6 +123,14 @@ Terminal emulator is the middle between the user and shell, shell is the program
         sudo chown user_name /directory/file        # change file to new owner
         sudo chmod 750                              # set file permission to rwxr-x---
 ```
+- - - -
+- file mode oct number
+- - '7' for rwx
+- - '6' for rw\-
+- - '5' for r\-x
+- - '4' for r\-\-
+- - '0' for \-\-\-
+- - - -
 ## linux file system fast-cheatsheet
 ```
 root─┬─home
