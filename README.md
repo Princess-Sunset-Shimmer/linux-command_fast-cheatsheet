@@ -138,11 +138,11 @@ root─┬─home  /* store your pictures documents films here */
      ├─etc   /* config files are here */
      ├─dev   /* device files are here */
      ├─proc  /* process files are */
-     ├─var
+     ├─var   /* variable files are here */
      ├─tmp   /* temp files are here */
      └─usr─┬─bin      /* executable files are here */
-           ├─lib      /*  */
-           ├─include
+           ├─lib      /* library files are here */
+           ├─include  /* header files are here */
            ├─share
            └─local
 ```
