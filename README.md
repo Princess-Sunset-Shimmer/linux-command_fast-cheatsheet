@@ -119,11 +119,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
 - - - -
 
 ## .permission control
-# use Terminal emulator as storage manager
-# use Terminal emulator as Multi task manager
-# use Terminal emulator as Archive manager
-
-# linux file system fast-cheatsheet
+## linux file system fast-cheatsheet
 ```
 root─┬─home
      ├─boot
@@ -138,3 +134,8 @@ root─┬─home
            ├─share
            └─local
 ```
+# use Terminal emulator as storage manager
+# use Terminal emulator as Multi task manager
+# use Terminal emulator as Archive manager
+
+
