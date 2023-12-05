@@ -131,17 +131,17 @@ Terminal emulator is the middle between the user and shell, shell is the program
 - - '4' for r\-\-
 - - '0' for \-\-\-
 - - - -
-## linux file system fast-cheatsheet
+## linux file system fast view
 ```
-root─┬─home
-     ├─boot
-     ├─etc
-     ├─dev
-     ├─proc
+root─┬─home  /* store your pictures documents films here */
+     ├─boot  /* boot loader is here */
+     ├─etc   /* config files are here */
+     ├─dev   /* device files are here */
+     ├─proc  /* process files are */
      ├─var
-     ├─tmp
-     └─usr─┬─bin
-           ├─lib
+     ├─tmp   /* temp files are here */
+     └─usr─┬─bin      /* executable files are here */
+           ├─lib      /*  */
            ├─include
            ├─share
            └─local
