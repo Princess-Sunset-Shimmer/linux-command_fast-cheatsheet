@@ -74,10 +74,12 @@ Terminal emulator is the middle between the user and shell, shell is the program
         cd /directory/                 # change directory
 ```
 ```py
-        ls -al /directory/file         # list all files
-        ls -al /directory/file | wc -l # count files and directory
         find /starting_directory/ -name "*mlp-fim*"    # search file that contain keyword mlp-fim from starting-directory
         file /directory/file                           # show file attributes
+```
+```py
+        ls -al /directory/file         # list all files
+        ls -al /directory/file | wc -l # count files and directory
 ```
 - - - -
 ```asm
@@ -106,13 +108,15 @@ Terminal emulator is the middle between the user and shell, shell is the program
 ```py
         cp -r /source_directory/ /destination_directory/        # copy directory
         cp /source_directory/file /destination_directory/file   # copy file to new file
-        mv /source_directory/ /destination_directory/           # move directory
-        mv /source_directory/file /destination_directory/       # move file
-        mv file.c file.h                                        # rename file
 ```
 - - - -
 - - add option \-i for interactively confirm the copying action
 - - - -
+```py
+        mv /source_directory/ /destination_directory/           # move directory
+        mv /source_directory/file /destination_directory/       # move file
+        mv file.c file.h                                        # rename file
+```
 ```py
         rm -r /directory_be_removed/        # remove directory
         rm /directory/file                  # remove file
