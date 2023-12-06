@@ -24,7 +24,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
 - - '0' stands for standard-input
 - - '2' stands for standard-error
 - - - -
-## multi commandd special character
+## multi command special character
 ```py
         command ; command    # multiple command
 ```
