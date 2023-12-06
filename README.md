@@ -169,6 +169,9 @@ root─┬─home  /* store your pictures documents films here */
         cat /directory/source_file_0 /directory/source_file_1 ... >> /directory/new_file
 ```
 ## vim
+- - - -
+
+- - - -
 # use Terminal emulator as Multitask manager
 
 
