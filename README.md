@@ -139,7 +139,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
 - - '0' for \-\-\-
 - - - -
 ## linux file system fast view
-```
+```c#
 root─┬─home  /* store your pictures documents films here */
      ├─boot  /* boot loader is here */
      ├─etc   /* config files are here */
