@@ -97,7 +97,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
 - - `b` for block device file
 - - `l` for symbolic link
 - - `d` for directory
-- file permission:
+- file permission
 - - `r` for readable
 - - `w` for writeable
 - - `x` for executable
