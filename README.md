@@ -8,7 +8,8 @@ Terminal emulator is the middle between the user and shell, shell is the program
 - [environment config](#environment-config "goto environment-config")
 # General Command
 - [syntax style](#syntax-style "goto syntax-style")
-- [special character](#special-character "goto special-character")
+- [multi command special character](#multi-command-special-character "goto multi-command-special-character")
+- [single command special character](#single-command-special-character "goto single-command-special-character")
 - [system and info](#system-and-info "goto system-and-info")
 ## syntax style
 ```lua
@@ -23,6 +24,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
 - - '0' stands for standard-input
 - - '2' stands for standard-error
 - - - -
+## multi commandd special character
 ```py
         command ; command    # multiple command
 ```
@@ -30,7 +32,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
         command | command    # command pipeline, standard output to standard input
         command $(command)   # command substitution, standard output to argument input
 ```
-## special character
+## single command special character
 ```lua
         *               --> any characters
         ?               --> any single character
