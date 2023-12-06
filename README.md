@@ -3,7 +3,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
 - [General Command](#General-Command "goto General-Command")
 - [use Terminal emulator as File explorer](#use-Terminal-emulator-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
 - [use Terminal emulator as Storage manager](#use-Terminal-emulator-as-Storage-manager "goto use-Terminal-emulator-as-Storage-manager")
-- [use Terminal emulator as Multi task manager](#use-Terminal-emulator-as-Multi-task-manager "goto use-Terminal-emulator-as-Multi-task-manager")
+- [use Terminal emulator as Multitask manager](#use-Terminal-emulator-as-Multitask-manager "goto use-Terminal-emulator-as-Multitask-manager")
 - [use Terminal emulator as Archive manager](#use-Terminal-emulator-as-Archive-manager "goto use-Terminal-emulator-as-Archive-manager")
 - [environment config](#environment-config "goto environment-config")
 # General Command
@@ -154,7 +154,7 @@ root─┬─home  /* store your pictures documents films here */
            └─local
 ```
 # use Terminal emulator as storage manager
-# use Terminal emulator as Multi task manager
+# use Terminal emulator as Multitask manager
 # use Terminal emulator as Archive manager
 
 
