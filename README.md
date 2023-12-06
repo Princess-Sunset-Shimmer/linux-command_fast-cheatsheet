@@ -41,8 +41,8 @@ Terminal emulator is the middle between the user and shell, shell is the program
 ```
 - - - -
 - example:
-- - `\*.jpg` all jpg files
-- - `\*.{jpg, pdf}` all jpg and pdf files
+- - `*.jpg` for all jpg files
+- - `*.{jpg, pdf}` for all jpg and pdf files
 - - - -
 ```py
         ~               # home directory
@@ -92,16 +92,16 @@ Terminal emulator is the middle between the user and shell, shell is the program
         └─file-type
 ```
 - file type
-- - '.' for regular file
-- - 'c' for character device file
-- - 'b' for block device file
-- - 'l' for symbolic link
-- - 'd' for directory
+- - `.` for regular file
+- - `c` for character device file
+- - `b` for block device file
+- - `l` for symbolic link
+- - `d` for directory
 - file permission:
-- - 'r' for readable
-- - 'w' for writeable
-- - 'x' for executable
-- - '\-' for unable
+- - `r` for readable
+- - `w` for writeable
+- - `x` for executable
+- - `-` for unable
 - - - -
 ```py
         mkdir /new_directory/        # create directory
@@ -133,11 +133,11 @@ Terminal emulator is the middle between the user and shell, shell is the program
 ```
 - - - -
 - file mode oct number
-- - '7' for rwx
-- - '6' for rw\-
-- - '5' for r\-x
-- - '4' for r\-\-
-- - '0' for \-\-\-
+- - `7` for rwx
+- - `6` for rw\-
+- - `5` for r\-x
+- - `4` for r\-\-
+- - `0` for \-\-\-
 - - - -
 ## linux file system fast view
 ```c#
