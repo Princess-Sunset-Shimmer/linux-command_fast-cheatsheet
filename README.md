@@ -41,8 +41,8 @@ Terminal emulator is the middle between the user and shell, shell is the program
 ```
 - - - -
 - example:
-- - \*.jpg /* all jpg files */
-- - \*.{jpg, pdf} /* all jpg and pdf files */
+- - `\*.jpg` all jpg files
+- - `\*.{jpg, pdf}` all jpg and pdf files
 - - - -
 ```py
         ~               # home directory
