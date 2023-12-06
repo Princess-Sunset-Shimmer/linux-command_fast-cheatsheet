@@ -157,6 +157,10 @@ root─┬─home  /* store your pictures documents films here */
 # use Terminal emulator as storage manager
 # use Terminal emulator as Archive manager
 # use Terminal emulator as Text editor
+- [simple editing](#simple-editing "goto simple-editing")
+- [vim](#vim "goto vim")
+## simple editing
+## vim
 # use Terminal emulator as Multitask manager
 
 
