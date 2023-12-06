@@ -33,20 +33,20 @@ Terminal emulator is the middle between the user and shell, shell is the program
         command $(command)   # command substitution, standard output to argument input
 ```
 ## single command special character
-```lua
-        *               --> any characters
-        ?               --> any single character
-        {jpg, bmp, png} --> set of characters
+```py
+        *               # any characters
+        ?               # any single character
+        {jpg, bmp, png} # set of characters
 ```
 - - - -
 - example:
 - - \*.jpg /* all jpg files */
 - - \*.{jpg, pdf} /* all jpg and pdf files */
 - - - -
-```lua
-        ~               --> home directory
-        .               --> current directory
-        ..              --> previous directory
+```py
+        ~               # home directory
+        .               # current directory
+        ..              # previous directory
 ```
 ## system and info
 ```py
