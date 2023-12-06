@@ -111,7 +111,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
         cp /source_directory/file /destination_directory/file   # copy file to new file
 ```
 - - - -
-- - add option \-i for interactively confirm the copying action
+- - add option `-i` for interactively confirm the copying action
 - - - -
 ```py
         mv /source_directory/ /destination_directory/           # move directory
@@ -123,7 +123,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
         rm /directory/file                  # remove file
 ```
 - - - -
-- - add option \-f to add force to remove it
+- - add option `-f` to add force to remove it
 - - - -
 
 ## permission control
