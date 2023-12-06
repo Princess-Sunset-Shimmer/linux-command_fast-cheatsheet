@@ -170,7 +170,7 @@ root─┬─home  /* store your pictures documents films here */
 ```
 ## vim
 - - - -
-[click here to view vim fast-cheatsheet](https://github.com/Princess-Sunset-Shimmer/vim_fast-cheatsheet.git)
+[click here to vim fast-cheatsheet](https://github.com/Princess-Sunset-Shimmer/vim_fast-cheatsheet.git)
 - - - -
 # use Terminal emulator as Multitask manager
 
