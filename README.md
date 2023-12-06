@@ -160,6 +160,14 @@ root─┬─home  /* store your pictures documents films here */
 - [simple editing](#simple-editing "goto simple-editing")
 - [vim](#vim "goto vim")
 ## simple editing
+```py
+        cat /directory/file    # check file contents
+        cat > /directory/file  # redirect standard input file to /directory/file, Ctrl + D to finish
+```
+```py
+        cat /directory/source_file_0 /directory/source_file_1 ... > /directory/new_file
+        cat /directory/source_file_0 /directory/source_file_1 ... >> /directory/new_file
+```
 ## vim
 # use Terminal emulator as Multitask manager
 
