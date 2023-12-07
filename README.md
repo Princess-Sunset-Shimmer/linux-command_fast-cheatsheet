@@ -96,7 +96,7 @@ file type
 - - `c` for character device file
 - - `b` for block device file
 - - `l` for symbolic link
-- - `d` for directory\
+- - `d` for directory
 
 file permission
 - - `r` for readable
