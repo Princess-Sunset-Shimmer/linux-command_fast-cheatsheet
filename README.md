@@ -96,8 +96,8 @@ file type
 - - `c` for character device file
 - - `b` for block device file
 - - `l` for symbolic link
-- - `d` for directory
-\file permission
+- - `d` for directory\
+file permission
 - - `r` for readable
 - - `w` for writeable
 - - `x` for executable
