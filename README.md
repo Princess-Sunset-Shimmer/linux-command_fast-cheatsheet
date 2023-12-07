@@ -6,7 +6,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
 - [use Terminal emulator as Archive manager](#use-Terminal-emulator-as-Archive-manager "goto use-Terminal-emulator-as-Archive-manager")
 - [use Terminal emulator as Text editor](#use-Terminal-emulator-as-Text-editor "goto use-Terminal-emulator-as-Text-editor")
 - [use Terminal emulator as Multitask manager](#use-Terminal-emulator-as-Multitask-manager "goto use-Terminal-emulator-as-Multitask-manager")
-- [environment config](#environment-config "goto environment-config")
+- [linux configuration](#linux-configuration "goto linux-configuration")
 # General Command
 - [syntax style](#syntax-style "goto syntax-style")
 - [multi command special character](#multi-command-special-character "goto multi-command-special-character")
@@ -91,13 +91,13 @@ example:
         │ └─owner-permission
         └─file-type
 ```
-- file type
+file type
 - - `.` for regular file
 - - `c` for character device file
 - - `b` for block device file
 - - `l` for symbolic link
 - - `d` for directory
-- file permission
+file permission
 - - `r` for readable
 - - `w` for writeable
 - - `x` for executable
@@ -173,6 +173,9 @@ root─┬─home  /* store your pictures documents films here */
 [click here to vim fast-cheatsheet](https://github.com/Princess-Sunset-Shimmer/vim_fast-cheatsheet.git)
 - - - -
 # use Terminal emulator as Multitask manager
+# linux configuration
+- [network configuration](#network-configuration "goto network-configuration")
+- [init configuration](#init-configuration "goto init-configuration")
 - - - -
 Licence: [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
 
