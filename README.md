@@ -40,7 +40,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
         {jpg, bmp, png} # set of characters
 ```
 - - - -
-- example:
+example:
 - - `*.jpg` for all jpg files
 - - `*.{jpg, pdf}` for all jpg and pdf files
 - - - -
@@ -132,7 +132,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
         sudo chmod 750                              # set file permission to rwxr-x---
 ```
 - - - -
-- file mode oct number
+file mode oct number
 - - `7` for rwx
 - - `6` for rw\-
 - - `5` for r\-x
