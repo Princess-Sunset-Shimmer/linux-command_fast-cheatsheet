@@ -120,8 +120,8 @@ file permission
         mv file.c file.h                                        # rename file
 ```
 ```py
-        rm -r /directory_be_removed/        # remove directory
-        rm /directory/file                  # remove file
+        rm -r /directory/        # remove directory and its contents
+        rm /directory/file       # remove file
 ```
 - - - -
 - - add option `-f` to add force to remove it
