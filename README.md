@@ -178,6 +178,7 @@ root─┬─home  /* store your pictures documents films here */
 # linux configuration
 - [network configuration](#network-configuration "goto network-configuration")
 - [init configuration](#init-configuration "goto init-configuration")
+- [user configuration](#uer-configutation "goto user-configutation")
 - - - -
 Licence: [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
 
