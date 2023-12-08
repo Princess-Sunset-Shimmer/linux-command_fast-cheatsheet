@@ -21,7 +21,8 @@ Terminal emulator is the middle between the user and shell, shell is the program
         command 1>> /append_redirection_directory/written_file
 ```
 - - - -
-- - `1` is file discriptor stands for standard-output
+file discriptor
+- - `1` stands for standard-output
 - - `0` stands for standard-input
 - - `2` stands for standard-error
 - - - -
