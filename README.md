@@ -2,10 +2,11 @@
 Terminal emulator is the middle between the user and shell, shell is the program that execute command you type in standard input file or shell script, shell script is the file that contain command. Here i write a fast command cheatsheet reference for your tasks:
 - [General Command](#General-Command "goto General-Command")
 - [use Terminal emulator as File explorer](#use-Terminal-emulator-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
+- [use Terminal emulator as Package manager](#use-Terminal-emulator-as-Package-manager "goto use-Terminal-emulator-as-Package-manager")
 - [use Terminal emulator as Storage manager](#use-Terminal-emulator-as-Storage-manager "goto use-Terminal-emulator-as-Storage-manager")
 - [use Terminal emulator as Archive manager](#use-Terminal-emulator-as-Archive-manager "goto use-Terminal-emulator-as-Archive-manager")
-- [use Terminal emulator as Text editor](#use-Terminal-emulator-as-Text-editor "goto use-Terminal-emulator-as-Text-editor")
 - [use Terminal emulator as Multitask manager](#use-Terminal-emulator-as-Multitask-manager "goto use-Terminal-emulator-as-Multitask-manager")
+- [use Terminal emulator as Text editor](#use-Terminal-emulator-as-Text-editor "goto use-Terminal-emulator-as-Text-editor")
 - [linux configuration](#linux-configuration "goto linux-configuration")
 # General Command
 - [syntax style](#syntax-style "goto syntax-style")
@@ -156,8 +157,10 @@ root─┬─home  /* store your pictures documents films here */
            ├─share
            └─local
 ```
-# use Terminal emulator as storage manager
+# use Terminal emulator as Package manager
+# use Terminal emulator as Storage manager
 # use Terminal emulator as Archive manager
+# use Terminal emulator as Multitask manager
 # use Terminal emulator as Text editor
 - [simple editing](#simple-editing "goto simple-editing")
 - [vim](#vim "goto vim")
@@ -174,7 +177,6 @@ root─┬─home  /* store your pictures documents films here */
 - - - -
 [click here to vim fast-cheatsheet](https://github.com/Princess-Sunset-Shimmer/vim_fast-cheatsheet.git)
 - - - -
-# use Terminal emulator as Multitask manager
 # linux configuration
 - [network configuration](#network-configuration "goto network-configuration")
 - [init configuration](#init-configuration "goto init-configuration")
