@@ -57,11 +57,11 @@ example:
         type opname        # show command type
 ```
 ```py
-        whoami             # show user name
         uname -a           # show system kernel version
         fastfetch
 ```
 ```py
+        whoami             # show user name
         su -l username     # switch user and login as username user
         su                 # switch user and login as root user
         exit               # logout
