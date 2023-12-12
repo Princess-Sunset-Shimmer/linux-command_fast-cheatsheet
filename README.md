@@ -184,6 +184,15 @@ root─┬─home  /* store your pictures documents films here */
 - [network configuration](#network-configuration "goto network-configuration")
 - [init configuration](#init-configuration "goto init-configuration")
 - [user configuration](#uer-configutation "goto user-configutation")
+## network configuration
+1. list network interface
+2. connect network interface to network
+3. set ip address
+4. set router
+5. set DNS
+6. confirm connection
+## init configuration
+## user configuration
 - - - -
 Licence: [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
 
