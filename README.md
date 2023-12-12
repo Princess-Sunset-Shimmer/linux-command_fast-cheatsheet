@@ -158,9 +158,9 @@ root─┬─home  /* store your pictures documents films here */
            └─local
 ```
 # use Terminal emulator as Package manager
-- [Arch linux](#Arch-linux "goto Arch-linux")
-- [Fedora linux](#Fedora-linux "goto Fedora-linux")
-- [Debian linux](#Debian-linux "goto Debian-linux")
+- [Arch linux pacman](#Arch-linux-pacman "goto Arch-linux-pacman")
+- [Fedora linux apt](#Fedora-linux-apt "goto Fedora-linux-apt")
+- [Debian linux dnf](#Debian-linux-dnf "goto Debian-linux-dnf")
 # use Terminal emulator as Storage manager
 # use Terminal emulator as Archive manager
 # use Terminal emulator as Multitask manager
