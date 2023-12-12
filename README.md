@@ -37,6 +37,11 @@ file discriptor
 ```
 ## single command special character
 ```py
+        ~               # home directory
+        .               # current directory
+        ..              # previous directory
+```
+```py
         *               # any characters
         ?               # any single character
         {jpg, bmp, png} # set of characters
@@ -46,11 +51,6 @@ example:
 - - `*.jpg` for all jpg files
 - - `*.{jpg, pdf}` for all jpg and pdf files
 - - - -
-```py
-        ~               # home directory
-        .               # current directory
-        ..              # previous directory
-```
 ## system and info
 ```py
         man opname         # documentation about the command
