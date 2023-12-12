@@ -183,7 +183,7 @@ root─┬─home  /* store your pictures documents films here */
 # linux configuration
 - [network configuration](#network-configuration "goto network-configuration")
 - [init configuration](#init-configuration "goto init-configuration")
-- [user configuration](#uer-configutation "goto user-configutation")
+- [user configuration](#uer-configutation "goto user-configuration")
 ## network configuration
 1. list network interface
 2. connect network interface to network
