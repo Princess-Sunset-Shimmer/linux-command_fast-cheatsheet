@@ -23,8 +23,8 @@ Terminal emulator is the middle between the user and shell, shell is the program
 ```
 - - - -
 file discriptor
-- - `1` stands for standard-output
 - - `0` stands for standard-input
+- - `1` stands for standard-output
 - - `2` stands for standard-error
 - - - -
 ## multi command special character
@@ -65,7 +65,9 @@ example:
         su -l username     # switch user and login as username user
         su                 # switch user and login as root user
         exit               # logout
-        passwd             # change password
+```
+```py
+        sha256sum /directory/file
 ```
 # use Terminal emulator as File explorer
 - [view and edit Directory or File](#view-and-edit-Directory-or-File "goto view-and-edit-directory-or-File")
