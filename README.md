@@ -89,11 +89,11 @@ example
 - - - -
 ```asm
         .rw-r--r-- 3.6 MB user 14 Jul 02:43 file-name.pdf
-        │ │  │  │          └─file-owner
-        │ │  │  └─world-permission
-        │ │  └─group-permission
-        │ └─owner-permission
-        └─file-type
+        │ │  │  │          └─ file-owner
+        │ │  │  └─ world-permission
+        │ │  └─ group-permission
+        │ └─ owner-permission
+        └─ file-type
 ```
 file type
 - - `.` for regular file
@@ -151,7 +151,7 @@ root─┬─home  /* store your pictures documents films here */
      ├─etc   /* config files are here */
      ├─dev   /* device files are here */
      ├─proc  /* process files are */
-     ├─var   /* variable files are here */
+     ├─var   /* various databases files are here */
      ├─tmp   /* temp files are here */
      └─usr─┬─bin      /* executable files are here */
            ├─lib      /* library files are here */
@@ -187,10 +187,10 @@ root─┬─home  /* store your pictures documents films here */
 - [init configuration](#init-configuration "goto init-configuration")
 - [user configuration](#uer-configutation "goto user-configuration")
 ## network configuration
-1. list network interface
-2. connect network interface to network
+1. list network devices
+2. connect network interface to router
 3. set ip address
-4. set router
+4. set routing address
 5. set DNS
 6. confirm connection
 ## init configuration
