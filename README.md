@@ -54,11 +54,11 @@ example
 - - - -
 ## system and info
 ```py
-        man opname         # documentation about the command
-        type opname        # show command type
+        man command_name     # documentation about the command
+        type command_name    # show command type
 ```
 ```py
-        uname -a           # show system kernel version
+        uname -a             # show system kernel version
         fastfetch
 ```
 ## control your users
