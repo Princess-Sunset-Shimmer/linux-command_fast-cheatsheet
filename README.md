@@ -164,6 +164,11 @@ root─┬─home  /* store your pictures documents films here */
 - [Fedora linux apt](#Fedora-linux-apt "goto Fedora-linux-apt")
 - [Debian linux dnf](#Debian-linux-dnf "goto Debian-linux-dnf")
 # use Terminal emulator as Storage manager
+- [list storage devices](#list-storage-devices "goto list-storage-devices")
+- [mount storage devices](#mount-storage-devices "goto mount-storage-devices")
+- [edit storage device partition](#edit-storage-device-partition "goto edit-storage-device-partition")
+- [edit partition file system](#edit-partition-file-system "goto edit-partition-file-system")
+- [fix file system corruption](#fix-file-system-corruption "goto fix-file-system-corruption")
 # use Terminal emulator as Archive manager
 # use Terminal emulator as Multitask manager
 # use Terminal emulator as Text editor
