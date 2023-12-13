@@ -13,6 +13,7 @@ Terminal emulator is the middle between the user and shell, shell is the program
 - [multi command special character](#multi-command-special-character "goto multi-command-special-character")
 - [single command special character](#single-command-special-character "goto single-command-special-character")
 - [system and info](#system-and-info "goto system-and-info")
+- [control your users](#control-your-users "goto control-your-users")
 ## syntax style
 ```lua
         opname --options parameters /source_directories/files /destination_directory/file
@@ -60,10 +61,12 @@ example
         uname -a           # show system kernel version
         fastfetch
 ```
+## control your users
 ```py
         whoami             # show user name
         su -l username     # switch user and login as username user
         su                 # switch user and login as root user
+        sudo command       # switch to root user to execute the command
         exit               # logout
 ```
 # use Terminal emulator as File explorer
