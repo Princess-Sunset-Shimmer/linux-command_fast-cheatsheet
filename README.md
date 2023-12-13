@@ -66,20 +66,20 @@ example
         su                 # switch user and login as root user
         exit               # logout
 ```
-```py
-        sha256sum /directory/file
-```
 # use Terminal emulator as File explorer
-- [view and edit Directory or File](#view-and-edit-Directory-or-File "goto view-and-edit-directory-or-File")
+- [view and manage Directory and File](#view-and-edit-Directory-or-File "goto view-and-edit-directory-or-File")
 - [permission control](#permission-control "goto permission-control")
 - [linux file system fast view](#linux-file-system-fast-view "goto linux-file-system-fast-view")
-## view and edit Directory or File
+## view and manage Directory and File
 ```py
         pwd                            # show current directory
         cd /directory/                 # change directory
 ```
 ```py
         find /starting_directory/ -name "*mlp-fim*"    # search file that contain keyword mlp-fim from starting-directory
+```
+```py
+        sha256sum /directory/file                      # check file SHA256
         file /directory/file                           # show file attributes
 ```
 ```py
@@ -130,7 +130,6 @@ file permission
 - - - -
 - - add option `-f` to add force to remove it
 - - - -
-
 ## permission control
 ```py
         sudo chown user_name /directory/file        # change file to new owner
