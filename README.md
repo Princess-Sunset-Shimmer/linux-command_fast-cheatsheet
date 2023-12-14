@@ -163,8 +163,11 @@ root─┬─home  /* store your pictures documents films here */
 ```
 # use Terminal emulator as Package manager
 - [Arch linux pacman](#Arch-linux-pacman "goto Arch-linux-pacman")
-- [Fedora linux apt](#Fedora-linux-apt "goto Fedora-linux-apt")
-- [Debian linux dnf](#Debian-linux-dnf "goto Debian-linux-dnf")
+- [Fedora linux dnf](#Fedora-linux-dnf "goto Fedora-linux-dnf")
+- [Debian linux apt](#Debian-linux-apt "goto Debian-linux-apr")
+## Arch linux pacman
+## Fedora linux dnf
+## Debian linux apt
 # use Terminal emulator as Storage manager
 - [list storage devices](#list-storage-devices "goto list-storage-devices")
 - [edit storage device partition](#edit-storage-device-partition "goto edit-storage-device-partition")
