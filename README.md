@@ -203,7 +203,10 @@ root─┬─home  /* store your pictures documents films here */
 ```
 ## edit partition file system
 ```py
-        mkfs -text4 /dev/block_device_partition_name    # assign ext4 file system to the partiotion
+        mkfs.ext4 /dev/block_device_partition_name     # format partition ext4
+        mkfs.btrfs /dev/block_device_partition_name    # format partition btrfs
+        mkfs.ntfs /dev/block_device_partition_name     # format partition ntfs
+        mkfs.fat -F32 /dev/block_device_partition_name # format partition fat32
 ```
 ## mount storage device
 ```py
