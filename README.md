@@ -166,6 +166,24 @@ root─┬─home  /* store your pictures documents films here */
 - [Fedora linux dnf](#Fedora-linux-dnf "goto Fedora-linux-dnf")
 - [Debian linux apt](#Debian-linux-apt "goto Debian-linux-apr")
 ## Arch linux pacman
+```py
+        pacman -Qet                        # list installed package
+        pacman -Qs installed_package_name  # search installed package by name
+        pacman -Qii installed_package_name # check detail info about this installed package
+```
+```py
+        pacman -Ss package_name # search package online
+        pacman -Si package_name # check detail info about this package online
+```
+```py
+        pacman -Syu package_name # install the package
+        pacman -Syu              # update the system
+```
+```py
+        pacman -Rsn package_name    # remove the package
+        pacman -Rsn $(pacman -Qdtq) # remove all unneeded package
+        pacman -Scc                 # remove all package cache
+```
 ## Fedora linux dnf
 ## Debian linux apt
 # use Terminal emulator as Storage manager
@@ -221,8 +239,9 @@ root─┬─home  /* store your pictures documents films here */
 - [init configuration](#init-configuration "goto init-configuration")
 - [user configuration](#uer-configutation "goto user-configuration")
 ## network configuration
+steps
 1. list network devices
-2. connect network interface to router
+2. connect network device to router
 3. set ip address
 4. set routing address
 5. set DNS
