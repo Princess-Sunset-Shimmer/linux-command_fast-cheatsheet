@@ -167,10 +167,34 @@ root─┬─home  /* store your pictures documents films here */
 - [Debian linux dnf](#Debian-linux-dnf "goto Debian-linux-dnf")
 # use Terminal emulator as Storage manager
 - [list storage devices](#list-storage-devices "goto list-storage-devices")
-- [mount storage devices](#mount-storage-devices "goto mount-storage-devices")
 - [edit storage device partition](#edit-storage-device-partition "goto edit-storage-device-partition")
 - [edit partition file system](#edit-partition-file-system "goto edit-partition-file-system")
+- [mount storage device](#mount-storage-device "goto mount-storage-device")
 - [fix file system corruption](#fix-file-system-corruption "goto fix-file-system-corruption")
+- [raid](#raid "goto raid")
+## list storage devices
+```py
+        lsblk    # list block devices
+```
+## edit storage device partition
+```py
+        fdisk /dev/block_device_name
+```
+## edit partition file system
+```py
+        mkfs -text4 /dev/block_device_partition_name    # assign ext4 file system to the partiotion
+```
+## mount storage device
+```py
+        mount /dev/block_device_partition_name /mount_point_directory/
+        umount /dev/block_device_partition_name
+```
+## fix file system corruption
+```py
+        fsck /dev/block_device_partition_name
+```
+## raid
+
 # use Terminal emulator as Archive manager
 # use Terminal emulator as Multitask manager
 # use Terminal emulator as Text editor
@@ -204,5 +228,4 @@ root─┬─home  /* store your pictures documents films here */
 ## user configuration
 - - - -
 Licence: [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
-
 
