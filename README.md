@@ -187,33 +187,30 @@ root─┬─home  /* store your pictures documents films here */
 ## Fedora linux dnf
 ## Debian linux apt
 # use Terminal emulator as Storage manager
-- [list storage devices](#list-storage-devices "goto list-storage-devices")
-- [edit storage device partition](#edit-storage-device-partition "goto edit-storage-device-partition")
-- [edit partition file system](#edit-partition-file-system "goto edit-partition-file-system")
-- [mount storage device](#mount-storage-device "goto mount-storage-device")
-- [fix file system corruption](#fix-file-system-corruption "goto fix-file-system-corruption")
+- [manage single storage device](#manage-single-storage-device "goto manage-single-storage-device")
 - [raid](#raid "goto raid")
-## list storage devices
+## manage single storage device
+### list storage devices
 ```py
-        lsblk    # list block devices
+        lsblk -f  # list block devices
 ```
-## edit storage device partition
+### edit storage device partition
 ```py
         fdisk /dev/block_device_name
 ```
-## edit partition file system
+### edit partition file system
 ```py
         mkfs.ext4 /dev/block_device_partition_name     # format partition ext4
         mkfs.btrfs /dev/block_device_partition_name    # format partition btrfs
         mkfs.ntfs /dev/block_device_partition_name     # format partition ntfs
         mkfs.fat -F32 /dev/block_device_partition_name # format partition fat32
 ```
-## mount storage device
+### mount storage device
 ```py
         mount /dev/block_device_partition_name /mount_point_directory/
         umount /dev/block_device_partition_name
 ```
-## fix file system corruption
+### fix file system corruption
 ```py
         fsck /dev/block_device_partition_name
 ```
