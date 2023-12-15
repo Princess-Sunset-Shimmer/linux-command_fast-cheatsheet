@@ -1,19 +1,20 @@
 # linux command fast-cheatsheet
 Terminal emulator is the middle between the user and shell, shell is the program that execute command you type in standard input file or shell script, shell script is the file that contain command. Here i write a fast command cheatsheet reference for your tasks:
 - [General Command](#General-Command "goto General-Command")
-- [use Terminal emulator as File explorer](#use-Terminal-emulator-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
-- [use Terminal emulator as Package manager](#use-Terminal-emulator-as-Package-manager "goto use-Terminal-emulator-as-Package-manager")
-- [use Terminal emulator as Storage manager](#use-Terminal-emulator-as-Storage-manager "goto use-Terminal-emulator-as-Storage-manager")
-- [use Terminal emulator as Archive manager](#use-Terminal-emulator-as-Archive-manager "goto use-Terminal-emulator-as-Archive-manager")
-- [use Terminal emulator as Multitask manager](#use-Terminal-emulator-as-Multitask-manager "goto use-Terminal-emulator-as-Multitask-manager")
-- [use Terminal emulator as Text editor](#use-Terminal-emulator-as-Text-editor "goto use-Terminal-emulator-as-Text-editor")
+- [use Terminal as File explorer](#use-Terminal-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
+- [use Terminal as Package manager](#use-Terminal-as-Package-manager "goto use-Terminal-as-Package-manager")
+- [use Terminal as Storage manager](#use-Terminal-as-Storage-manager "goto use-Terminal-as-Storage-manager")
+- [use Terminal as Archive manager](#use-Terminal-as-Archive-manager "goto use-Terminal-as-Archive-manager")
+- [use Terminal as Multitask manager](#use-Terminal-as-Multitask-manager "goto use-Terminal-as-Multitask-manager")
+- [use Terminal as Text editor](#use-Terminal-as-Text-editor "goto use-Terminal-as-Text-editor")
+- [use Terminal as Disk cleaner](#use-Terminal-as-Disk-cleaner "goto use-Terminal-as-Disk-cleaner")
 - [linux configuration](#linux-configuration "goto linux-configuration")
 # General Command
 - [syntax style](#syntax-style "goto syntax-style")
 - [multi command special character](#multi-command-special-character "goto multi-command-special-character")
 - [single command special character](#single-command-special-character "goto single-command-special-character")
 - [system and info](#system-and-info "goto system-and-info")
-- [control your users](#control-your-users "goto control-your-users")
+- [switch your users](#switch-your-users "goto switch-your-users")
 ## syntax style
 ```lua
         opname --options parameters /source_directories/files /destination_directory/file
@@ -61,7 +62,7 @@ example
         uname -a             # show system kernel version
         fastfetch
 ```
-## control your users
+## switch your users
 ```py
         whoami             # show user name
         su -l username     # switch user and login as username user
@@ -69,7 +70,7 @@ example
         sudo command       # switch to root user to execute the command
         exit               # logout
 ```
-# use Terminal emulator as File explorer
+# use Terminal as File explorer
 - [view and manage Directory and File](#view-and-edit-Directory-or-File "goto view-and-edit-directory-or-File")
 - [permission control](#permission-control "goto permission-control")
 - [linux file system fast view](#linux-file-system-fast-view "goto linux-file-system-fast-view")
@@ -161,7 +162,7 @@ root─┬─home  /* store your pictures documents films here */
            ├─share
            └─local
 ```
-# use Terminal emulator as Package manager
+# use Terminal as Package manager
 - [Arch linux pacman](#Arch-linux-pacman "goto Arch-linux-pacman")
 - [Fedora linux dnf](#Fedora-linux-dnf "goto Fedora-linux-dnf")
 - [Debian linux apt](#Debian-linux-apt "goto Debian-linux-apr")
@@ -186,7 +187,7 @@ root─┬─home  /* store your pictures documents films here */
 ```
 ## Fedora linux dnf
 ## Debian linux apt
-# use Terminal emulator as Storage manager
+# use Terminal as Storage manager
 - [manage single storage device](#manage-single-storage-device "goto manage-single-storage-device")
 - [raid](#raid "goto raid")
 ## manage single storage device
@@ -216,9 +217,9 @@ root─┬─home  /* store your pictures documents films here */
 ```
 ## raid
 
-# use Terminal emulator as Archive manager
-# use Terminal emulator as Multitask manager
-# use Terminal emulator as Text editor
+# use Terminal as Archive manager
+# use Terminal as Multitask manager
+# use Terminal as Text editor
 - [simple editing](#simple-editing "goto simple-editing")
 - [vim](#vim "goto vim")
 ## simple editing
@@ -234,6 +235,7 @@ root─┬─home  /* store your pictures documents films here */
 - - - -
 [click here to vim fast-cheatsheet](https://github.com/Princess-Sunset-Shimmer/vim_fast-cheatsheet.git)
 - - - -
+# use Terminal as Disk cleaner
 # linux configuration
 - [network configuration](#network-configuration "goto network-configuration")
 - [init configuration](#init-configuration "goto init-configuration")
