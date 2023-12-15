@@ -243,8 +243,8 @@ file mode oct number
 - [user configuration](#uer-configutation "goto user-configuration")
 ## network configuration
 steps
-1. list network devices
-2. connect network device to router
+1. list network interface
+2. connect network interface to router
 3. set ip address
 4. set routing address
 5. set DNS
