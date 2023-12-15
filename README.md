@@ -149,7 +149,8 @@ file mode oct number
 - - - -
 ## linux file system fast view
 ```c#
-root─┬─home  /* store your pictures documents films here */
+   /─┬─home  /* branch user directory, store your pictures documents films here */
+     ├─root  /* root user directory */
      ├─boot  /* boot loader and linux kernel are here */
      ├─etc   /* config files are here */
      ├─dev   /* device files are here */
