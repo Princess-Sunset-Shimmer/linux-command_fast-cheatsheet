@@ -1,5 +1,5 @@
 # linux command fast-cheatsheet
-Terminal emulator is the middle between the user and shell, shell is the program that execute command you type in standard input file or shell script, shell script is the file that contain command. Here i write a fast command cheatsheet reference for your tasks:
+Terminal emulator is the middle between the user and shell, shell is interpreter that execute command line you type or shell script, shell script is the file that contain command line. Here i write a fast command cheatsheet reference for your daily drive
 - [General Command](#General-Command "goto General-Command")
 - [use Terminal as File explorer](#use-Terminal-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
 - [use Terminal as Package manager](#use-Terminal-as-Package-manager "goto use-Terminal-as-Package-manager")
