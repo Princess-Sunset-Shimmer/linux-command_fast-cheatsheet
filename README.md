@@ -197,8 +197,9 @@ file mode oct number
 ## manage single storage device
 ### list storage devices
 ```py
-        lsblk    # list block devices
-        lsblk -f # list partition file system format
+        lsblk           # list block devices
+        lsblk -f        # list partition file_system Format
+        lsblk --discard # check Trim support, DISC-GRAN and DISC-MAX are 0B means Not support Trim
 ```
 ### edit storage device partition
 ```py
