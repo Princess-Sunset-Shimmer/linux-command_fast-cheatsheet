@@ -60,7 +60,10 @@ example
 ```
 ```py
         uname -a             # show system kernel version
-        fastfetch
+        fastfetch            # system information
+```
+```py
+        history              # show command line history
 ```
 ## switch your users
 ```py
