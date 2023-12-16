@@ -17,7 +17,7 @@ Terminal is the middle between the user and shell, shell is interpreter that exe
 - [switch your users](#switch-your-users "goto switch-your-users")
 ## syntax style
 ```lua
-        opname --options parameters /source_directories/files /destination_directory/file
+        command_name --options parameters /source_directories/files /destination_directory/file
 ```
 ```lua
         command 1> /redirection_directory/written_file
@@ -242,7 +242,7 @@ file mode oct number
 - [init configuration](#init-configuration "goto init-configuration")
 - [user configuration](#uer-configutation "goto user-configuration")
 ## network configuration
-steps
+simple network connection steps
 1. list network interface
 2. connect network interface to router
 3. set ip address
