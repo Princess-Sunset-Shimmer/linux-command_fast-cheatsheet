@@ -194,7 +194,8 @@ file mode oct number
 ## manage single storage device
 ### list storage devices
 ```py
-        lsblk -f  # list block devices
+        lsblk    # list block devices
+        lsblk -f # list partition file system format
 ```
 ### edit storage device partition
 ```py
