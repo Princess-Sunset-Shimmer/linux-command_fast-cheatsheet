@@ -3,11 +3,12 @@ Terminal is the middle between the user and shell, shell is interpreter that exe
 - [General Command](#General-Command "goto General-Command")
 - [use Terminal as File explorer](#use-Terminal-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
 - [use Terminal as Package manager](#use-Terminal-as-Package-manager "goto use-Terminal-as-Package-manager")
+- [use Terminal as Downloader](#use-Terminal-as-Downloader "goto use-Terminal-as-Downloader")
 - [use Terminal as Storage manager](#use-Terminal-as-Storage-manager "goto use-Terminal-as-Storage-manager")
 - [use Terminal as Archive manager](#use-Terminal-as-Archive-manager "goto use-Terminal-as-Archive-manager")
+- [use Terminal as Disk cleaner](#use-Terminal-as-Disk-cleaner "goto use-Terminal-as-Disk-cleaner")
 - [use Terminal as Multitask manager](#use-Terminal-as-Multitask-manager "goto use-Terminal-as-Multitask-manager")
 - [use Terminal as Text editor](#use-Terminal-as-Text-editor "goto use-Terminal-as-Text-editor")
-- [use Terminal as Disk cleaner](#use-Terminal-as-Disk-cleaner "goto use-Terminal-as-Disk-cleaner")
 - [linux configuration](#linux-configuration "goto linux-configuration")
 # General Command
 - [syntax style](#syntax-style "goto syntax-style")
@@ -194,6 +195,7 @@ file mode oct number
 ```
 ## Fedora linux dnf
 ## Debian linux apt
+# use Terminal as Downloader
 # use Terminal as Storage manager
 - [manage single storage device](#manage-single-storage-device "goto manage-single-storage-device")
 - [use Disk Destroyer to make bootable usb](#use-Disk-Destroyer-to-make-bootable-usb "goto use-Disk-Destroyer-to-make-bootable-usb")
@@ -230,6 +232,7 @@ file mode oct number
 ## raid
 
 # use Terminal as Archive manager
+# use Terminal as Disk cleaner
 # use Terminal as Multitask manager
 # use Terminal as Text editor
 - [simple editing](#simple-editing "goto simple-editing")
@@ -247,7 +250,6 @@ file mode oct number
 - - - -
 [click here to vim fast-cheatsheet](https://github.com/Princess-Sunset-Shimmer/vim_fast-cheatsheet.git)
 - - - -
-# use Terminal as Disk cleaner
 # linux configuration
 - [network configuration](#network-configuration "goto network-configuration")
 - [init configuration](#init-configuration "goto init-configuration")
