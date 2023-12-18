@@ -194,6 +194,7 @@ file mode oct number
 ## Debian linux apt
 # use Terminal as Storage manager
 - [manage single storage device](#manage-single-storage-device "goto manage-single-storage-device")
+- [use Disk Destroyer to make bootable usb](#use-Disk-Destroyer-to-make-bootable-usb "goto use-Disk-Destroyer-to-make-bootable-usb")
 - [raid](#raid "goto raid")
 ## manage single storage device
 ### list storage devices
@@ -223,6 +224,7 @@ file mode oct number
 ```py
         fsck /dev/block_device_partition_name
 ```
+## use Disk Destroyer to make bootable usb
 ## raid
 
 # use Terminal as Archive manager
