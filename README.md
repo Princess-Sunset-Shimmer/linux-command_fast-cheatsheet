@@ -56,6 +56,7 @@ example
 ## system and info
 ```py
         man command_name     # documentation about the command
+        command_name --help  # quick help info for the command
         type command_name    # show command type
 ```
 ```py
