@@ -68,7 +68,7 @@ example
         history              # show command line history
 ```
 - - - -
-`ctrl` + `R` search command history by keywork, `Enter` to execute it, `-->` to confirm but not execute it, `ctrl` + `R` again to switch the saerch
+`ctrl` + `R` search command history by keywork, `Enter` to execute it, `─>` to confirm but not execute it, `ctrl` + `R` again to switch the saerch
 - - - -
 ## switch your users
 ```py
