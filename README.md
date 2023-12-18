@@ -84,11 +84,12 @@ example
         cd /directory/                 # change directory
 ```
 ```py
-        find /starting_directory/ -name "*mlp-fim*"    # search file that contain keyword mlp-fim from starting-directory
+        find /starting_directory/ -name "*mlp-fim*"       # search file contain keyword mlp-fim from starting-directory
+        find /starting_directory/ -type d -name "mlp-fim" # search directory contain keyword mlp-fim from starting-directory
 ```
 ```py
-        sha256sum /directory/file                      # check file SHA256
-        file /directory/file                           # show file attributes
+        sha256sum /directory/file      # check file SHA256
+        file /directory/file           # show file attributes
 ```
 ```py
         ls -al /directory/or_file      # list all files in the directory or specific files
