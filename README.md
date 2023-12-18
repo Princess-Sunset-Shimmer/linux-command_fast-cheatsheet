@@ -85,6 +85,7 @@ example
 ```
 ```py
         find /starting_directory/ -name "*mlp-fim*"       # search file contain keyword mlp-fim from starting-directory
+        find /starting_directory/ -iname "mlp-fim"        # search file ignore case
         find /starting_directory/ -type d -name "mlp-fim" # search directory contain keyword mlp-fim from starting-directory
 ```
 ```py
