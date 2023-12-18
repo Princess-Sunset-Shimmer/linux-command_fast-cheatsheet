@@ -112,7 +112,6 @@ file type
 - - `b` for block device file
 - - `l` for symbolic link
 - - `d` for directory
-
 file permission
 - - `r` for readable
 - - `w` for writeable
@@ -196,6 +195,11 @@ file mode oct number
 ## Fedora linux dnf
 ## Debian linux apt
 # use Terminal as Downloader
+```py
+        wget https://downloading.link/url    # download files from link to current directory
+        wget -c https://downloading.link/url # continune the download from link
+        wget -P /directory_to_save_downloading_file/ https://downloading.link/url
+```
 # use Terminal as Storage manager
 - [manage single storage device](#manage-single-storage-device "goto manage-single-storage-device")
 - [use Disk Destroyer to make bootable usb](#use-Disk-Destroyer-to-make-bootable-usb "goto use-Disk-Destroyer-to-make-bootable-usb")
