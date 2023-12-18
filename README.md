@@ -207,6 +207,7 @@ file mode oct number
 ```
 ### edit partition file system
 ```py
+        mkfs.ext2 /dev/block-device_partition_name     # format partition ext2
         mkfs.ext4 /dev/block_device_partition_name     # format partition ext4
         mkfs.btrfs /dev/block_device_partition_name    # format partition btrfs
         mkfs.ntfs /dev/block_device_partition_name     # format partition ntfs
