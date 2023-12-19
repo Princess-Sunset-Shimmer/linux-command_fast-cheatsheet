@@ -72,8 +72,7 @@ example
 - - - -
 ## switch your users
 ```py
-        whoami             # show user name
-        who                # show all user names
+        who                # show user name
         su -l username     # switch user and login as username user
         su                 # switch user and login as root user
         sudo command       # switch to root user to execute the command
