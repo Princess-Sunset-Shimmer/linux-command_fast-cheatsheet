@@ -61,14 +61,14 @@ example
         type command_name    # show command type
 ```
 ```py
-        uname -a             # show system kernel version
-        fastfetch            # system information
+        uname -a             # print system kernel version
+        fastfetch            # print system information
 ```
 ```py
-        history              # show command line history
+        history              # print command line history
 ```
 - - - -
-`ctrl` + `R` search command history by keywork, `Enter` to execute it, `─>` to confirm but not execute it, `ctrl` + `R` again to switch the saerch
+then `ctrl` + `R` search command history above by keywork, `Enter` to execute it, `─>` to confirm but not execute it, `ctrl` + `R` again to switch the saerch
 - - - -
 ## switch your users
 ```py
