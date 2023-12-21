@@ -216,6 +216,7 @@ file mode oct number
 ```
 ### edit storage device partition
 ```py
+        fdisk -l /dev/block_device_name # print sector size
         fdisk /dev/block_device_name
 ```
 ### edit partition file system
