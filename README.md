@@ -178,13 +178,13 @@ file mode oct number
 - [Debian linux apt](#Debian-linux-apt "goto Debian-linux-apr")
 ## Arch linux pacman
 ```py
-        pacman -Qet                        # list installed package
-        pacman -Qs installed_package_name  # search installed package by name
+        pacman -Qet                        # list explicit installed package
+        pacman -Qs installed_package_name  # search explicit installed package by name
         pacman -Qii installed_package_name # check detail info about this installed package
 ```
 ```py
         pacman -Ss package_name # search package online
-        pacman -Si package_name # check detail info about this package online
+        pacman -Si package_name # print detail info about this package online
 ```
 ```py
         pacman -Syu package_name # install the package
@@ -192,8 +192,9 @@ file mode oct number
 ```
 ```py
         pacman -Rsn package_name    # remove the package
-        pacman -Rsn $(pacman -Qdtq) # remove all unneeded package
-        pacman -Scc                 # remove all package cache
+        pacman -Qdt                 # list all unneeded packages
+        pacman -Rsn $(pacman -Qdtq) # remove all unneeded packages
+        pacman -Scc                 # remove all package caches
 ```
 ## Fedora linux dnf
 ## Debian linux apt
@@ -217,7 +218,8 @@ file mode oct number
 ### edit storage device partition
 ```py
         fdisk -l /dev/block_device_name # print sector size
-        fdisk /dev/block_device_name
+        fdisk /dev/block_device_name    # cli partition editor
+        cfdisk /dev/block_device_name   # tui partition editor
 ```
 ### edit partition file system
 ```py
