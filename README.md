@@ -254,6 +254,7 @@ simple network connection steps
 5. set DNS
 6. confirm connection
 # use Terminal as Service manager
+use [ O < ] to manage services
 ```py
         systemctl status service_name # print service status
         systemctl status *.service    # print all services status
