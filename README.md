@@ -1,4 +1,4 @@
-# linux command fast-cheatsheet
+ # linux command fast-cheatsheet
 Terminal is the middle between the user and shell, shell is interpreter that execute command line you type or shell script, shell script is the file that contain command line. Here i write a fast command cheatsheet reference for your daily drive
 - [General Command](#General-Command "goto General-Command")
 - [use Terminal as File explorer](#use-Terminal-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
@@ -8,8 +8,9 @@ Terminal is the middle between the user and shell, shell is interpreter that exe
 - [use Terminal as Archive manager](#use-Terminal-as-Archive-manager "goto use-Terminal-as-Archive-manager")
 - [use Terminal as Disk cleaner](#use-Terminal-as-Disk-cleaner "goto use-Terminal-as-Disk-cleaner")
 - [use Terminal as Multitask manager](#use-Terminal-as-Multitask-manager "goto use-Terminal-as-Multitask-manager")
+- [use Terminal as Network manager](#use-Terminal-as-Network-manager "goto use-Terminal-as-Network-manager")
+- [use Terminal as Service manager](#use-Terminal-as-Service-manager "goto use-Terminal-as-Service-manager")
 - [use Terminal as Text editor](#use-Terminal-as-Text-editor "goto use-Terminal-as-Text-editor")
-- [linux configuration](#linux-configuration "goto linux-configuration")
 # General Command
 - [syntax style](#syntax-style "goto syntax-style")
 - [multi command special character](#multi-command-special-character "goto multi-command-special-character")
@@ -158,7 +159,7 @@ file mode oct number
 - - - -
 ## linux file system fast view
 ```c#
-   /─┬─home  /* branch user directory, store your pictures documents films here */
+   /─┬─home  /* branch user directory */
      ├─root  /* root user directory */
      ├─boot  /* boot loader and linux kernel are here */
      ├─etc   /* config files are here */
@@ -244,6 +245,28 @@ file mode oct number
 # use Terminal as Archive manager
 # use Terminal as Disk cleaner
 # use Terminal as Multitask manager
+# use Terminal as Network manager
+simple network connection steps
+1. list network interface
+2. connect network interface to router
+3. set ip address
+4. set routing address
+5. set DNS
+6. confirm connection
+# use Terminal as Service manager
+```py
+        systemctl status service_name # print service status
+        systemctl status *.service    # print all services status
+```
+```py
+        systemctl start service_name
+        systemctl stop service_name
+        systemctl restart service_name
+```
+```py
+        systemctl enable service_name
+        systemctl disanle service_name
+```
 # use Terminal as Text editor
 - [simple editing](#simple-editing "goto simple-editing")
 - [vim](#vim "goto vim")
@@ -260,20 +283,7 @@ file mode oct number
 - - - -
 [click here to vim fast-cheatsheet](https://github.com/Princess-Sunset-Shimmer/vim_fast-cheatsheet.git)
 - - - -
-# linux configuration
-- [network configuration](#network-configuration "goto network-configuration")
-- [init configuration](#init-configuration "goto init-configuration")
-- [user configuration](#uer-configutation "goto user-configuration")
-## network configuration
-simple network connection steps
-1. list network interface
-2. connect network interface to router
-3. set ip address
-4. set routing address
-5. set DNS
-6. confirm connection
-## init configuration
-## user configuration
+
 - - - -
 Licence: [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
 
