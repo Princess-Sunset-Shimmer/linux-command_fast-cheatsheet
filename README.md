@@ -21,7 +21,7 @@ Terminal is the middle between the user and shell, shell is interpreter that exe
 ```lua
         command_name --options parameters /source_directories/files /destination_directory/file
 ```
-```lua
+```bash
         command 1> /redirection_directory/written_file
         command 1>> /append_redirection_directory/written_file
 ```
