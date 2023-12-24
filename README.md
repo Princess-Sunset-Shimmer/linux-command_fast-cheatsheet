@@ -1,4 +1,4 @@
- # linux command fast-cheatsheet
+# linux command fast-cheatsheet
 Terminal is the middle between the user and shell, shell is interpreter that execute command line you type or shell script, shell script is the file that contain command line. Here i write a fast command cheatsheet reference for your daily drive
 - [General Command](#General-Command "goto General-Command")
 - [use Terminal as File explorer](#use-Terminal-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
@@ -7,6 +7,7 @@ Terminal is the middle between the user and shell, shell is interpreter that exe
 - [use Terminal as Storage manager](#use-Terminal-as-Storage-manager "goto use-Terminal-as-Storage-manager")
 - [use Terminal as Archive manager](#use-Terminal-as-Archive-manager "goto use-Terminal-as-Archive-manager")
 - [use Terminal as Disk cleaner](#use-Terminal-as-Disk-cleaner "goto use-Terminal-as-Disk-cleaner")
+- [use Terminal as User manager](#use-Terminal-as-User-manager "goto use-Terminal-as-User-manager")
 - [use Terminal as Multitask manager](#use-Terminal-as-Multitask-manager "goto use-Terminal-as-Multitask-manager")
 - [use Terminal as Network manager](#use-Terminal-as-Network-manager "goto use-Terminal-as-Network-manager")
 - [use Terminal as Service manager](#use-Terminal-as-Service-manager "goto use-Terminal-as-Service-manager")
@@ -16,7 +17,6 @@ Terminal is the middle between the user and shell, shell is interpreter that exe
 - [multi command special character](#multi-command-special-character "goto multi-command-special-character")
 - [single command special character](#single-command-special-character "goto single-command-special-character")
 - [system and info](#system-and-info "goto system-and-info")
-- [switch your users](#switch-your-users "goto switch-your-users")
 ## syntax style
 ```lua
         command_name --options parameters /source_directories/files /destination_directory/file
@@ -71,14 +71,6 @@ example
 - - - -
 `ctrl` + `R` search command history by keywork, `Enter` to execute it, `─>` to confirm but not execute it, `ctrl` + `R` again to switch the saerch
 - - - -
-## switch your users
-```bash
-        who                # show user name
-        su -l username     # switch user and login as username user
-        su                 # switch user and login as root user
-        sudo command       # switch to root user to execute the command
-        exit               # logout
-```
 # use Terminal as File explorer
 - [view and manage Directory and File](#view-and-edit-Directory-or-File "goto view-and-edit-directory-or-File")
 - [permission control](#permission-control "goto permission-control")
@@ -249,6 +241,18 @@ file mode oct number
 ```py
 ```
 # use Terminal as Disk cleaner
+# use Terminal as User manager
+```bash
+        who                # show current user name
+        passwd -Sa         # show all user names
+        su -l username     # switch user and login as username user
+        su                 # switch user and login as root user
+        sudo command       # switch to root user to execute the command
+        exit               # logout
+```
+```py
+        
+```
 # use Terminal as Multitask manager
 # use Terminal as Network manager
 simple network connection steps
