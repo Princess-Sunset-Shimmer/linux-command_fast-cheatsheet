@@ -18,7 +18,7 @@ Terminal is the middle between the user and shell, shell is interpreter that exe
 - [system and info](#system-and-info "goto system-and-info")
 - [switch your users](#switch-your-users "goto switch-your-users")
 ## syntax style
-```lua
+```bash
         command_name --options parameters /source_directories/files /destination_directory/file
 ```
 ```bash
