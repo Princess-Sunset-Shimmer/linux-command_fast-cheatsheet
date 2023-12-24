@@ -266,7 +266,7 @@ file mode oct number
 ```
 - - - -
 user account file `/etc/passwd` example
-```asm
+```c
         geoclue:x:967:967:Geoinformation service:/var/lib/geoclue:/usr/bin/nologin
         │       │ │   │   │                      │                └─ shell directory
         │       │ │   │   │                      └─ home directory
