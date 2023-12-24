@@ -241,6 +241,13 @@ file mode oct number
 ## raid
 
 # use Terminal as Archive manager
+```py
+        tar cf /directory/archive.tar /directory/ # creat archive.tar
+        tar tf /directory/archive.tar             # list archive.tar contents
+        tar xf /directory/archive.tar             # extract archive.tar
+```
+```py
+```
 # use Terminal as Disk cleaner
 # use Terminal as Multitask manager
 # use Terminal as Network manager
