@@ -210,19 +210,16 @@ file mode oct number
 - [use Disk Destroyer to make bootable usb](#use-Disk-Destroyer-to-make-bootable-usb "goto use-Disk-Destroyer-to-make-bootable-usb")
 - [raid](#raid "goto raid")
 ## manage single storage device
-list storage devices
 ```py
         lsblk           # list block devices
         lsblk -f        # list partition file_system Format
         lsblk --discard # check Trim support, DISC-GRAN and DISC-MAX are 0B means Not support Trim
 ```
-edit storage device partition
 ```py
         fdisk -l /dev/block_device_name # print sector size
         fdisk /dev/block_device_name    # cli partition editor
         cfdisk /dev/block_device_name   # tui partition editor
 ```
-edit partition file system
 ```py
         mkfs.ext2 /dev/block-device_partition_name     # format partition ext2
         mkfs.ext4 /dev/block_device_partition_name     # format partition ext4
@@ -230,14 +227,12 @@ edit partition file system
         mkfs.ntfs /dev/block_device_partition_name     # format partition ntfs
         mkfs.fat -F32 /dev/block_device_partition_name # format partition fat32
 ```
-mount storage device
 ```py
         mount /dev/block_device_partition_name /mount_point_directory/
         umount /dev/block_device_partition_name
 ```
-fix file system corruption
 ```py
-        fsck /dev/block_device_partition_name
+        fsck /dev/block_device_partition_name # fix file system corruption
 ```
 ## use Disk Destroyer to make bootable usb
 ```py
@@ -257,7 +252,6 @@ simple network connection steps
 5. set DNS
 6. confirm connection
 # use Terminal as Service manager
-use [ o < ] to manage services
 ```py
         systemctl status service_name # print service status
         systemctl status *.service    # print all services status
