@@ -235,7 +235,7 @@ file mode oct number
         fsck /dev/block_device_partition_name # fix file system corruption
 ```
 ## use Disk Destroyer to make bootable usb
-```py
+```javascript
         dd if=/iso_directory/linux_distro.iso of=/dev/block_device_name status=progress
 ```
 ## raid
