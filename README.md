@@ -72,7 +72,7 @@ example
 `ctrl` + `R` search command history by keywork, `Enter` to execute it, `─>` to confirm but not execute it, `ctrl` + `R` again to switch the saerch
 - - - -
 ## switch your users
-```py
+```bash
         who                # show user name
         su -l username     # switch user and login as username user
         su                 # switch user and login as root user
