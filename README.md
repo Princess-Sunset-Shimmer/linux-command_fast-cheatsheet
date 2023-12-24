@@ -253,8 +253,14 @@ file mode oct number
         exit               # logout
 ```
 ```py
-        
+        useradd -m new_user_name                # add new user and its directory
+        usermod -l new_user_name old_user_name  # change user name
+        passwd                                  # change current user password
+        passwd user_name                        # change user password
 ```
+- - - -
+
+- - - -
 # use Terminal as Multitask manager
 # use Terminal as Network manager
 simple network connection steps
@@ -297,4 +303,3 @@ simple network connection steps
 
 - - - -
 Licence: [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
-
