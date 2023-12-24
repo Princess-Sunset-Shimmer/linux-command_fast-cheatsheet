@@ -56,16 +56,16 @@ example
 - - `*.{jpg, pdf}` for all jpg and pdf files
 - - - -
 ## system and info
-```py
+```bash
         man command_name     # documentation about the command
         command_name --help  # quick help info for the command
         type command_name    # show command type
 ```
-```py
+```bash
         uname -a             # print system kernel version
         fastfetch            # print system information
 ```
-```py
+```bash
         history              # print command line history
 ```
 - - - -
