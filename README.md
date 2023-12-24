@@ -115,7 +115,7 @@ file permission
 - - `-` for unable
 - - - -
 ```py
-        mkdir /new_directory/        # create directory
+        mkdir /new_directory/     # create directory
 ```
 ```py
         cp -r /source_directory/ /destination_directory/        # copy directory
@@ -176,12 +176,12 @@ file mode oct number
         pacman -Qii installed_package_name # check detail info about this installed package
 ```
 ```py
-        pacman -Ss package_name # search package online
-        pacman -Si package_name # print detail info about this package online
+        pacman -Ss package_name     # search package online
+        pacman -Si package_name     # print detail info about this package online
 ```
 ```py
-        pacman -Syu package_name # install the package
-        pacman -Syu              # update the system
+        pacman -Syu package_name    # install the package
+        pacman -Syu                 # update the system
 ```
 ```py
         pacman -Rsn package_name    # remove the package
