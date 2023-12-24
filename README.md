@@ -32,10 +32,10 @@ file discriptor
 - - `2` stands for standard-error
 - - - -
 ## multi command special character
-```py
+```bash
         command ; command    # multiple command
 ```
-```py
+```bash
         command | command    # command pipeline, standard output to standard input
         command $(command)   # command substitution, standard output to argument input
 ```
@@ -56,16 +56,16 @@ example
 - - `*.{jpg, pdf}` for all jpg and pdf files
 - - - -
 ## system and info
-```bash
+```py
         man command_name     # documentation about the command
         command_name --help  # quick help info for the command
         type command_name    # show command type
 ```
-```bash
+```py
         uname -a             # print system kernel version
         fastfetch            # print system information
 ```
-```bash
+```py
         history              # print command line history
 ```
 - - - -
