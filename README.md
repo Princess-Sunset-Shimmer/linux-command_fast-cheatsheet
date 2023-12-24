@@ -77,8 +77,8 @@ example
 - [linux file system fast view](#linux-file-system-fast-view "goto linux-file-system-fast-view")
 ## view and manage Directory and File
 ```py
-        pwd                            # show current directory
-        cd /directory/                 # change directory
+        pwd                                               # show current directory
+        cd /directory/                                    # change directory
 ```
 ```py
         find /starting_directory/ -name "*mlp-fim*"       # search file contain keyword mlp-fim from starting-directory
@@ -86,12 +86,12 @@ example
         find /starting_directory/ -type d -name "mlp-fim" # search directory contain keyword mlp-fim from starting-directory
 ```
 ```py
-        sha256sum /directory/file      # check file SHA256
-        file /directory/file           # show file attributes
+        sha256sum /directory/file                         # check file SHA256
+        file /directory/file                              # show file attributes
 ```
 ```py
-        ls -al /directory/or_file      # list all files in the directory or specific files
-        ls -al /directory/file | wc -l # count files and directory
+        ls -al /directory/or_file                         # list all files in the directory or specific files
+        ls -al /directory/file | wc -l                    # count files and directory
 ```
 - - - -
 ```asm
