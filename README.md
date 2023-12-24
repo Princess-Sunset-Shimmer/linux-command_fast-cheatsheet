@@ -40,12 +40,12 @@ file discriptor
         command $(command)   # command substitution, standard output to argument input
 ```
 ## single command special character
-```py
+```bash
         ~               # home directory
         .               # current directory
         ..              # previous directory
 ```
-```py
+```bash
         *               # any characters
         ?               # any single character
         {jpg, bmp, png} # set of characters
