@@ -176,18 +176,18 @@ file mode oct number
         pacman -Qii installed_package_name # check detail info about this installed package
 ```
 ```py
-        pacman -Ss package_name     # search package online
-        pacman -Si package_name     # print detail info about this package online
+        pacman -Ss package_name            # search package online
+        pacman -Si package_name            # print detail info about this package online
 ```
 ```py
-        pacman -Syu package_name    # install the package
-        pacman -Syu                 # update the system
+        pacman -Syu package_name           # install the package
+        pacman -Syu                        # update the system
 ```
 ```py
-        pacman -Rsn package_name    # remove the package
-        pacman -Qdt                 # list all unneeded packages
-        pacman -Rsn $(pacman -Qdtq) # remove all unneeded packages
-        pacman -Scc                 # remove all package caches
+        pacman -Rsn package_name           # remove the package
+        pacman -Qdt                        # list all unneeded packages
+        pacman -Rsn $(pacman -Qdtq)        # remove all unneeded packages
+        pacman -Scc                        # remove all package caches
 ```
 ## Fedora linux dnf
 ## Debian linux apt
@@ -203,14 +203,14 @@ file mode oct number
 - [raid](#raid "goto raid")
 ## manage single storage device
 ```py
-        lsblk           # list block devices
-        lsblk -f        # list partition file_system Format
-        lsblk --discard # check Trim support, DISC-GRAN and DISC-MAX are 0B means Not support Trim
+        lsblk                                          # list block devices
+        lsblk -f                                       # list partition file_system Format
+        lsblk --discard                                # check Trim support, DISC-GRAN and DISC-MAX are 0B means Not support Trim
 ```
 ```py
-        fdisk -l /dev/block_device_name # print sector size
-        fdisk /dev/block_device_name    # cli partition editor
-        cfdisk /dev/block_device_name   # tui partition editor
+        fdisk -l /dev/block_device_name                # print sector size
+        fdisk /dev/block_device_name                   # cli partition editor
+        cfdisk /dev/block_device_name                  # tui partition editor
 ```
 ```py
         mkfs.ext2 /dev/block-device_partition_name     # format partition ext2
@@ -224,7 +224,7 @@ file mode oct number
         umount /dev/block_device_partition_name
 ```
 ```py
-        fsck /dev/block_device_partition_name # fix file system corruption
+        fsck /dev/block_device_partition_name          # fix file system corruption
 ```
 ## use Disk Destroyer to make bootable usb
 ```js
@@ -243,14 +243,14 @@ file mode oct number
 # use Terminal as Disk cleaner
 # use Terminal as User manager
 ```py
-        who                # show current user name
-        passwd -Sa         # show all user names
+        who                                     # show current user name
+        passwd -Sa                              # show all user names
 ```
 ```py
-        su -l username     # switch user and login as username user
-        su                 # switch user and login as root user
-        sudo command       # switch to root user to execute the command
-        exit               # logout
+        su -l username                          # switch user and login as username user
+        su                                      # switch and login as root user
+        sudo command                            # switch to root user and execute the command
+        exit                                    # logout
 ```
 ```py
         useradd -m new_user_name                # add new user and its directory
@@ -298,7 +298,7 @@ simple network connection steps
 ```
 ```py
         systemctl enable service_name
-        systemctl disanle service_name
+        systemctl disable service_name
 ```
 # use Terminal as Text editor
 - [simple editing](#simple-editing "goto simple-editing")
