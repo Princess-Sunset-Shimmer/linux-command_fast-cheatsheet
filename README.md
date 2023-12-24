@@ -255,11 +255,27 @@ file mode oct number
 ```py
         useradd -m new_user_name                # add new user and its directory
         usermod -l new_user_name old_user_name  # change user name
+```
+```py
         passwd                                  # change current user password
         passwd user_name                        # change user password
 ```
+```py
+        userdel user_name                       # delete user only
+        userdel -r user_name                    # delete user and its directory
+```
 - - - -
-
+user account file `/etc/passwd` example
+```c
+        geoclue:x:967:967:Geoinformation service:/var/lib/geoclue:/usr/bin/nologin
+        │       │ │   │   │                      │                └─ shell directory
+        │       │ │   │   │                      └─ home directory
+        │       │ │   │   └─ comment
+        │       │ │   └─ group ID
+        │       │ └─ user ID
+        │       └─ encrypted password
+        └─ user name
+```
 - - - -
 # use Terminal as Multitask manager
 # use Terminal as Network manager
