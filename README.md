@@ -239,6 +239,9 @@ file mode oct number
         tar xf /directory/archive.tar             # extract archive.tar
 ```
 ```py
+        zip -r /directory/archive.zip /directory/ # creat archive.zip
+        unzip -l /directory/archive.zip           # list archive.zip contents
+        unzip /directory/archive.zip              # extract archive.zip
 ```
 # use Terminal as Disk cleaner
 # use Terminal as User manager
