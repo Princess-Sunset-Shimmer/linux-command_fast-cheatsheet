@@ -317,7 +317,7 @@ simple network connection steps
 ```
 ## vim
 - - - -
-[click here to vim fast-cheatsheet](https://github.com/Princess-Sunset-Shimmer/vim_fast-cheatsheet.git)
+[click here](https://github.com/Princess-Sunset-Shimmer/vim_fast-cheatsheet.git) to view vim fast-cheatsheet
 - - - -
 
 - - - -
