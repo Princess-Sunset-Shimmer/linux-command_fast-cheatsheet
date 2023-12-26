@@ -57,10 +57,16 @@ example
 - - - -
 ## system and info
 ```py
+        type command_name    # show command type
         man command_name     # documentation about the command
         command_name --help  # quick help for the command
-        type command_name    # show command type
 ```
+```py
+        history              # print command line history
+```
+- - - -
+`ctrl` + `R` search command history by keywork, `Enter` to execute it, `─>` to confirm but not execute it, `ctrl` + `R` again to switch the saerch
+- - - -
 ```py
         uname -a             # print system kernel version
         fastfetch            # print system information
@@ -69,12 +75,6 @@ example
         lsusb -t             # print all usb devices
         lspci -tv            # print all PCIe devices
 ```
-```py
-        history              # print command line history
-```
-- - - -
-`ctrl` + `R` search command history by keywork, `Enter` to execute it, `─>` to confirm but not execute it, `ctrl` + `R` again to switch the saerch
-- - - -
 # use Terminal as File explorer
 - [view and manage Directory and File](#view-and-edit-Directory-or-File "goto view-and-edit-directory-or-File")
 - [permission control](#permission-control "goto permission-control")
