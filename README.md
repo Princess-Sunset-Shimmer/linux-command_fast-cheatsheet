@@ -255,6 +255,9 @@ file mode oct number
         sudo command                            # switch to root user and execute the command
         exit                                    # logout
 ```
+- - - -
+`Ctrl` + `D` also can exit
+- - - -
 ```py
         useradd -m new_user_name                # add new user and its directory
         usermod -l new_user_name old_user_name  # change user name
@@ -309,11 +312,14 @@ simple network connection steps
 ## simple editing
 ```py
         cat /directory/file    # check file contents
-        cat > /directory/file  # redirect standard input file to /directory/file, Ctrl + D to finish
+        cat > /directory/file  # redirect standard input file to /directory/file
 ```
+- - - -
+`Ctrl` + `D` send `eof` to input
+- - - -
 ```py
-        cat /directory/source_file_0 /directory/source_file_1 ... > /directory/new_file
-        cat /directory/source_file_0 /directory/source_file_1 ... >> /directory/new_file
+        cat /directory/file_0 /directory/file_1 ... > /directory/new_file
+        cat /directory/file_0 /directory/file_1 ... >> /directory/new_file
 ```
 ## vim
 - - - -
