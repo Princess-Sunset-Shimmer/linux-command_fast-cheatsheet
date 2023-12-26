@@ -58,12 +58,16 @@ example
 ## system and info
 ```py
         man command_name     # documentation about the command
-        command_name --help  # quick help info for the command
+        command_name --help  # quick help for the command
         type command_name    # show command type
 ```
 ```py
         uname -a             # print system kernel version
         fastfetch            # print system information
+```
+```py
+        lsusb -t             # print all usb devices
+        lspci -tv            # print all PCIe devices
 ```
 ```py
         history              # print command line history
