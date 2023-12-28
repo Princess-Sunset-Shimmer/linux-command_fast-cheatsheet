@@ -213,8 +213,8 @@ file mode oct number
 ```
 ```py
         fdisk -l /dev/block_device_name                # print sector size
-        fdisk /dev/block_device_name                   # cli partition editor
-        cfdisk /dev/block_device_name                  # tui partition editor
+        fdisk /dev/block_device_name                   # CLI partition editor
+        cfdisk /dev/block_device_name                  # TUI partition editor
 ```
 ```py
         mkfs.ext2 /dev/block-device_partition_name     # format partition ext2
@@ -263,6 +263,7 @@ file mode oct number
 `Ctrl` + `D` also can exit
 - - - -
 ```py
+        useradd new_user_name                   # add new user only
         useradd -m new_user_name                # add new user and its directory
         usermod -l new_user_name old_user_name  # change user name
 ```
@@ -296,6 +297,9 @@ simple network connection steps
 4. set routing address
 5. set DNS
 6. confirm connection
+```py
+        umtui # TUI network manager
+```
 # use Terminal as Service manager
 ```py
         systemctl status service_name # print service status
