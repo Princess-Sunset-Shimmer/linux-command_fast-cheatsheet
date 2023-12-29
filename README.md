@@ -319,8 +319,12 @@ simple network connection steps
 - [vim](#vim "goto vim")
 ## simple editing
 ```py
-        cat /directory/file    # check file contents
-        cat > /directory/file  # redirect standard input file to /directory/file
+        cat /directory/file          # print file contents
+        grep keyword                 # print line that contain keyword in the standard input file
+        grep keyword /directory/file # print line that contain keyword in the file
+```
+```py
+        cat > /directory/file        # redirect standard input file to /directory/file
 ```
 - - - -
 `Ctrl` + `D` send `eof` to input
