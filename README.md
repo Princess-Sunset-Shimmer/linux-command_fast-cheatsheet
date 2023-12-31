@@ -197,9 +197,9 @@ file mode oct number
 ## Debian linux apt
 # use Terminal as Downloader
 ```py
-        wget https://downloading.link/url    # download files from link to current directory
-        wget -c https://downloading.link/url # continune the download from link
-        wget -P /directory_to_save_downloading_file/ https://downloading.link/url
+        wget https://downloading.link/url                                         # download to current directory
+        wget -c https://downloading.link/url                                      # continune the download
+        wget -P /directory_to_save_downloading_file/ https://downloading.link/url # assign saving directory
 ```
 # use Terminal as Storage manager
 - [manage single storage device](#manage-single-storage-device "goto manage-single-storage-device")
@@ -265,6 +265,8 @@ file mode oct number
 ```py
         useradd new_user_name                   # add new user only
         useradd -m new_user_name                # add new user and its directory
+```
+```py
         usermod -l new_user_name old_user_name  # change user name
         usermod -d /new_directory/ -m user_name # change user directory
 ```
@@ -310,7 +312,7 @@ simple network connection steps
 5. set DNS
 6. confirm connection
 ```py
-        umtui # TUI network manager
+        umtui                         # TUI network manager
 ```
 # use Terminal as Service manager
 ```py
