@@ -289,6 +289,15 @@ user account file `/etc/passwd` example
 ```
 - - - -
 # use Terminal as Multitask manager
+```py
+        top    # open TUI process monitor
+```
+- - - -
+`SPACEBAR` update display immediately\
+`Shift` + `M` sort by Memory usage\
+`Shift` + `P` sort by current CPU usage\
+`Shift` + `T` sort by total CPU usage
+- - - -
 # use Terminal as Network manager
 simple network connection steps
 1. list network interface
