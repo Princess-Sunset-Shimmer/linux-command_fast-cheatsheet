@@ -126,7 +126,7 @@ file permission
         cp /source_directory/file /destination_directory/file   # copy file to new file
 ```
 - - - -
-- - add option `-i` for interactively confirm the copying action
+add option `-i` for interactively confirm the copying action
 - - - -
 ```py
         mv /source_directory/ /destination_directory/           # move directory
@@ -138,7 +138,7 @@ file permission
         rm /directory/file       # remove file
 ```
 - - - -
-- - add option `-f` to add force to remove it
+add option `-f` to add force to remove it
 - - - -
 ## permission control
 ```py
@@ -256,7 +256,7 @@ file mode oct number
 ```py
         su -l username                          # switch user and login as username user
         su                                      # switch and login as root user
-        sudo command                            # switch to root user and execute the command
+        sudo command                            # super user do command
         exit                                    # logout
 ```
 - - - -
@@ -266,6 +266,7 @@ file mode oct number
         useradd new_user_name                   # add new user only
         useradd -m new_user_name                # add new user and its directory
         usermod -l new_user_name old_user_name  # change user name
+        usermod -d /new_directory/ -m user_name # change user directory
 ```
 ```py
         passwd                                  # change current user password
