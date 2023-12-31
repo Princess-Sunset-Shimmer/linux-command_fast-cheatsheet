@@ -293,10 +293,12 @@ user account file `/etc/passwd` example
         top    # open TUI process monitor
 ```
 - - - -
+`Q` quit process monitor\
 `SPACEBAR` update display immediately\
 `Shift` + `M` sort by Memory usage\
 `Shift` + `P` sort by current CPU usage\
-`Shift` + `T` sort by total CPU usage
+`Shift` + `T` sort by total CPU usage\
+`K` kill a process by PID, `Esc` cancel the killing
 - - - -
 # use Terminal as Network manager
 simple network connection steps
