@@ -272,6 +272,10 @@ file mode oct number
         usermod -d /new_directory/ -m user_name # change user directory and move its contents
 ```
 ```py
+        usermode -g new_group_name user_name    # change primary group
+        usermode -aG group_name user_name       # add user to new secoundary group
+```
+```py
         passwd                                  # change current user password
         passwd user_name                        # change user password
 ```
