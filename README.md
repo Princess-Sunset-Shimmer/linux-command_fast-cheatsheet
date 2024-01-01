@@ -303,10 +303,14 @@ user account file `/etc/passwd` example
 - - - -
 `Q` quit process monitor\
 `H` help\
+`1` total or separate CPU states\
 `SPACEBAR` update display immediately\
 `Shift` + `M` sort by Memory usage\
 `Shift` + `P` sort by current CPU usage\
 `Shift` + `T` sort by total CPU usage\
+`X` hilight sort by what\
+`Y` hilight running process\
+`B` hilight or bold\
 `K` kill a process by PID, `Esc` cancel the killing
 - - - -
 # use Terminal as Network manager
