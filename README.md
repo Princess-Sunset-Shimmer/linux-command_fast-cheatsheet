@@ -254,8 +254,8 @@ file mode oct number
         passwd -Sa                              # show all user names
 ```
 ```py
-        su -l username                          # switch user and login as username user
-        su                                      # switch and login as root user
+        su -l username                          # switch user as username
+        su                                      # switch user as root
         sudo command                            # super user do command
         exit                                    # logout
 ```
@@ -268,7 +268,8 @@ file mode oct number
 ```
 ```py
         usermod -l new_user_name old_user_name  # change user name
-        usermod -d /new_directory/ -m user_name # change user directory
+        usermod -d /new_directory/ user_name    # change user directory
+        usermod -d /new_directory/ -m user_name # change user directory and move its contents
 ```
 ```py
         passwd                                  # change current user password
