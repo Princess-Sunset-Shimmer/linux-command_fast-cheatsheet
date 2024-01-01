@@ -301,17 +301,22 @@ user account file `/etc/passwd` example
         top    # open TUI process monitor
 ```
 - - - -
-`Q` quit process monitor\
+`Q` quit tasks monitor\
 `H` help\
 `1` total or separate CPU states\
-`SPACEBAR` update display immediately\
+`SPACEBAR` update immediately\
+`D` change update delay, `Esc` cancel changing\
 `Shift` + `M` sort by Memory usage\
 `Shift` + `P` sort by current CPU usage\
 `Shift` + `T` sort by total CPU usage\
+`I` active tasks or all tasks\
 `X` hilight sort by what\
-`Y` hilight running process\
+`Y` hilight running tasks\
 `B` hilight or bold\
-`K` kill a process by PID, `Esc` cancel the killing
+`Z` color or monochrome\
+`Shift` + `Z` change color mapping\
+`K` kill a process by PID, `Esc` cancel killing\
+`shift` + `W` save current display toggle
 - - - -
 # use Terminal as Network manager
 simple network connection steps
