@@ -302,6 +302,7 @@ user account file `/etc/passwd` example
 ```
 - - - -
 `Q` quit process monitor\
+`H` help\
 `SPACEBAR` update display immediately\
 `Shift` + `M` sort by Memory usage\
 `Shift` + `P` sort by current CPU usage\
