@@ -318,6 +318,22 @@ user account file `/etc/passwd` example
 `K` kill a process by PID, `Esc` cancel killing\
 `shift` + `W` save current display toggle
 - - - -
+```py
+        command &
+```
+- - - -
+`Ctrl` + `C` terminate task (`INT` interrupt signal)\
+`Ctrl` + `Z` pause task (`TSTP` terminal stop signal)
+- - - -
+```py
+        jobs
+        fg %1
+        bg %2
+```
+```py
+        kill %3
+        killall command_name
+```
 # use Terminal as Network manager
 simple network connection steps
 1. list network interface
