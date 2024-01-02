@@ -319,19 +319,19 @@ user account file `/etc/passwd` example
 `shift` + `W` save current display toggle
 - - - -
 ```py
-        command &
+        command &    # run task at background
 ```
 - - - -
 `Ctrl` + `C` terminate task (`INT` interrupt signal)\
 `Ctrl` + `Z` pause task (`TSTP` terminal stop signal)
 - - - -
 ```py
-        jobs
-        fg %1
-        bg %2
+        jobs         # print running tasks
+        fg %1        # move task foreground by jobspec number
+        bg %2        # move task background by jobspec number
 ```
 ```py
-        kill %3
+        kill %3      # terminate task by jobspec number
         killall command_name
 ```
 # use Terminal as Network manager
