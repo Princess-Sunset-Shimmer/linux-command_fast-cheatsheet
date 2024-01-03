@@ -69,6 +69,7 @@ example
 - - - -
 ```py
         uname -a             # print system kernel version
+        sysctl -a            # print kernel parameters
         fastfetch            # print system information
 ```
 ```py
