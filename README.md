@@ -323,8 +323,8 @@ user account file `/etc/passwd` example
         command &    # run task at background
 ```
 - - - -
-`Ctrl` + `C` terminate task (`INT` interrupt signal)\
-`Ctrl` + `Z` pause task (`TSTP` terminal stop signal)
+`Ctrl` + `C` terminate foreground task (`INT` interrupt signal)\
+`Ctrl` + `Z` pause foreground task (`TSTP` terminal stop signal)
 - - - -
 ```py
         jobs         # print running tasks
