@@ -95,8 +95,8 @@ example
         file /directory/file                              # show file attributes
 ```
 ```py
-        ls -al /directory/or_file                         # list all files in the directory or specific files
-        ls -al /directory/file | wc -l                    # count files and directory
+        ls -al /directory/or_file                         # list all files
+        ls -al /directory/or_file | wc -l                 # count files and directories
 ```
 - - - -
 ```asm
