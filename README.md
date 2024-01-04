@@ -328,6 +328,10 @@ user account file `/etc/passwd` example
 - - - -
 ```py
         jobs         # print running tasks
+        ps           # print process
+        pstree       # print process tree
+```
+```py
         fg %1        # move task foreground by jobspec number
         bg %2        # move task background by jobspec number
 ```
