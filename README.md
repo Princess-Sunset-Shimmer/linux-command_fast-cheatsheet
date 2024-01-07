@@ -371,8 +371,8 @@ simple network connection steps
 ## simple editing
 ```py
         cat /directory/file          # print file contents
-        grep keyword                 # print line that contain keyword in the standard input file
-        grep keyword /directory/file # print line that contain keyword in the file
+        command | grep keyword       # print line that contain keyword in pipeline
+        grep keyword /directory/file # print line that contain keyword in file
 ```
 ```py
         cat > /directory/file        # redirect standard input file to /directory/file
