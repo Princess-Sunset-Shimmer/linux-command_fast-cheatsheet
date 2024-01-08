@@ -370,12 +370,13 @@ simple network connection steps
 - [vim](#vim "goto vim")
 ## simple editing
 ```py
-        cat /directory/file          # print file contents
-        command | grep keyword       # print line that contain keyword in pipeline
-        grep keyword /directory/file # print line that contain keyword in file
+        cat /directory/file                      # print file contents
+        command | grep keyword                   # print line that contain keyword in pipeline
+        grep keyword /directory/file             # print line that contain keyword in file
+        diff /directory/file_1 /directory/file_2 # print difference two files
 ```
 ```py
-        cat > /directory/file        # redirect standard input file to /directory/file
+        cat > /directory/file                    # redirect standard input to /directory/file
 ```
 - - - -
 `Ctrl` + `D` send `eof` to input
