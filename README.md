@@ -86,9 +86,9 @@ example
         cd /directory/                                    # change directory
 ```
 ```py
-        find /starting_directory/ -name "*mlp-fim*"       # search file contain keyword mlp-fim from starting-directory
+        find /starting_directory/ -name "*mlp-fim*"       # search file contain keyword mlp-fim from starting_directory
         find /starting_directory/ -iname "mlp-fim"        # search file ignore case
-        find /starting_directory/ -type d -name "mlp-fim" # search directory contain keyword mlp-fim from starting-directory
+        find /starting_directory/ -type d -name "mlp-fim" # search directory contain keyword mlp-fim from starting_directory
 ```
 ```py
         sha256sum /directory/file                         # check file SHA256
@@ -376,15 +376,16 @@ simple network connection steps
         diff /directory/file_1 /directory/file_2 # print difference two files
 ```
 ```py
-        cat > /directory/file                    # redirect standard input to /directory/file
+        echo contents > /directory/file          # redirect contents immediately to file
+        echo contents >> /directory/file         # append contents immediately to file
+        cat /directory/file_0 /directory/file_1 ... > /directory/new_file
+        cat /directory/file_0 /directory/file_1 ... >> /directory/new_file
+        cat > /directory/file                    # redirect standard input to file
+        cat >> /directory/file                   # append standard input to file
 ```
 - - - -
 `Ctrl` + `D` send `eof` to input
 - - - -
-```py
-        cat /directory/file_0 /directory/file_1 ... > /directory/new_file
-        cat /directory/file_0 /directory/file_1 ... >> /directory/new_file
-```
 ## vim
 - - - -
 [click here](https://github.com/Princess-Sunset-Shimmer/vim_fast-cheatsheet.git) to view vim fast-cheatsheet
