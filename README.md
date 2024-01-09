@@ -99,6 +99,7 @@ example
         ls -al /directory/or_file | wc -l                 # count files and directories
 ```
 - - - -
+tip: you can add `alias ls='ls --color=auto -al'` to your `.bashrc` to comfort your ls using
 ```asm
         .rw-r--r-- 3.6 MB user 14 Jul 02:43 file-name.pdf
         │ │  │  │          └─ file-owner
@@ -113,6 +114,7 @@ file type
 - - `b` for block device file
 - - `l` for symbolic link
 - - `d` for directory
+
 file permission
 - - `r` for readable
 - - `w` for writeable
@@ -203,7 +205,8 @@ file mode oct number
         wget -P /directory_to_save_downloading_file/ https://downloading.link/url # assign saving directory
 ```
 - - - -
-tip you can add `alias wget='wget -c '` to your `.bashrc` to comfort wget using
+_____
+tip__> you can add `alias wget='wget -c'` to your `.bashrc` to comfort wget using
 - - - -
 # use Terminal as Storage manager
 - [manage single storage device](#manage-single-storage-device "goto manage-single-storage-device")
