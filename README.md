@@ -205,8 +205,7 @@ file mode oct number
         wget -P /directory_to_save_downloading_file/ https://downloading.link/url # assign saving directory
 ```
 - - - -
-_____
-tip__> you can add `alias wget='wget -c'` to your `.bashrc` to comfort wget using
+tip=> you can add `alias wget='wget -c'` to your `.bashrc` to comfort wget using
 - - - -
 # use Terminal as Storage manager
 - [manage single storage device](#manage-single-storage-device "goto manage-single-storage-device")
