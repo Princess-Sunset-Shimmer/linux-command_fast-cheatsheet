@@ -224,7 +224,8 @@ tip: you can add `alias wget='wget -c'` to your `.bashrc` to comfort wget using
         cfdisk /dev/block_device_name                  # TUI partition editor
 ```
 ```py
-        mkfs.ext2 /dev/block-device_partition_name     # format partition ext2
+        mkfs.ext2 /dev/block_device_partition_name     # format partition ext2
+        mkfs.ext3 /dev/block_device_partition_name     # format partition ext3
         mkfs.ext4 /dev/block_device_partition_name     # format partition ext4
         mkfs.btrfs /dev/block_device_partition_name    # format partition btrfs
         mkfs.ntfs /dev/block_device_partition_name     # format partition ntfs
