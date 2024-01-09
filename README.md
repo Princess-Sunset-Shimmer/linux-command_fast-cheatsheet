@@ -1,5 +1,5 @@
 # linux command fast-cheatsheet
-Terminal is the middle between the user and shell, shell is interpreter that execute command line you type or shell script, shell script is script that contain command line, bash is one of shell exit in `/bin/bash`. Here is a fast command cheatsheet reference for your daily drive
+Terminal is the middle between the User and Operating System, Shell is interpreter that understand Command Line you type and Shell Script, Shell Script is Script that contain command line, Bash is one of shell exit in `/bin/bash`. Here is a fast command cheatsheet reference for your daily drive
 - [General Command](#General-Command "goto General-Command")
 - [use Terminal as File explorer](#use-Terminal-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
 - [use Terminal as Package manager](#use-Terminal-as-Package-manager "goto use-Terminal-as-Package-manager")
