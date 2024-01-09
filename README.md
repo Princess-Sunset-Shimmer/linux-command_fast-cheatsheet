@@ -102,8 +102,9 @@ example\
 - - - -
 tip: you can add `alias ls='ls --color=auto -al'` to your `.bashrc` to comfort your ls using
 ```asm
-        .rw-r--r-- 3.6 MB user 14 Jul 02:43 file-name.pdf
-        │ │  │  │          └─ file-owner
+        .rw-r--r-- 3.6~MB user root 14-Jul-02:43 file_name.pdf
+        │ │  │  │          │    └─ group-owner
+        │ │  │  │          └─ user-owner
         │ │  │  └─ world-permission
         │ │  └─ group-permission
         │ └─ owner-permission
