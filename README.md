@@ -110,18 +110,20 @@ tip: you can add `alias ls='ls --color=auto -al'` to your `.bashrc` to comfort y
         │ └─ owner-permission
         └─ file-type
 ```
-file type
-- - `.` for regular file
-- - `c` for character device file
-- - `b` for block device file
-- - `l` for symbolic link
-- - `d` for directory
+| file type | mean                  |
+| --------: | --------------------: |
+| `.`       | regular file          |
+| `c`       | character device file |
+| `b`       | block device file     |
+| `l`       | symbolic link         |
+| `d`       | directory             |
 
-file permission
-- - `r` for readable
-- - `w` for writeable
-- - `x` for executable
-- - `-` for unable
+| file permission | mean       |
+| --------------: | ---------: |
+| `r`             | readable   |
+| `w`             | writeable  |
+| `x`             | executable |
+| `-`             | unable     |
 - - - -
 ```py
         mkdir /new_directory/                                  # create directory
