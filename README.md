@@ -143,8 +143,8 @@ add option `-f` to add force to remove it
 - - - -
 ## permission control
 ```py
-        sudo chown user_name /directory/file        # change file to new owner
-        sudo chmod 750                              # set file permission to rwxr-x---
+        chown user_name /directory/file        # change file to new owner
+        chmod 750                              # set file permission to rwxr-x---
 ```
 - - - -
 file mode oct number
@@ -199,9 +199,12 @@ file mode oct number
 # use Terminal as Downloader
 ```py
         wget https://downloading.link/url                                         # download to current directory
-        wget -c https://downloading.link/url                                      # continune the download
+        wget -c https://downloading.link/url                                      # continune download
         wget -P /directory_to_save_downloading_file/ https://downloading.link/url # assign saving directory
 ```
+- - - -
+tip you can add `alias wget='wget -c '` to your `.bashrc` to comfort wget using
+- - - -
 # use Terminal as Storage manager
 - [manage single storage device](#manage-single-storage-device "goto manage-single-storage-device")
 - [use Disk Destroyer to make bootable usb](#use-Disk-Destroyer-to-make-bootable-usb "goto use-Disk-Destroyer-to-make-bootable-usb")
