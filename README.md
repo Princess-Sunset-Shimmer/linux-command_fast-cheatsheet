@@ -1,5 +1,5 @@
 # linux command fast-cheatsheet
-Terminal is the middle between the User and Operating System, Shell is interpreter that understand Command Line you type and Shell Script, Shell Script is Script that contain command line, Bash is one of shell exit in `/bin/bash`. Here is a fast command cheatsheet reference for your daily drive
+Terminal is the middle between the User and Operating System, Shell is interpreter that understand Command Line you type and Shell Script, Shell Script is Script that contain command line, Bash is one of shell exist in `/bin/bash`. Here is a fast command cheatsheet reference for your daily drive
 - [General Command](#General-Command "goto General-Command")
 - [use Terminal as File explorer](#use-Terminal-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
 - [use Terminal as Package manager](#use-Terminal-as-Package-manager "goto use-Terminal-as-Package-manager")
@@ -26,10 +26,11 @@ Terminal is the middle between the User and Operating System, Shell is interpret
         command 1>> /append_redirection_directory/written_file
 ```
 - - - -
-file discriptor
-- - `0` stands for standard-input
-- - `1` stands for standard-output
-- - `2` stands for standard-error
+| file discriptor | stands for      |
+| --------------- | --------------: |
+| `0`             | standard-input  |
+| `1`             | standard-output |
+| `2`             | standard-error  |
 - - - -
 ## multi command special character
 ```bash
@@ -51,9 +52,9 @@ file discriptor
         {jpg, bmp, png} # set of characters
 ```
 - - - -
-example
-- - `*.jpg` for all jpg files
-- - `*.{jpg, pdf}` for all jpg and pdf files
+example\
+`*.jpg` for all jpg files\
+`*.{jpg, pdf}` for all jpg and pdf files
 - - - -
 ## system and info
 ```py
