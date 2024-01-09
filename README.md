@@ -125,17 +125,17 @@ file permission
         mkdir /new_directory/     # create directory
 ```
 ```py
+        mv /source_directory/ /destination_directory/           # move directory
+        mv /source_directory/file /destination_directory/       # move file
+        mv old_file_name new_file_name                          # rename file
+```
+```py
         cp -r /source_directory/ /destination_directory/        # copy directory
         cp /source_directory/file /destination_directory/file   # copy file to new file
 ```
 - - - -
 add option `-i` for interactively confirm the copying action
 - - - -
-```py
-        mv /source_directory/ /destination_directory/           # move directory
-        mv /source_directory/file /destination_directory/       # move file
-        mv file.c file.h                                        # rename file
-```
 ```py
         rm -r /directory/        # remove directory and its contents
         rm /directory/file       # remove file
