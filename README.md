@@ -152,12 +152,13 @@ add option `-f` to add force to remove it
         chmod 750 /directory/file                              # set file permission to rwxr-x---
 ```
 - - - -
-file mode oct number
-- - `7` for rwx
-- - `6` for rw\-
-- - `5` for r\-x
-- - `4` for r\-\-
-- - `0` for \-\-\-
+| oct number | file mode |
+| ---------: | --------: |
+| `7`        | rwx       |
+| `6`        | rw\-      |
+| `5`        | r\-x      |
+| `4`        | r\-\-     |
+| `0`        | \-\-\-    |
 - - - -
 ## linux file system fast view
 ```c#
