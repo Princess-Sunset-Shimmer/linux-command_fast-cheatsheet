@@ -122,31 +122,32 @@ file permission
 - - `-` for unable
 - - - -
 ```py
-        mkdir /new_directory/     # create directory
+        mkdir /new_directory/                                  # create directory
 ```
 ```py
-        mv /source_directory/ /destination_directory/           # move directory
-        mv /source_directory/file /destination_directory/       # move file
-        mv old_file_name new_file_name                          # rename file
+        mv /source_directory/ /destination_directory/          # move directory
+        mv /source_directory/file /destination_directory/      # move file
+        mv old_file_name new_file_name                         # rename file
 ```
 ```py
-        cp -r /source_directory/ /destination_directory/        # copy directory
-        cp /source_directory/file /destination_directory/file   # copy file to new file
+        cp -r /source_directory/ /destination_directory/       # copy directory
+        cp /source_directory/file /destination_directory/file  # copy file to new file
 ```
 - - - -
 add option `-i` for interactively confirm the copying action
 - - - -
 ```py
-        rm -r /directory/        # remove directory and its contents
-        rm /directory/file       # remove file
+        rm -r /directory/                                      # remove directory and its contents
+        rm /directory/file                                     # remove file
 ```
 - - - -
 add option `-f` to add force to remove it
 - - - -
 ## permission control
 ```py
-        chown user_name /directory/file        # change file to new owner
-        chmod 750                              # set file permission to rwxr-x---
+        chown user_name /directory/file                        # change owner to new user
+        chown user_name:group_name /directory/file             # change owner to new user and new group
+        chmod 750 /directory/file                              # set file permission to rwxr-x---
 ```
 - - - -
 file mode oct number
