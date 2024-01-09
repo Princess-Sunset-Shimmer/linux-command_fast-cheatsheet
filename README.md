@@ -27,7 +27,7 @@ Terminal is the middle between the User and Operating System, Shell is interpret
 ```
 - - - -
 | file discriptor | stands for      |
-| --------------- | --------------: |
+| --------------: | --------------: |
 | `0`             | standard-input  |
 | `1`             | standard-output |
 | `2`             | standard-error  |
