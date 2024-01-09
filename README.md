@@ -42,14 +42,14 @@ Terminal is the middle between the User and Operating System, Shell is interpret
 ```
 ## single command special character
 ```bash
-        ~               # home directory
-        .               # current directory
-        ..              # previous directory
+        ~                    # home directory
+        .                    # current directory
+        ..                   # previous directory
 ```
 ```py
-        *               # any characters
-        ?               # any single character
-        {jpg, bmp, png} # set of characters
+        *                    # any characters
+        ?                    # any single character
+        {jpg, bmp, png}      # set of characters
 ```
 - - - -
 example\
