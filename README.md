@@ -363,6 +363,10 @@ simple network connection steps
 ```py
         umtui                         # TUI network manager
 ```
+```py
+        ping host_name
+        traceroute host_name
+```
 # use Terminal as Service manager
 ```py
         systemctl status service_name # print service status
