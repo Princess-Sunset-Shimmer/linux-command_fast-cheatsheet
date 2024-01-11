@@ -372,9 +372,7 @@ user account file `/etc/passwd` example
 ```
 # use Terminal as Network manager
 - [network manager](#network-manager "goto network-manager")
-- [netctl](#netctl "goto netctl")
 - [ip command](#ip-command "goto ip-command")
-- [systemd networkctl](#systemd-networkctl "goto systemd-networkctl")
 - [confirm](#confirm "confirm")
 simple network connection steps
 1. list network interface
@@ -384,12 +382,13 @@ simple network connection steps
 5. set DNS
 6. confirm connection
 ## network manager
+- - - -
+`NetworkManager` is network manager service name, you can use `systemctl` manage it
+- - - -
 ```py
         umtui                         # TUI network manager
 ```
-## netctl
 ## ip command
-## systemd networkctl
 ## confirm
 ```py
         ping host_name
