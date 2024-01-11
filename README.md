@@ -16,7 +16,8 @@ Terminal is the middle between the User and Operating System, Shell is interpret
 - [syntax style](#syntax-style "goto syntax-style")
 - [multi command special character](#multi-command-special-character "goto multi-command-special-character")
 - [single command special character](#single-command-special-character "goto single-command-special-character")
-- [system and info](#system-and-info "goto system-and-info")
+- [system info](#system-info "goto system-info")
+- [system control](#system-control "goto system-control")
 ## syntax style
 ```lua
         command_name --options parameters /source_directories/files /destination_directory/file
@@ -56,7 +57,7 @@ example\
 `*.jpg` for all jpg files\
 `*.{jpg, pdf}` for all jpg and pdf files
 - - - -
-## system and info
+## system info
 ```py
         type command_name    # show command type
         man command_name     # documentation about the command
@@ -81,6 +82,19 @@ example\
 - - - -
 `tip`: you can add `alias lspci='lspci -tv'` to your `.bashrc` to comfort your lspci using
 - - - -
+## system control
+```py
+        reset                # reset terminal
+        clear                # clear terminal
+```
+- - - -
+`Ctrl` + `L` fast clear terminal
+- - - -
+```
+        reboot
+        shutdown
+        shutdown now
+```
 # use Terminal as File explorer
 - [view and manage Directory and File](#view-and-edit-Directory-or-File "goto view-and-edit-directory-or-File")
 - [permission control](#permission-control "goto permission-control")
