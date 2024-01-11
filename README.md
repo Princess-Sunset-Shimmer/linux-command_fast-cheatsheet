@@ -371,6 +371,9 @@ user account file `/etc/passwd` example
         killall command_name
 ```
 # use Terminal as Network manager
+- [network manager](#network-manager "goto network-manager")
+- [ip command](#ip-command "goto ip-command")
+- [systemd networkctl](#systemd-networkctl "goto systemd-networkctl")
 simple network connection steps
 1. list network interface
 2. connect network interface to router
@@ -378,9 +381,12 @@ simple network connection steps
 4. set routing address
 5. set DNS
 6. confirm connection
+## network manager
 ```py
         umtui                         # TUI network manager
 ```
+## ip command
+## systemd networkctl
 ```py
         ping host_name
         traceroute host_name
