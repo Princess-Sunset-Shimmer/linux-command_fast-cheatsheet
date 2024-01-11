@@ -372,8 +372,10 @@ user account file `/etc/passwd` example
 ```
 # use Terminal as Network manager
 - [network manager](#network-manager "goto network-manager")
+- [netctl](#netctl "goto netctl")
 - [ip command](#ip-command "goto ip-command")
 - [systemd networkctl](#systemd-networkctl "goto systemd-networkctl")
+- [confirm](#confirm "confirm")
 simple network connection steps
 1. list network interface
 2. connect network interface to router
@@ -385,8 +387,10 @@ simple network connection steps
 ```py
         umtui                         # TUI network manager
 ```
+## netctl
 ## ip command
 ## systemd networkctl
+## confirm
 ```py
         ping host_name
         traceroute host_name
