@@ -71,12 +71,16 @@ example\
 ```py
         uname -a             # print system kernel version
         sysctl -a            # print kernel parameters
-        fastfetch            # print system information
+        hostnamectl status   # print host name info
+        fastfetch            # print system info
 ```
 ```py
-        lsusb -t             # print all usb devices
         lspci -tv            # print all PCIe devices
+        lsusb -t             # print all usb devices
 ```
+- - - -
+`tip`: you can add `alias lspci='lspci -tv'` to your `.bashrc` to comfort your lspci using
+- - - -
 # use Terminal as File explorer
 - [view and manage Directory and File](#view-and-edit-Directory-or-File "goto view-and-edit-directory-or-File")
 - [permission control](#permission-control "goto permission-control")
@@ -100,7 +104,7 @@ example\
         ls -al /directory/or_file | wc -l                 # count files and directories
 ```
 - - - -
-tip: you can add `alias ls='ls --color=auto -al'` to your `.bashrc` to comfort your ls using
+`tip`: you can add `alias ls='ls --color=auto -al'` to your `.bashrc` to comfort your ls using
 ```asm
         .rw-r--r-- 3.6~MB user root 14-Jul-02:43 file_name.pdf
         │ │  │  │          │    └─ group-owner
@@ -211,7 +215,7 @@ add option `-f` to add force to remove it
         wget -P /directory_to_save_downloading_file/ https://downloading.link/url # assign saving directory
 ```
 - - - -
-tip: you can add `alias wget='wget -c'` to your `.bashrc` to comfort wget using
+`tip`: you can add `alias wget='wget -c'` to your `.bashrc` to comfort wget using
 - - - -
 # use Terminal as Storage manager
 - [manage single storage device](#manage-single-storage-device "goto manage-single-storage-device")
