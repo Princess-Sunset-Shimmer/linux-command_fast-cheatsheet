@@ -389,6 +389,12 @@ simple network connection steps
         umtui                         # TUI network manager
 ```
 ## ip command
+```py
+        ip link show
+        ip address show
+        ip route show
+        ip neighbor show
+```
 ## confirm
 ```py
         ping host_name
