@@ -373,7 +373,7 @@ user account file `/etc/passwd` example
 # use Terminal as Network manager
 - [network manager](#network-manager "goto network-manager")
 - [ip command](#ip-command "goto ip-command")
-- [confirm](#confirm "confirm")
+- [diagnostic](#diagnostic "goto diagnostic")
 simple network connection steps
 1. list network interface
 2. connect network interface to router
@@ -390,15 +390,15 @@ simple network connection steps
 ```
 ## ip command
 ```py
-        ip link show
-        ip address show
-        ip route show
-        ip neighbor show
+        ip link show                  # print interface link state
+        ip address show               # print interface ip address
+        ip route show                 # print interface routing table
+        ip neighbor show              # print interface ARP table
 ```
-## confirm
+## diagnostic
 ```py
-        ping host_name
-        traceroute host_name
+        ping host.name                # send ICMP to host
+        traceroute host.name          # trace routing path to host
 ```
 # use Terminal as Service manager
 ```py
