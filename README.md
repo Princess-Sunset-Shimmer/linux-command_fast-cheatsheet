@@ -208,7 +208,7 @@ add option `-f` to add force to remove it
 ```
 ```py
         pacman -Ss package_name            # search package online
-        pacman -Si package_name            # print detail info about this package online
+        pacman -Sii package_name           # print detail info about this package online
 ```
 ```py
         pacman -Syu package_name           # install the package
