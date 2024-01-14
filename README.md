@@ -145,6 +145,7 @@ example\
 - - - -
 ```py
         mkdir /new_directory/                                  # create directory
+        ln -s /directory/file /directory/symbolic_link_file    # create symbolic link
 ```
 ```py
         mv /source_directory/ /destination_directory/          # move directory
