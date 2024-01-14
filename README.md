@@ -383,12 +383,12 @@ simple network connection steps
 5. set DNS
 6. confirm connection
 ## network manager
-- - - -
-`NetworkManager` is network manager service name, you can use `systemctl` manage it
-- - - -
 ```py
         umtui                         # TUI network manager
 ```
+- - - -
+`NetworkManager` is network manager service name, you can use `systemctl` manage it
+- - - -
 ## ip command
 ```py
         ip link show                  # print interface link state
@@ -396,6 +396,9 @@ simple network connection steps
         ip route show                 # print interface routing table
         ip neighbor show              # print interface ARP table
 ```
+- - - -
+`tip`: you can add `alias ip='ip --color=auto'` to your `.bashrc` to comfort your ip command using
+- - - -
 ## diagnostic
 ```py
         ping host.name                # send ICMP to host
