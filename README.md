@@ -375,12 +375,13 @@ user account file `/etc/passwd` example
 - [network manager](#network-manager "goto network-manager")
 - [ip command](#ip-command "goto ip-command")
 - [diagnostic](#diagnostic "goto diagnostic")
+
 simple network connection steps
-1. list network interface
+1. show network interface
 2. connect network interface to router
-3. set ip address
-4. set routing address
-5. set DNS
+3. setup ip address
+4. setup routing address
+5. setup DNS
 6. confirm connection
 ## network manager
 ```py
