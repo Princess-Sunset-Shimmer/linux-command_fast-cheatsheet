@@ -369,7 +369,7 @@ user account file `/etc/passwd` example
 ```
 ```py
         kill %3      # terminate task by jobspec number
-        killall command_name
+        killall task_name
 ```
 # use Terminal as Network manager
 - [network manager](#network-manager "goto network-manager")
