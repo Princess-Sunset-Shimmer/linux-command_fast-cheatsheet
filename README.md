@@ -203,9 +203,10 @@ add option `-f` to add force to remove it
 - [Debian linux apt](#Debian-linux-apt "goto Debian-linux-apr")
 ## Arch linux pacman
 ```py
-        pacman -Qet                        # list explicit installed package
+        pacman -Q                          # print all installed packages
+        pacman -Qet                        # print explicit installed packages
         pacman -Qs installed_package_name  # search explicit installed package by name
-        pacman -Qii installed_package_name # check detail info about this installed package
+        pacman -Qii installed_package_name # print detail info about this installed package
 ```
 ```py
         pacman -Ss package_name            # search package online
