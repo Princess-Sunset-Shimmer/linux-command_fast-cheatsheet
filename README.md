@@ -9,8 +9,8 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
 - [use Terminal as Disk cleaner](#use-Terminal-as-Disk-cleaner "goto use-Terminal-as-Disk-cleaner")
 - [use Terminal as User manager](#use-Terminal-as-User-manager "goto use-Terminal-as-User-manager")
 - [use Terminal as Multitask manager](#use-Terminal-as-Multitask-manager "goto use-Terminal-as-Multitask-manager")
-- [use Terminal as Network manager](#use-Terminal-as-Network-manager "goto use-Terminal-as-Network-manager")
 - [use Terminal as Service manager](#use-Terminal-as-Service-manager "goto use-Terminal-as-Service-manager")
+- [use Terminal as Network manager](#use-Terminal-as-Network-manager "goto use-Terminal-as-Network-manager")
 - [use Terminal as Text editor](#use-Terminal-as-Text-editor "goto use-Terminal-as-Text-editor")
 # General Command
 - [syntax style](#syntax-style "goto syntax-style")
@@ -372,6 +372,20 @@ user account file `/etc/passwd` example
         kill %3      # terminate task by jobspec number
         killall task_name
 ```
+# use Terminal as Service manager
+```py
+        systemctl status service_name # print service status
+        systemctl status *.service    # print all services status
+```
+```py
+        systemctl start service_name
+        systemctl stop service_name
+        systemctl restart service_name
+```
+```py
+        systemctl enable service_name
+        systemctl disable service_name
+```
 # use Terminal as Network manager
 - [network manager](#network-manager "goto network-manager")
 - [ip command](#ip-command "goto ip-command")
@@ -405,20 +419,6 @@ simple network connection steps
 ```py
         ping host.name                # send ICMP to host
         traceroute host.name          # trace routing path to host
-```
-# use Terminal as Service manager
-```py
-        systemctl status service_name # print service status
-        systemctl status *.service    # print all services status
-```
-```py
-        systemctl start service_name
-        systemctl stop service_name
-        systemctl restart service_name
-```
-```py
-        systemctl enable service_name
-        systemctl disable service_name
 ```
 # use Terminal as Text editor
 - [simple editing](#simple-editing "goto simple-editing")
