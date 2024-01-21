@@ -354,8 +354,8 @@ user account file `/etc/passwd` example
 `Shift` + `P` show tasks by current CPU usage\
 `Shift` + `T` show tasks by total CPU usage\
 `I` show active tasks only or all tasks\
-`X` hilight show tasks by what\
-`Y` hilight running tasks\
+`X` hilight tasks sorting column\
+`Y` hilight running tasks row\
 `B` toggle hilight or bold\
 `Z` toggle color or monochrome\
 `Shift` + `Z` change color mapping\
