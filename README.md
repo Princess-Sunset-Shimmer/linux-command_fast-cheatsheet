@@ -340,17 +340,22 @@ user account file `/etc/passwd` example
 - - - -
 `Q` quit tasks monitor\
 `H` help\
-`1` total or separate CPU states\
+`1` show total or separate threads states\
+`T` toggle CPU usage graph\
+`E` toggle Memory usage unit\
+`M` toggle Memory usage graph\
 `SPACEBAR` update immediately\
 `D` change update delay, `Esc` cancel changing\
-`Shift` + `M` sort by Memory usage\
-`Shift` + `P` sort by current CPU usage\
-`Shift` + `T` sort by total CPU usage\
-`I` active tasks or all tasks\
-`X` hilight sort by what\
+`C` toggle COMMAND colum tasks name\
+`Shift` + `E` toggle Memory usage unit of task table\
+`Shift` + `M` show tasks by Memory usage\
+`Shift` + `P` show tasks by current CPU usage\
+`Shift` + `T` show tasks by total CPU usage\
+`I` show active tasks only or all tasks\
+`X` hilight show tasks by what\
 `Y` hilight running tasks\
-`B` hilight or bold\
-`Z` color or monochrome\
+`B` toggle hilight or bold\
+`Z` toggle color or monochrome\
 `Shift` + `Z` change color mapping\
 `K` kill a process by PID, `Esc` cancel killing\
 `shift` + `W` save current display toggle
