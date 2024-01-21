@@ -347,6 +347,7 @@ user account file `/etc/passwd` example
 `SPACEBAR` update immediately\
 `D` change update delay, `Esc` cancel changing\
 `C` toggle COMMAND colum tasks name\
+`V` show COMMAND hierarchy\
 `Shift` + `E` toggle Memory usage unit of task table\
 `Shift` + `M` show tasks by Memory usage\
 `Shift` + `P` show tasks by current CPU usage\
