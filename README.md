@@ -358,8 +358,9 @@ user account file `/etc/passwd` example
 `B` toggle hilight or bold\
 `Z` toggle color or monochrome\
 `Shift` + `Z` change color mapping\
-`K` kill a process by PID, `Esc` cancel killing\
-`shift` + `W` save current display toggle
+`shift` + `W` save current display toggle\
+`K` kill a process, `Esc` cancel killing\
+`R` change task nice value, `Esc` cancel change
 - - - -
 ```py
         command &    # run task at background
