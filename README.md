@@ -23,8 +23,8 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
         command_name --options parameters /source_directories/files /destination_directory/file
 ```
 ```lua
-        command 1> /redirection_directory/written_file
-        command 1>> /append_redirection_directory/written_file
+        command 1> /directory/file   # redirection
+        command 1>> /directory/file  # append redirection
 ```
 - - - -
 | file discriptor | stands for      |
@@ -32,6 +32,8 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
 | `0`             | standard-input  |
 | `1`             | standard-output |
 | `2`             | standard-error  |
+
+run `ls /directory/file` to ensure the file you want to redirect
 - - - -
 ## multi command special character
 ```bash
@@ -164,7 +166,8 @@ add option `-i` for interactively confirm the copying action
         rm /directory/file                                     # remove file
 ```
 - - - -
-add option `-f` to add force to remove it
+add option `-f` to add force to remove it\
+run `ls /directory/file` to ensure the file you want to remove
 - - - -
 ## permission control
 ```py
