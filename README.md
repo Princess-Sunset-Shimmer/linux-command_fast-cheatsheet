@@ -361,7 +361,7 @@ user account file `/etc/passwd` example
 `Shift` + `Z` change color mapping\
 `shift` + `W` save current display toggle\
 `K` kill a process, `Esc` cancel killing\
-`R` change task nice value, `Esc` cancel change
+`R` change task [nice value](https://en.wikipedia.org/wiki/Nice_(Unix)), `Esc` cancel change
 - - - -
 ```py
         command &    # run task at background
