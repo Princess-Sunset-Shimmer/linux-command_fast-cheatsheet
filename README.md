@@ -371,9 +371,11 @@ user account file `/etc/passwd` example
 `Ctrl` + `Z` pause foreground task (`TSTP` terminal stop signal)
 - - - -
 ```py
-        jobs         # print running tasks
-        ps           # print process
-        pstree       # print process tree
+        jobs         # print running jobs
+        ps           # print running processes
+        ps -x        # print current user's all processes
+        pa -ax       # print all user's all processes
+        pstree       # print processes tree
 ```
 ```py
         fg %1        # move task foreground by jobspec number
