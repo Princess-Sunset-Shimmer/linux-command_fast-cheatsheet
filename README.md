@@ -441,9 +441,16 @@ simple network connection steps
 ## simple viewing
 ```py
         cat /directory/file                      # print file contents
+        head /directory/file                     # print top 10 lines of file contents
+        head -n 15 /directory/file               # print top 15 lines of file contents
+        tail /directory/file                     # print buttom 10 lines of file contents
+        tail -n 15 /directory/file               # print buttom 15 lines of file contents
         grep keyword /directory/file             # print line that contain keyword in file
-        command | grep keyword                   # print line that contain keyword in pipeline
         diff /directory/file_1 /directory/file_2 # print difference between two files
+        sort /directory/file
+```
+```py
+        command | grep keyword                   # print line that contain keyword in pipeline
 ```
 ## simple editing
 ```py
