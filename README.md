@@ -454,7 +454,10 @@ simple network connection steps
         sort -k 2 /directory/file                # sort by secound column 
 ```
 ```py
-        command | grep keyword                   # print line that contain keyword in pipeline
+        command | head                           # print top file contents in pipeline
+        command | tail                           # print buttom file contents in pipeline
+        command | sort                           # print sorted file contents in pipeline
+        command | grep keyword                   # print line that contains keyword in pipeline
 ```
 ## simple editing
 ```py
