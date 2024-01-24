@@ -445,7 +445,7 @@ simple network connection steps
         head -n 15 /directory/file               # print top 15 lines of file contents
         tail /directory/file                     # print buttom 10 lines of file contents
         tail -n 15 /directory/file               # print buttom 15 lines of file contents
-        grep keyword /directory/file             # print line that contain keyword in file
+        grep "keyword" /directory/file           # print line that contain keyword in file
         diff /directory/file_1 /directory/file_2 # print difference between two files
         sort /directory/file                     # print sorted file contents by alphabet
         sort -r /directory/file                  # print sorted file contents by reversed alphabet
@@ -457,7 +457,7 @@ simple network connection steps
         command | head                           # print top file contents in pipeline
         command | tail                           # print buttom file contents in pipeline
         command | sort                           # print sorted file contents in pipeline
-        command | grep keyword                   # print line that contains keyword in pipeline
+        command | grep "keyword"                 # print line that contains keyword in pipeline
 ```
 ## simple editing
 ```py
