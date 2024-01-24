@@ -447,7 +447,11 @@ simple network connection steps
         tail -n 15 /directory/file               # print buttom 15 lines of file contents
         grep keyword /directory/file             # print line that contain keyword in file
         diff /directory/file_1 /directory/file_2 # print difference between two files
-        sort /directory/file
+        sort /directory/file                     # print sorted file contents by alphabet
+        sort -r /directory/file                  # print sorted file contents by reversed alphabet
+        sort -n /directory/file                  # print sorted file contents by size of number
+        sort -rn /directory/file                 # print sorted file contents by reversed size of number
+        sort -k 2 /directory/file                # sort by secound column 
 ```
 ```py
         command | grep keyword                   # print line that contain keyword in pipeline
