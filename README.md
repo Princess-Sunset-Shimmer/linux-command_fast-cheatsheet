@@ -435,18 +435,22 @@ simple network connection steps
         traceroute host.name          # trace routing path to host
 ```
 # use Terminal as Text editor
+- [simple viewing](#simple-viewing "goto simple-viewing")
 - [simple editing](#simple-editing "goto simple-editing")
 - [vim](#vim "goto vim")
-## simple editing
+## simple viewing
 ```py
         cat /directory/file                      # print file contents
-        command | grep keyword                   # print line that contain keyword in pipeline
         grep keyword /directory/file             # print line that contain keyword in file
-        diff /directory/file_1 /directory/file_2 # print difference two files
+        command | grep keyword                   # print line that contain keyword in pipeline
+        diff /directory/file_1 /directory/file_2 # print difference between two files
 ```
+## simple editing
 ```py
         echo "contents" > /directory/file        # redirect contents immediately to file
         echo "contents" >> /directory/file       # append contents immediately to file
+        echo -e "contents\n" > /directory/file   # redirect contents with escape char
+        echo -e "contents\n" >> /direcotry/file  # append contents with escape char
         cat > /directory/file                    # redirect standard input to file
         cat >> /directory/file                   # append standard input to file
 ```
@@ -454,8 +458,8 @@ simple network connection steps
 `Ctrl` + `D` send `eof` to input
 - - - -
 ```py
-        cat /directory/file_0 /directory/file_1 ... > /directory/new_file
-        cat /directory/file_0 /directory/file_1 ... >> /directory/new_file
+        cat /directory/file_0 /directory/file_1 ... > /directory/file
+        cat /directory/file_0 /directory/file_1 ... >> /directory/file
 ```
 ## vim
 - - - -
