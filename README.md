@@ -1,5 +1,5 @@
 # linux command fast-cheatsheet
-Terminal is the middle between the User and Operating System. Shell is Interpreter that allow Operating System understand `Shell Script` and `Command Line` you type at Command Prompt, Command Line is just a line of Shell Script. Bash is one of shell exist in `/bin/bash`. Here is a fast Command Line cheatsheet reference for your daily drive
+Terminal is the middle between the User and Operating System. Shell is Interpreter that allow Operating System understand `Shell Script` and `Command Line` you type at Command Prompt, Command Line is just a line of Shell Script that calls program. Bash is one of shell exist in `/bin/bash`. Here is a fast Command Line cheatsheet reference for your daily drive
 - [General Command](#General-Command "goto General-Command")
 - [use Terminal as File explorer](#use-Terminal-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
 - [use Terminal as Package manager](#use-Terminal-as-Package-manager "goto use-Terminal-as-Package-manager")
@@ -364,7 +364,7 @@ user account file `/etc/passwd` example
 `R` change task [nice value](https://en.wikipedia.org/wiki/Nice_(Unix)), `Esc` cancel change
 - - - -
 ```py
-        command &    # run task at background
+        command &    # run command at background
 ```
 - - - -
 `Ctrl` + `C` terminate foreground task (`INT` interrupt signal)\
