@@ -372,9 +372,9 @@ user account file `/etc/passwd` example
 - - - -
 ```py
         jobs         # print running jobs
-        ps           # print current user's running processes
-        ps -x        # print current user's all processes
-        ps -a        # print all user's running processes
+        ps -uf       # print current user's running processes
+        ps -xuf      # print current user's all processes
+        ps -auf      # print all user's running processes
         pa -axuf     # print all user's all processes
         pstree       # print processes tree
 ```
