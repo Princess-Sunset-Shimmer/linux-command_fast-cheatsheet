@@ -334,9 +334,9 @@ user account file `/etc/passwd` example
 ```
 - - - -
 # use Terminal as Multitask manager
-[CLI](#CLI "goto CLI")
-[TUI](#TUI "goto TUI")
-[tmux](#tmux "goto tmux")
+- [CLI](#CLI "goto CLI")
+- [TUI](#TUI "goto TUI")
+- [tmux](#tmux "goto tmux")
 ## CLI
 ```py
         command &    # run command at background
