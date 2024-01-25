@@ -386,6 +386,9 @@ user account file `/etc/passwd` example
         kill %3      # terminate task by jobspec number
         killall task_name
 ```
+- - - -
+[tmux](https://github.com/tmux/tmux/wiki/Getting-Started#basic-concepts) is terminal multiplexer that allows multiple terminals run inside of terminal
+- - - -
 # use Terminal as Service manager
 ```py
         systemctl list-unit-files --state=enabled             # list all enabled services
