@@ -334,6 +334,34 @@ user account file `/etc/passwd` example
 ```
 - - - -
 # use Terminal as Multitask manager
+[CLI](#CLI "goto CLI")
+[TUI](#TUI "goto TUI")
+[tmux](#tmux "goto tmux")
+## CLI
+```py
+        command &    # run command at background
+```
+- - - -
+`Ctrl` + `C` terminate foreground task (`INT` interrupt signal)\
+`Ctrl` + `Z` pause foreground task (`TSTP` terminal stop signal)
+- - - -
+```py
+        jobs         # print running jobs
+        ps -uf       # print current user's running processes
+        ps -xuf      # print current user's all processes
+        ps -auf      # print all user's running processes
+        ps -axuf     # print all user's all processes
+        pstree       # print processes tree
+```
+```py
+        fg %1        # move task foreground by jobspec number
+        bg %2        # move task background by jobspec number
+```
+```py
+        kill %3      # terminate task by jobspec number
+        killall task_name
+```
+## TUI
 ```py
         top    # open TUI process monitor
 ```
@@ -363,29 +391,7 @@ user account file `/etc/passwd` example
 `K` kill a process, `Esc` cancel killing\
 `R` change task [nice value](https://en.wikipedia.org/wiki/Nice_(Unix)), `Esc` cancel change
 - - - -
-```py
-        command &    # run command at background
-```
-- - - -
-`Ctrl` + `C` terminate foreground task (`INT` interrupt signal)\
-`Ctrl` + `Z` pause foreground task (`TSTP` terminal stop signal)
-- - - -
-```py
-        jobs         # print running jobs
-        ps -uf       # print current user's running processes
-        ps -xuf      # print current user's all processes
-        ps -auf      # print all user's running processes
-        pa -axuf     # print all user's all processes
-        pstree       # print processes tree
-```
-```py
-        fg %1        # move task foreground by jobspec number
-        bg %2        # move task background by jobspec number
-```
-```py
-        kill %3      # terminate task by jobspec number
-        killall task_name
-```
+## tmux
 - - - -
 [tmux](https://github.com/tmux/tmux/wiki/Getting-Started#basic-concepts) is terminal multiplexer that allows multiple terminals run inside of terminal
 - - - -
