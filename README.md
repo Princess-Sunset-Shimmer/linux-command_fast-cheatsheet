@@ -388,8 +388,13 @@ user account file `/etc/passwd` example
 ```
 # use Terminal as Service manager
 ```py
-        systemctl status service_name # print service status
-        systemctl status *.service    # print all services status
+        systemctl list-unit-files --state=enabled             # list all enabled services
+        systemctl list-units --type=service | grep "running"  # list all running services
+        systemctl list-units --type=service                   # list all services
+```
+```py
+        systemctl status service_name                         # print service status
+        systemctl status *.service                            # print all services status
 ```
 ```py
         systemctl start service_name
