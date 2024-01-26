@@ -220,7 +220,8 @@ run `ls /directory/file` to ensure the file you want to remove
         pacman -Syu                        # update the system
 ```
 ```py
-        pacman -Rsn package_name           # remove the package
+        pacman -Rns package_name           # remove package
+        pacman -Rddns                      # remove package and crash dependencies
         pacman -Qdt                        # list all unneeded packages
         pacman -Rsn $(pacman -Qdtq)        # remove all unneeded packages
         pacman -Scc                        # remove all package caches
