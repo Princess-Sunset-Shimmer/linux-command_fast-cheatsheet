@@ -240,7 +240,7 @@ run `ls /directory/file` to ensure the file you want to remove
 # use Terminal as Storage manager
 - [manage single storage device](#manage-single-storage-device "goto manage-single-storage-device")
 - [use Disk Destroyer to make bootable usb](#use-Disk-Destroyer-to-make-bootable-usb "goto use-Disk-Destroyer-to-make-bootable-usb")
-- [raid](#raid "goto raid")
+- [LVM](#LVM "goto LVM")
 ## manage single storage device
 ```py
         lsblk                                          # list block devices
@@ -271,7 +271,7 @@ run `ls /directory/file` to ensure the file you want to remove
 ```js
         dd if=/iso_directory/linux_distro.iso of=/dev/block_device_name status=progress
 ```
-## raid
+## LVM
 
 # use Terminal as Archive manager
 ```py
@@ -394,7 +394,8 @@ user account file `/etc/passwd` example
 - - - -
 ## tmux
 - - - -
-[tmux](https://github.com/tmux/tmux/wiki/Getting-Started#basic-concepts) is terminal multiplexer that allows multiple terminals run inside of terminal
+[tmux](https://github.com/tmux/tmux/wiki/Getting-Started#basic-concepts) is terminal multiplexer that allows run multiple terminals inside the terminal\
+[click here](https://github.com/Princess-Sunset-Shimmer/tmux_cheat-sheet) to viw minimal tmux cheatsheet
 - - - -
 # use Terminal as Service manager
 ```py
@@ -419,6 +420,7 @@ user account file `/etc/passwd` example
 - [network manager](#network-manager "goto network-manager")
 - [ip command](#ip-command "goto ip-command")
 - [diagnostic](#diagnostic "goto diagnostic")
+- [SSH](#SSH "goto SSH")
 
 simple network connection steps
 1. show network interface
@@ -449,6 +451,8 @@ simple network connection steps
         ping host.name                # send ICMP to host
         traceroute host.name          # trace routing path to host
 ```
+## SSH
+
 # use Terminal as Text editor
 - [simple viewing](#simple-viewing "goto simple-viewing")
 - [simple editing](#simple-editing "goto simple-editing")
@@ -492,6 +496,7 @@ simple network connection steps
 ```
 ## vim
 - - - -
+[vim](https://github.com/vim/vim) is a terminal text editor\
 [click here](https://github.com/Princess-Sunset-Shimmer/vim_fast-cheatsheet.git) to view vim fast-cheatsheet
 - - - -
 
