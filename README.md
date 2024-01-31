@@ -78,7 +78,7 @@ example\
         fastfetch            # print system info
 ```
 ```py
-        lspci -tv            # print all PCIe devices
+        lspci                # print all PCIe devices
         lsusb -t             # print all usb devices
 ```
 - - - -
