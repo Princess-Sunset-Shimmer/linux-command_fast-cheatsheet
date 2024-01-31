@@ -82,7 +82,7 @@ example\
         lsusb -t             # print all usb devices
 ```
 - - - -
-`tip`: you can add `alias lspci='lspci -tv'` to your `.bashrc` to comfort your lspci using
+`tip`: you can add `alias lspci="lspci -tv"` to your `/etc/bash.bashrc` to comfort your `spci` using
 - - - -
 ## system control
 ```py
@@ -120,7 +120,7 @@ example\
         ls -al /directory/or_file | wc -l                 # count files and directories
 ```
 - - - -
-`tip`: you can add `alias ls='ls --color=auto -al'` to your `.bashrc` to comfort your ls using
+`tip`: you can add `alias ls="ls --color=auto -al"` to your `/etc/bash.bashrc` to comfort your `ls` using
 ```asm
         .rw-r--r-- 3.6~MB user root 14-Jul-02:43 file_name.pdf
         │ │  │  │          │    └─ group-owner
@@ -235,7 +235,7 @@ run `ls /directory/file` to ensure the file you want to remove
         wget -P /directory_to_save_downloading_file/ https://downloading.link/url # assign saving directory
 ```
 - - - -
-`tip`: you can add `alias wget='wget -c'` to your `.bashrc` to comfort wget using
+`tip`: you can add `alias wget="wget -c"` to your `/etc/bash.bashrc` to comfort `wget` using
 - - - -
 # use Terminal as Storage manager
 - [manage single storage device](#manage-single-storage-device "goto manage-single-storage-device")
@@ -325,7 +325,7 @@ run `ls /directory/file` to ensure the file you want to remove
 user account file `/etc/passwd` example
 ```c
         geoclue:x:967:967:Geoinformation service:/var/lib/geoclue:/usr/bin/nologin
-        │       │ │   │   │                      │                └─ degault shell directory
+        │       │ │   │   │                      │                └─ default shell directory
         │       │ │   │   │                      └─ user home directory
         │       │ │   │   └─ comment
         │       │ │   └─ group ID
@@ -348,12 +348,15 @@ user account file `/etc/passwd` example
 - - - -
 ```py
         jobs         # print running jobs
-        ps -uf       # print current user's running processes
-        ps -xuf      # print current user's all processes
-        ps -auf      # print all user's running processes
-        ps -axuf     # print all user's all processes
+        ps           # print current user's running processes
+        ps -x        # print current user's all processes
+        ps -a        # print all user's running processes
+        ps -ax       # print all user's all processes
         pstree       # print processes tree
 ```
+- - - -
+`tip`: you can add `alias ps="ps -uf"` to your `/etc/bash.bashrc` to comfort your `ps` using
+- - - -
 ```py
         fg %1        # move task foreground by jobspec number
         bg %2        # move task background by jobspec number
