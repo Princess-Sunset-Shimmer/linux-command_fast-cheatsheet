@@ -413,7 +413,7 @@ user account file `/etc/passwd` example
         systemctl restart service_name
 ```
 ```py
-        systemctl enable service_name
+        systemctl enable service_name                         # autostart a service
         systemctl disable service_name
 ```
 # use Terminal as Network manager
