@@ -325,8 +325,8 @@ run `ls /directory/file` to ensure the file you want to remove
 user account file `/etc/passwd` example
 ```c
         geoclue:x:967:967:Geoinformation service:/var/lib/geoclue:/usr/bin/nologin
-        │       │ │   │   │                      │                └─ shell directory (the first command to run after login)
-        │       │ │   │   │                      └─ home directory
+        │       │ │   │   │                      │                └─ degault shell directory
+        │       │ │   │   │                      └─ user home directory
         │       │ │   │   └─ comment
         │       │ │   └─ group ID
         │       │ └─ user ID
