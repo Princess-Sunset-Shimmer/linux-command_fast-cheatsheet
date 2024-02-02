@@ -42,6 +42,7 @@ run `ls /directory/file` to ensure the file you want to redirect
 ```bash
         command | command    # command pipeline, standard output to standard input
         command $(command)   # command substitution, standard output to argument input
+        command `command`    # command substitution too
 ```
 ## single command special character
 ```bash
