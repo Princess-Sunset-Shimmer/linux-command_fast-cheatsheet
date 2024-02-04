@@ -12,6 +12,7 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
 - [use Terminal as Service manager](#use-Terminal-as-Service-manager "goto use-Terminal-as-Service-manager")
 - [use Terminal as Network manager](#use-Terminal-as-Network-manager "goto use-Terminal-as-Network-manager")
 - [use Terminal as Text editor](#use-Terminal-as-Text-editor "goto use-Terminal-as-Text-editor")
+- [bash and shell script](#bash-and-shell-script "goto bash-and-shell-script")
 # General Command
 - [syntax style](#syntax-style "goto syntax-style")
 - [multi command special character](#multi-command-special-character "goto multi-command-special-character")
@@ -503,6 +504,10 @@ simple network connection steps
 [vim](https://github.com/vim/vim) is a terminal text editor\
 [click here](https://github.com/Princess-Sunset-Shimmer/vim_fast-cheatsheet.git) to view vim fast-cheatsheet
 - - - -
-
+# bash and shell script
+```py
+        bash /directory/script.sh      # execute a shell script
+        bash -vx /directory/script.sh  # visualize execution for debuging
+```
 - - - -
 Licence: [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
