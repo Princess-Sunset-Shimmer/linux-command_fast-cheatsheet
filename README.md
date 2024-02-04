@@ -77,6 +77,8 @@ example\
         uname -a             # print system kernel version
         sysctl -a            # print kernel parameters
         hostnamectl status   # print host name info
+        $SHELL --version     # print shell version
+        echo $PATH           # print directories that system searching for command
         fastfetch            # print system info
 ```
 ```py
