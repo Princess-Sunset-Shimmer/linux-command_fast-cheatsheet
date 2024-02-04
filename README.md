@@ -187,13 +187,13 @@ run `ls /directory/file` to ensure the file you want to remove
 - - - -
 ## linux file system fast view
 ```c#
-   /─┬─home  /* branch user directory */
-     ├─root  /* root user directory */
+   /─┬─home  /* branch user home directory */
+     ├─root  /* root user home directory */
      ├─boot  /* boot loader and linux kernel are here */
-     ├─etc   /* config files are here */
+     ├─etc   /* sytemwide config files are here */
      ├─dev   /* device files are here */
      ├─proc  /* process files are */
-     ├─var   /* various databases files are here */
+     ├─var   /* generated various data files during execution */
      ├─tmp   /* temp files are here */
      └─usr─┬─bin      /* executable files are here */
            ├─lib      /* library files are here */
