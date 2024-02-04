@@ -200,7 +200,10 @@ run `ls /directory/file` to ensure the file you want to remove
            ├─lib      /* library files are here */
            ├─include  /* header files are here */
            ├─share
-           └─local
+           └─local─┬─bin  /* for non-system executable files */
+                   ├─lib
+                   ├─include
+                   └─share
 ```
 # use Terminal as Package manager
 - [Arch linux pacman](#Arch-linux-pacman "goto Arch-linux-pacman")
