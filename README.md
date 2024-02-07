@@ -1,6 +1,7 @@
 # linux command fast-cheatsheet
 Terminal is the middle between the User and Operating System. Shell is Interpreter that allow Operating System understand `Shell Script` and `Command Line` you type at Command Prompt, Command Line is just a line of Shell Script that calls program. Bash is one of shell exist in `/bin/bash`. Here is a fast Command Line cheatsheet reference for your daily drive
 - [General Command](#General-Command "goto General-Command")
+- [bash and shell script](#bash-and-shell-script "goto bash-and-shell-script")
 - [use Terminal as File explorer](#use-Terminal-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
 - [use Terminal as Package manager](#use-Terminal-as-Package-manager "goto use-Terminal-as-Package-manager")
 - [use Terminal as Downloader](#use-Terminal-as-Downloader "goto use-Terminal-as-Downloader")
@@ -12,7 +13,7 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
 - [use Terminal as Service manager](#use-Terminal-as-Service-manager "goto use-Terminal-as-Service-manager")
 - [use Terminal as Network manager](#use-Terminal-as-Network-manager "goto use-Terminal-as-Network-manager")
 - [use Terminal as Text editor](#use-Terminal-as-Text-editor "goto use-Terminal-as-Text-editor")
-- [bash and shell script](#bash-and-shell-script "goto bash-and-shell-script")
+
 # General Command
 - [syntax style](#syntax-style "goto syntax-style")
 - [multi command special character](#multi-command-special-character "goto multi-command-special-character")
@@ -100,6 +101,11 @@ example\
         reboot
         shutdown
         shutdown now
+```
+# bash and shell script
+```py
+        bash /directory/script.sh      # execute a shell script
+        bash -vx /directory/script.sh  # visualize execution for debuging
 ```
 # use Terminal as File explorer
 - [view and manage Directory and File](#view-and-edit-Directory-or-File "goto view-and-edit-directory-or-File")
@@ -509,10 +515,6 @@ simple network connection steps
 [vim](https://github.com/vim/vim) is a terminal text editor\
 [click here](https://github.com/Princess-Sunset-Shimmer/vim_fast-cheatsheet.git) to view vim fast-cheatsheet
 - - - -
-# bash and shell script
-```py
-        bash /directory/script.sh      # execute a shell script
-        bash -vx /directory/script.sh  # visualize execution for debuging
-```
+
 - - - -
 Licence: [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
