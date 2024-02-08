@@ -68,6 +68,20 @@ example\
         command `command`    # command substitution too
 ```
 ## string Variable and Array
+```bash
+        variable_name="string_contents"                # define or redefine a string variable
+        array_name=("string_0" "string_1" "string_2")  # define or redefine a string array
+        array_name[2]="string_contents"                # define or redefine an element of a string array
+```
+- - - -
+`"double quote string expand ${expansion}"`
+`'single quote string Not expand ${expansion}'`
+- - - -
+```bash
+        ${variable}  # expand string variable to string
+        ${array[2]}  # expand an element of string array to string
+        ${array[@]}  # expand all elements of string array to strings
+```
 ## branch control
 ## shell function
 # System info and control
@@ -75,7 +89,7 @@ example\
 - [control system](#control-system "goto control-system")
 ## ptint info about system
 ```py
-        type command_name    # show command type
+        type command_name    # print command type info
         man command_name     # documentation about the command
         command_name --help  # quick help for the command
 ```
