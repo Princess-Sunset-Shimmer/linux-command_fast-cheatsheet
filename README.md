@@ -82,10 +82,16 @@ example\
         ${array[2]}  # expand an element of string array to string
         ${array[@]}  # expand all elements of string array to strings
 ```
-| special variable   | expand to 
-| ------------------ | ----------
-| `$0`               |
-| `$1` `$2` `$3` ... |
+- - - -
+| special variable   | expand to                                               |
+| ------------------ | ------------------------------------------------------- |
+| `$0`               | script name                                             |
+| `$?`               | last command exit code, 0 means success else means fail |
+| `$1` `$2` `$3` ... | parameter1 parameter2 parameter3 ...                    |
+| `$@`               | all parameters                                          |
+| `$#`               | number of parameters passed to script                   |
+| `$$`               | shell process ID                                        |
+- - - -
 ## branch control
 ## shell function
 # System info and control
