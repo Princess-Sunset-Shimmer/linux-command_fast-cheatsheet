@@ -93,6 +93,14 @@ example\
 | `$$`               | shell process ID                                        |
 - - - -
 ## branch control
+```bash
+if command
+then
+        command
+else
+        command
+fi
+```
 ## shell function
 # System info and control
 - [print info about system](#print-info-about-system "goto print-info-about-system")
