@@ -1,7 +1,7 @@
 # linux command fast-cheatsheet
 Terminal is the middle between the User and Operating System. Shell is Interpreter that allow Operating System understand `Shell Script` and `Command Line` you type at Command Prompt, Command Line is just a line of Shell Script that calls program. Bash is one of shell exist in `/bin/bash`. Here is a fast Command Line cheatsheet reference for your daily drive
-- [General Command](#General-Command "goto General-Command")
-- [bash and shell script](#bash-and-shell-script "goto bash-and-shell-script")
+- [bash shell script](#bash-shell-script "goto bash-shell-script")
+- [System info and control](#System-info-and-control "goto System-info-and-control")
 - [use Terminal as File explorer](#use-Terminal-as-File-explorer "goto use-Terminal-emulator-as-File-explorer")
 - [use Terminal as Package manager](#use-Terminal-as-Package-manager "goto use-Terminal-as-Package-manager")
 - [use Terminal as Downloader](#use-Terminal-as-Downloader "goto use-Terminal-as-Downloader")
@@ -14,7 +14,7 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
 - [use Terminal as Network manager](#use-Terminal-as-Network-manager "goto use-Terminal-as-Network-manager")
 - [use Terminal as Text editor](#use-Terminal-as-Text-editor "goto use-Terminal-as-Text-editor")
 
-# General Command
+# bash shell script
 - [syntax style](#syntax-style "goto syntax-style")
 - [multi command special character](#multi-command-special-character "goto multi-command-special-character")
 - [single command special character](#single-command-special-character "goto single-command-special-character")
@@ -62,7 +62,16 @@ example\
 `*.jpg` for all jpg files\
 `*.{jpg, pdf}` for all jpg and pdf files
 - - - -
-## system info
+
+# bash and shell script
+```py
+        bash /directory/script.sh      # execute a shell script
+        bash -vx /directory/script.sh  # visualize execution for debuging
+```
+# System info and control
+- [print info about system](#print-info-about-system "goto print-info-about-system")
+- [control system](#control-system "goto control-system")
+## ptint info about system
 ```py
         type command_name    # show command type
         man command_name     # documentation about the command
@@ -101,11 +110,6 @@ example\
         reboot
         shutdown
         shutdown now
-```
-# bash and shell script
-```py
-        bash /directory/script.sh      # execute a shell script
-        bash -vx /directory/script.sh  # visualize execution for debuging
 ```
 # use Terminal as File explorer
 - [view and manage Directory and File](#view-and-edit-Directory-or-File "goto view-and-edit-directory-or-File")
