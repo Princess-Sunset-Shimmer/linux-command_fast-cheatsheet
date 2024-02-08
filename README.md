@@ -74,7 +74,7 @@ example\
         array_name[2]="string_contents"                # define or redefine an element of a string array
 ```
 - - - -
-`"double quote string expand ${expansion}"`
+`"double quote string expand ${expansion}"`\
 `'single quote string Not expand ${expansion}'`
 - - - -
 ```bash
@@ -82,6 +82,10 @@ example\
         ${array[2]}  # expand an element of string array to string
         ${array[@]}  # expand all elements of string array to strings
 ```
+| special variable   | expand to 
+| ------------------ | ----------
+| `$0`               |
+| `$1`\`$2`\`$3`\... |
 ## branch control
 ## shell function
 # System info and control
