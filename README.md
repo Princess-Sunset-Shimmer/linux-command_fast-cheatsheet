@@ -83,7 +83,9 @@ example\
         history              # print command line history
 ```
 - - - -
-`ctrl` + `R` search command history by keywork, `Enter` to execute it, `─>` to confirm but not execute it, `ctrl` + `R` again to switch the saerch
+`ctrl` + `R` search command history by keywork\ 
+`Enter` to execute it, `─>` to confirm but not execute it\
+`ctrl` + `R` again to switch the saerch
 - - - -
 ```py
         uname -a             # print system kernel version
