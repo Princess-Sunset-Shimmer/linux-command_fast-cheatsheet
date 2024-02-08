@@ -102,7 +102,7 @@ else
 fi
 ```
 ```bash
-for variable in "contents"
+for command in "contents" # if command output have contents in string
 do
         command
 done
