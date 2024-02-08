@@ -18,6 +18,9 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
 - [execute a script](#execute-a-script "goto execute-a-script")
 - [general single command syntax](#general-single-command-syntax "goto general-single-command-syntax")
 - [general multi command syntax](#general-multi-command-syntax "goto general-multi-command-syntax")
+- [string Variable and Array](#string-Variable-and-Array "string-Variable-and-Array")
+- [branch control](#branch-control "goto branch-control")
+- [shell function](#shell-function "goto shell-function")
 ## execute a script
 ```py
         bash /directory/script.sh      # execute a shell script
@@ -64,6 +67,9 @@ example\
         command $(command)   # command substitution, standard output to command parameter input
         command `command`    # command substitution too
 ```
+## string Variable and Array
+## branch control
+## shell function
 # System info and control
 - [print info about system](#print-info-about-system "goto print-info-about-system")
 - [control system](#control-system "goto control-system")
