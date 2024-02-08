@@ -15,14 +15,38 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
 - [use Terminal as Text editor](#use-Terminal-as-Text-editor "goto use-Terminal-as-Text-editor")
 
 # bash shell script
-- [syntax style](#syntax-style "goto syntax-style")
-- [multi command special character](#multi-command-special-character "goto multi-command-special-character")
-- [single command special character](#single-command-special-character "goto single-command-special-character")
-- [system info](#system-info "goto system-info")
-- [system control](#system-control "goto system-control")
-## syntax style
+- [execute a script](#execute-a-script "goto execute-a-script")
+- [general single command syntax](#general-single-command-syntax "goto general-single-command-syntax")
+- [general multi command syntax](#general-multi-command-syntax "goto general-multi-command-syntax")
+## execute a script
+```py
+        bash /directory/script.sh      # execute a shell script
+        bash -vx /directory/script.sh  # visualize execution for debuging
+```
+## general single command syntax
 ```lua
         command_name --options parameters /source_directories/files /destination_directory/file
+```
+- - - -
+| special character | expand to                    |
+| ----------------- | ---------------------------- |
+| `~`               | current user home directory  |
+| `.`               | current directory            |
+| `..`              | previous directory           |
+|                   |                              |
+| `*`               | any characters               |
+| `?`               | any single character         |
+| `{jpg, bmp, png}` | set of characters            |
+
+example\
+`*.jpg` for all jpg files\
+`*.{jpg, pdf}` for all jpg and pdf files
+- - - -
+## general multi command syntax
+```bash
+        command; command     # run multiple commands
+        command && command   # if first command success then execute next command
+        command || command   # if first command fail then execute next command
 ```
 ```lua
         command 1> /directory/file   # redirection
@@ -34,39 +58,11 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
 | `0`             | standard-input  |
 | `1`             | standard-output |
 | `2`             | standard-error  |
-
-run `ls /directory/file` to ensure the file you want to redirect
 - - - -
-## multi command special character
-```bash
-        command ; command    # multiple command
-```
 ```bash
         command | command    # command pipeline, standard output to standard input
-        command $(command)   # command substitution, standard output to argument input
+        command $(command)   # command substitution, standard output to command parameter input
         command `command`    # command substitution too
-```
-## single command special character
-```bash
-        ~                    # home directory
-        .                    # current directory
-        ..                   # previous directory
-```
-```py
-        *                    # any characters
-        ?                    # any single character
-        {jpg, bmp, png}      # set of characters
-```
-- - - -
-example\
-`*.jpg` for all jpg files\
-`*.{jpg, pdf}` for all jpg and pdf files
-- - - -
-
-# bash and shell script
-```py
-        bash /directory/script.sh      # execute a shell script
-        bash -vx /directory/script.sh  # visualize execution for debuging
 ```
 # System info and control
 - [print info about system](#print-info-about-system "goto print-info-about-system")
