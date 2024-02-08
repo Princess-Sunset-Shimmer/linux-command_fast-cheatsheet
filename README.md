@@ -79,7 +79,7 @@ example\
 - - - -
 `ctrl` + `R` search command history by keywork, `Enter` to execute it, `─>` to confirm but not execute it, `ctrl` + `R` again to switch the saerch
 - - - -
-```sh
+```py
         uname -a             # print system kernel version
         sysctl -a            # print kernel parameters
         hostnamectl status   # print host name info
