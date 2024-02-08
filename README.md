@@ -85,7 +85,7 @@ example\
 | special variable   | expand to 
 | ------------------ | ----------
 | `$0`               |
-| `$1`\`$2`\`$3`\... |
+| `$1``$2``$3`... |
 ## branch control
 ## shell function
 # System info and control
