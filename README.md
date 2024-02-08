@@ -94,12 +94,18 @@ example\
 - - - -
 ## branch control
 ```bash
-if command
+if command # test command exit code
 then
-        command
+        command # execute if exit code is 0
 else
-        command
+        command # execute if exit code is not 0
 fi
+```
+```bash
+for variable in "contents"
+do
+        command
+done
 ```
 ## shell function
 # System info and control
