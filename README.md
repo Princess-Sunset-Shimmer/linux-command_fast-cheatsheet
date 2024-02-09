@@ -112,6 +112,12 @@ case "string" in
 esac
 ```
 ```bash
+while command
+do
+        command
+done
+```
+```bash
 for variable in "contents"
 do
         command
