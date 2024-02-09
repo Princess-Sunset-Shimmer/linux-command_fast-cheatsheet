@@ -109,6 +109,7 @@ case "string" in
         "string_1"
                 command
                 ;;
+        ...
 esac
 ```
 ```bash
@@ -136,6 +137,13 @@ do
 done
 ```
 ## shell function
+```bash
+function name {
+        command
+        command
+        ...
+}
+```
 # System info and control
 - [print info about system](#print-info-about-system "goto print-info-about-system")
 - [control system](#control-system "goto control-system")
