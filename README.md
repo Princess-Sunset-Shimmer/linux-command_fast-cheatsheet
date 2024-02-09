@@ -94,7 +94,7 @@ example\
 - - - -
 ## branch control
 ```bash
-if command # test command exit code
+if command # check command exit code
 then
         command # execute if exit code is 0
 else
@@ -112,9 +112,15 @@ case "string" in
 esac
 ```
 ```bash
-while command
+while command  # check command exit code
 do
-        command
+        command  # execute if exit code is 0
+done
+```
+```bash
+until command  # check command exit code
+do
+        command  # execute if exit code is not 0
 done
 ```
 ```bash
