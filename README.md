@@ -102,6 +102,16 @@ else
 fi
 ```
 ```bash
+case "string" in
+        "string_0")
+                command
+                ;;
+        "string_1"
+                command
+                ;;
+esac
+```
+```bash
 for variable in "contents"
 do
         command
@@ -117,7 +127,7 @@ done
 # System info and control
 - [print info about system](#print-info-about-system "goto print-info-about-system")
 - [control system](#control-system "goto control-system")
-## ptint info about system
+## print info about system
 ```py
         type command_name    # print command type info
         man command_name     # documentation about the command
