@@ -21,6 +21,7 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
 - [string Variable and Array](#string-Variable-and-Array "string-Variable-and-Array")
 - [branch control](#branch-control "goto branch-control")
 - [shell function](#shell-function "goto shell-function")
+- [useful commands for shell script](#useful-commands-for-shell-script "goto useful-commands-for-shell-script")
 ## execute a script
 ```py
         bash /directory/script.sh      # execute a shell script
@@ -144,6 +145,8 @@ function name {
         ...
 }
 ```
+## useful commands for shell script
+
 # System info and control
 - [print info about system](#print-info-about-system "goto print-info-about-system")
 - [control system](#control-system "goto control-system")
