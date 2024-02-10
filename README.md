@@ -146,7 +146,12 @@ function name {
 }
 ```
 ## useful commands for shell script
-
+```py
+        test "string_0" = "string_1"   # check if string_0 equal to string_1
+        test "string_0" != "string_1"  # check if string_0 not equal to string_1
+        test -z "string"               # check if string is empty
+        test -n "string"               # check if string is Not empty
+```
 # System info and control
 - [print info about system](#print-info-about-system "goto print-info-about-system")
 - [control system](#control-system "goto control-system")
