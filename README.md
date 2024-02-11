@@ -152,6 +152,12 @@ function name {
         test -z "string"               # check if string is empty
         test -n "string"               # check if string is Not empty
 ```
+```py
+        test "string_0" -eq "string_1" # numerically compare if string_0 equal to string_1
+        test "string_0" -ne "string_1" # numerically compare if string_0 not equal to string_1
+        test "string_0" -lt "string_1" # numerically compare if string_0 less than string_1
+        test "string_0" -ge "string_1" # numerically compare if string_0 greater than or equal to string_1
+```
 # System info and control
 - [print info about system](#print-info-about-system "goto print-info-about-system")
 - [control system](#control-system "goto control-system")
