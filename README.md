@@ -166,6 +166,10 @@ function name {
         test -w file_name              # check if file is writable
         test -x file_name              # check if file is executable
 ```
+```py
+        read                           # read user input to variable REPLY
+        read -p "contents"             # print contents before read
+```
 # System info and control
 - [print info about system](#print-info-about-system "goto print-info-about-system")
 - [control system](#control-system "goto control-system")
