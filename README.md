@@ -158,6 +158,14 @@ function name {
         test "string_0" -lt "string_1" # numerically compare if string_0 less than string_1
         test "string_0" -ge "string_1" # numerically compare if string_0 greater than or equal to string_1
 ```
+```py
+        test -e file_name              # check file existence
+        test -f file_name              # check if file is regular file
+        test -d name                   # check if it is directory
+        test -r file_name              # check if file is readable
+        test -w file_name              # check if file is writable
+        test -x file_name              # check if file is executable
+```
 # System info and control
 - [print info about system](#print-info-about-system "goto print-info-about-system")
 - [control system](#control-system "goto control-system")
