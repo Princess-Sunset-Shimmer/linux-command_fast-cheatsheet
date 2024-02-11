@@ -170,6 +170,11 @@ function name {
         read                           # read user input to variable REPLY
         read -p "contents"             # print contents before read
 ```
+```py
+        trap "command" EXIT            # execute command before EXIT
+        trap "command" SIGINT          # execute command before SIGINT
+        trap "command" DEBUG           # execute command before DEBUG
+```
 # System info and control
 - [print info about system](#print-info-about-system "goto print-info-about-system")
 - [control system](#control-system "goto control-system")
