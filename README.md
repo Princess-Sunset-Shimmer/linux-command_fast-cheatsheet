@@ -65,7 +65,7 @@ example\
 - - - -
 ```bash
         command | command    # command pipeline, standard output to standard input
-        command $(command)   # command substitution, standard output to command parameter input
+        command $(command)   # command substitution, expand command standard output to string, then be used as another command parameter input
         command `command`    # command substitution too
 ```
 ## string Variable and Array
