@@ -166,6 +166,9 @@ function name {
         test -w file_name              # check if file is writable
         test -x file_name              # check if file is executable
 ```
+- - - -
+all `test` command can be styled as `[ "string_0" -option "string_1" ]` like
+- - - -
 ```py
         read                           # read user input to variable REPLY
         read -p "contents"             # print contents before read
