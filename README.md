@@ -349,7 +349,7 @@ run `ls /directory/file` to ensure the file you want to remove
         pacman -Rns package_name           # remove package
         pacman -Rddns                      # remove package and crash dependencies
         pacman -Qdt                        # list all unneeded packages
-        pacman -Rsn $(pacman -Qdtq)        # remove all unneeded packages
+        pacman -Rns $(pacman -Qdtq)        # remove all unneeded packages
         pacman -Scc                        # remove all package caches
 ```
 ## Fedora linux dnf
