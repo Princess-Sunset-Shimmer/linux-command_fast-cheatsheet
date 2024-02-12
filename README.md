@@ -167,7 +167,7 @@ function name {
         test -x file_name              # check if file is executable
 ```
 - - - -
-all `test` command can be styled as `[ "string_0" -option "string_1" ]` like
+all `test` command can be styled as `[ "string_0" -option "string_1" ]` alike
 - - - -
 ```py
         read                           # read user input to variable REPLY
