@@ -554,6 +554,8 @@ user account file `/etc/passwd` example
 - [ip command](#ip-command "goto ip-command")
 - [diagnostic](#diagnostic "goto diagnostic")
 - [SSH](#SSH "goto SSH")
+- [nmap](#nmap "goto nmap")
+- [subfinder](#subfinder "goto subfinder")
 
 simple network connection steps
 1. show network interface
@@ -585,6 +587,8 @@ simple network connection steps
         traceroute host.name          # trace routing path to host
 ```
 ## SSH
+## nmap
+## subfinder
 
 # use Terminal as Text editor
 - [simple viewing](#simple-viewing "goto simple-viewing")
