@@ -416,7 +416,8 @@ run `ls /directory/file` to ensure the file you want to remove
 # use Terminal as Disk cleaner
 # use Terminal as User manager
 ```py
-        who                                     # show current user name
+        users | wc -w                           # show all current logged-in user number
+        who                                     # show all current logged-in user name
         passwd -Sa                              # show all user names
 ```
 ```py
