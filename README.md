@@ -79,9 +79,10 @@ example\
 `'single quote string Not expand ${expansion}'`
 - - - -
 ```bash
-        ${variable}  # expand string variable to string
-        ${array[2]}  # expand an element of string array to string
-        ${array[@]}  # expand all elements of string array to strings
+        $variable_name                                 # expand string variable to string
+        ${variable_name}                               # expand string variable to string
+        ${array_name[2]}                               # expand an element of string array to string
+        ${array_name[@]}                               # expand all elements of string array to strings
 ```
 - - - -
 | special variable   | expand to                                               |
@@ -95,7 +96,7 @@ example\
 - - - -
 ## branch control
 ```bash
-if command # check command exit code
+if command      # check command exit code
 then
         command # execute if exit code is 0
 else
@@ -114,13 +115,13 @@ case "string" in
 esac
 ```
 ```bash
-while command  # check command exit code
+while command    # check command exit code
 do
         command  # execute if exit code is 0
 done
 ```
 ```bash
-until command  # check command exit code
+until command    # check command exit code
 do
         command  # execute if exit code is not 0
 done
@@ -180,6 +181,13 @@ all `test` command can be styled as `[ "string_0" -option "string_1" ]` alike
         trap "command" SIGINT          # execute command before SIGINT
         trap "command" DEBUG           # execute command before DEBUG
 ```
+```py
+        let ++variable_name            # arithmatic operation command
+```
+- - - -
+the arithmatic opertations of `let` command in decreasing precedence order:
+`++` `--` `*` `/` `%` `+` `-` `<<` `>>` `&` `|` `^` `<` `>` `<=` `>=` `==` `!=` `=`
+- - - -
 # System info and control
 - [print info about system](#print-info-about-system "goto print-info-about-system")
 - [control system](#control-system "goto control-system")
