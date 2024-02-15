@@ -140,6 +140,8 @@ done
 ## shell function
 ```bash
 function name {
+        local variable_name_0 variable_name_1 ...
+        local variable_name="contents"
         command
         command
         ...
