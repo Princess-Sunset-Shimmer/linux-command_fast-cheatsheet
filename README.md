@@ -185,7 +185,7 @@ all `test` command can be styled as `[ "string_0" -option "string_1" ]` alike
         let ++variable_name            # arithmatic operation command
 ```
 - - - -
-the arithmatic opertations of `let` command in decreasing precedence order:
+the arithmatic opertations of `let` command in decreasing precedence order:\
 `++` `--` `*` `/` `%` `+` `-` `<<` `>>` `&` `|` `^` `<` `>` `<=` `>=` `==` `!=` `=`
 - - - -
 # System info and control
