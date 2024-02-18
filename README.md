@@ -198,6 +198,10 @@ the arithmatic opertations of `let` command in decreasing precedence order:\
         command_name --help  # quick help for the command
 ```
 ```py
+        tput lines           # print console hieght
+        tput cols            # print console width
+```
+```py
         history              # print command line history
 ```
 - - - -
