@@ -108,7 +108,7 @@ case "string" in
         "string_0")
                 command
                 ;;
-        "string_1"
+        "string_1")
                 command
                 ;;
         ...
