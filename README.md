@@ -48,9 +48,9 @@ example\
 - - - -
 ## general multi command syntax
 ```bash
-        command; command     # run multiple commands
-        command && command   # if first command success then execute next command
-        command || command   # if first command fail then execute next command
+        command; command             # run multiple commands
+        command && command           # if first command success then execute next command
+        command || command           # if first command fail then execute next command
 ```
 ```lua
         command 1> /directory/file   # redirection
@@ -64,9 +64,9 @@ example\
 | `2`             | standard-error  |
 - - - -
 ```bash
-        command | command    # command pipeline, standard output to standard input
-        command $(command)   # command substitution, expand command standard output to string, then be used as another command parameter input
-        command `command`    # command substitution too
+        command | command                              # command pipeline, standard output to standard input
+        command $(command)                             # command substitution, expand command standard output to string, then be used as another command parameter input
+        command `command`                              # command substitution too
 ```
 ## string Variable and Array
 ```bash
