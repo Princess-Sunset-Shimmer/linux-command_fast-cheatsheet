@@ -173,6 +173,13 @@ function name {
 all `test` command can be styled as `[ "string_0" -option "string_1" ]` alike
 - - - -
 ```py
+        let ++variable_name            # arithmatic operation command
+```
+- - - -
+the arithmatic opertations of `let` command in decreasing precedence order:\
+`++` `--` `*` `/` `%` `+` `-` `<<` `>>` `&` `|` `^` `<` `>` `<=` `>=` `==` `!=` `=`\
+- - - -
+```py
         read                           # read user input to variable REPLY
         read -p "contents"             # print contents before read
 ```
@@ -182,12 +189,10 @@ all `test` command can be styled as `[ "string_0" -option "string_1" ]` alike
         trap "command" DEBUG           # execute command before DEBUG
 ```
 ```py
-        let ++variable_name            # arithmatic operation command
+        tput lines           # print console hieght
+        tput cols            # print console width
+        tput cup 4 2         # move cursor position to line 4, column 2
 ```
-- - - -
-the arithmatic opertations of `let` command in decreasing precedence order:\
-`++` `--` `*` `/` `%` `+` `-` `<<` `>>` `&` `|` `^` `<` `>` `<=` `>=` `==` `!=` `=`
-- - - -
 # System info and control
 - [print info about system](#print-info-about-system "goto print-info-about-system")
 - [control system](#control-system "goto control-system")
@@ -196,10 +201,6 @@ the arithmatic opertations of `let` command in decreasing precedence order:\
         type command_name    # print command type info
         man command_name     # documentation about the command
         command_name --help  # quick help for the command
-```
-```py
-        tput lines           # print console hieght
-        tput cols            # print console width
 ```
 ```py
         history              # print command line history
