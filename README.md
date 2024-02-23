@@ -287,7 +287,8 @@ the arithmatic opertations of `let` command in decreasing precedence order:\
 | `-`             | unable     |
 - - - -
 ```py
-        mkdir /new_directory/                                  # create directory
+        mkdir /new_directory/                                  # create new directory
+        mkdir -p /new_directory/new_sub_directory/             # create new nested directory
         ln -s /directory/file /directory/symbolic_link_file    # create symbolic link
 ```
 ```py
