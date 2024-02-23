@@ -408,6 +408,7 @@ run `ls /directory/file` to ensure the file you want to remove
 ```py
         mount /dev/block_device_partition_name /mount_point_directory/
         umount /dev/block_device_partition_name
+        umount -a                                      # unmount all devices
 ```
 ```py
         fsck /dev/block_device_partition_name          # fix file system corruption
