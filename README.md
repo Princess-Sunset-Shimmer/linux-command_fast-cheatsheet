@@ -261,7 +261,7 @@ the arithmatic opertations of `let` command in decreasing precedence order:\
         ls -al /directory/or_file | wc -l                 # count files and directories
 ```
 - - - -
-`tip`: you can add `alias ls="ls --color=auto -al"` to your `/etc/bash.bashrc` to comfort your `ls` using
+`tip`: you can add `alias ls="ls --color=always -al | sort"` to your `/etc/bash.bashrc` to comfort your `ls` using
 ```asm
         .rw-r--r-- 3.6~MB user root 14-Jul-02:43 file_name.pdf
         │ │  │  │          │    └─ group-owner
