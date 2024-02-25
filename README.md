@@ -470,6 +470,7 @@ run `ls /directory/file` to ensure the file you want to remove
 ```py
         userdel user_name                       # delete user only
         userdel -r user_name                    # delete user and its directory
+        groupdel group_name                     # delete a primary group
 ```
 - - - -
 user account file `/etc/passwd` example
