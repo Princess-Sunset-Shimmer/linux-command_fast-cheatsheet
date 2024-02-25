@@ -483,6 +483,14 @@ user account file `/etc/passwd` example
         │       └─ encrypted password
         └─ user name
 ```
+user group file `/etc/group` example
+```c
+        storage:x:987:lyra_heartstrings,bon_bon
+        │       │ │   └─ member list ( secondary group )
+        │       │ └─ group ID
+        │       └─ encrypted password
+        └─ group name
+```
 - - - -
 # use Terminal as Multitask manager
 - [CLI](#CLI "goto CLI")
