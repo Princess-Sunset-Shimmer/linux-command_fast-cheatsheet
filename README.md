@@ -417,6 +417,9 @@ run `ls /directory/file` to ensure the file you want to remove
 ```js
         dd if=/iso_directory/linux_distro.iso of=/dev/block_device_name status=progress
 ```
+- - - -
+`tip`: you can add `alias dd='dd status=progress'` to your `/etc/bash.bashrc` to comfort you to destroy your disk
+- - - -
 ## LVM
 
 # use Terminal as Archive manager
