@@ -170,7 +170,7 @@ function name {
         test -x file_name              # check if file is executable
 ```
 - - - -
-all `test` command can be styled as `[ "string_0" -option "string_1" ]` alike
+all `test` command can be styled as `[[ "string_0" -option "string_1" ]]` alike
 - - - -
 ```py
         let ++variable_name            # arithmatic operation command
@@ -184,9 +184,9 @@ the arithmatic opertations of `let` command in decreasing precedence order:\
         read -p "contents"             # print contents before read
 ```
 ```py
-        trap "command" EXIT            # execute command before EXIT
-        trap "command" SIGINT          # execute command before SIGINT
-        trap "command" DEBUG           # execute command before DEBUG
+        trap "command" EXIT            # execute command when EXIT
+        trap "command" SIGINT          # execute command when SIGINT
+        trap "command" DEBUG           # execute command when DEBUG
 ```
 ```py
         tput lines           # print console hieght
