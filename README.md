@@ -223,7 +223,7 @@ the arithmatic opertations of `let` command in decreasing precedence order:\
         lsusb -t             # print all usb devices
 ```
 - - - -
-`tip`: you can add `alias lspci="lspci -tv"` to your `/etc/bash.bashrc` to comfort your `spci` using
+`tip`: you can add `alias lspci='lspci -tv'` to your `/etc/bash.bashrc` to comfort your `spci` using
 - - - -
 ## system control
 ```py
@@ -309,6 +309,7 @@ add option `-i` for interactively confirm the copying action
 ```
 - - - -
 add option `-f` to add force to remove it\
+`tip`: you can add `alias rm='rm -f'` to `/etc/bahs.bashrc`
 run `ls /directory/file` to ensure the file you want to remove
 - - - -
 ## permission control
@@ -380,7 +381,7 @@ run `ls /directory/file` to ensure the file you want to remove
         wget -P /directory_to_save_downloading_file/ https://downloading.link/url # assign saving directory
 ```
 - - - -
-`tip`: you can add `alias wget="wget -c"` to your `/etc/bash.bashrc` to comfort `wget` using
+`tip`: you can add `alias wget='wget -c'` to your `/etc/bash.bashrc` to comfort `wget` using
 - - - -
 # use Terminal as Storage manager
 - [manage single storage device](#manage-single-storage-device "goto manage-single-storage-device")
@@ -514,7 +515,7 @@ user group file `/etc/group` example
         pstree       # print processes tree
 ```
 - - - -
-`tip`: you can add `alias ps="ps -uf"` to your `/etc/bash.bashrc` to comfort your `ps` using
+`tip`: you can add `alias ps='ps -uf'` to your `/etc/bash.bashrc` to comfort your `ps` using
 - - - -
 ```py
         fg %1        # move task foreground by jobspec number
@@ -608,7 +609,7 @@ simple network connection steps
         ip neighbor show              # print interface ARP table
 ```
 - - - -
-`tip`: you can add `alias ip='ip --color=auto'` to your `.bashrc` to comfort your ip command using
+`tip`: you can add `alias ip='ip --color=always'` to your `/etc/bash.bashrc` to comfort your ip command using
 - - - -
 ## diagnostic
 ```py
@@ -644,6 +645,9 @@ simple network connection steps
         command | sort                           # print sorted file contents in pipeline
         command | grep "keyword"                 # print line that contains keyword in pipeline
 ```
+- - - -
+`tip`: you can add `alias grep='grep --color=always'` and `alias diff='diff --color=always'`to `/etc/bash.bashrc`
+- - - -
 ## simple editing
 ```py
         echo "contents" > /directory/file        # redirect contents immediately to file
