@@ -177,7 +177,7 @@ all `test` command can be styled as `[ "string_0" -option "string_1" ]` alike
 ```
 - - - -
 the arithmatic opertations of `let` command in decreasing precedence order:\
-`++` `--` `*` `/` `%` `+` `-` `<<` `>>` `&` `|` `^` `<` `>` `<=` `>=` `==` `!=` `=`\
+`++` `--` `*` `/` `%` `+` `-` `<<` `>>` `&` `|` `^` `<` `>` `<=` `>=` `==` `!=` `=`
 - - - -
 ```py
         read                           # read user input to variable REPLY
