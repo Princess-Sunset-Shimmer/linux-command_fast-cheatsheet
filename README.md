@@ -224,7 +224,7 @@ all `let` can be styled as `((a = a + b))` alike
         lsusb -t             # print all usb devices
 ```
 - - - -
-`tip`: you can add `alias lspci='lspci -tv'` to your `/etc/bash.bashrc` to comfort your `spci` using
+`tip`: you can add `alias lspci='lspci -tv'` to your `/etc/bash.bashrc` to comfort your `lspci` using
 - - - -
 ## system control
 ```py
