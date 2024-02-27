@@ -173,7 +173,7 @@ function name {
 all `test` command can be styled as `[[ "string_0" -option "string_1" ]]` alike
 - - - -
 ```py
-        let ++variable_name            # arithmatic operation command
+        let ++variable_name+3          # arithmatic operation command
 ```
 - - - -
 the arithmatic opertations of `let` command in decreasing precedence order:\
