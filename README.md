@@ -150,7 +150,7 @@ function name {
 ```
 ## useful commands for shell script
 ```py
-        test "string_0" = "string_1"   # check if string_0 equal to string_1
+        test "string_0" == "string_1"   # check if string_0 equal to string_1
         test "string_0" != "string_1"  # check if string_0 not equal to string_1
         test -z "string"               # check if string is empty
         test -n "string"               # check if string is Not empty
@@ -177,7 +177,8 @@ all `test` command can be styled as `[[ "string_0" -option "string_1" ]]` alike
 ```
 - - - -
 the arithmatic opertations of `let` command in decreasing precedence order:\
-`++` `--` `*` `/` `%` `+` `-` `<<` `>>` `&` `|` `^` `<` `>` `<=` `>=` `==` `!=` `=`
+`++` `--` `*` `/` `%` `+` `-` `<<` `>>` `&` `|` `^` `<` `>` `<=` `>=` `==` `!=` `=`\
+all `let` can be styled as `((a = a + b))` alike
 - - - -
 ```py
         read                           # read user input to variable REPLY
