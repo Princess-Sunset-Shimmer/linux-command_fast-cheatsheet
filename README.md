@@ -193,6 +193,8 @@ all `let` can be styled as `((a = a + b))` alike
         tput lines           # print console hieght
         tput cols            # print console width
         tput cup 4 2         # move cursor position to line 4, column 2
+        tput sc              # store current cursor position
+        tput rc              # restore cursor position
 ```
 # System info and control
 - [print info about system](#print-info-about-system "goto print-info-about-system")
