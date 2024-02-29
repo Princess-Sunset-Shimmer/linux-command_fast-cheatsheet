@@ -312,7 +312,7 @@ add option `-i` for interactively confirm the copying action
 ```
 - - - -
 add option `-f` to add force to remove it\
-`tip`: you can add `alias rm='rm -f'` to `/etc/bahs.bashrc`
+`tip`: you can add `alias rm='rm -f'` to `/etc/bahs.bashrc`\
 run `ls /directory/file` to ensure the file you want to remove
 - - - -
 ## permission control
