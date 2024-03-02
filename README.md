@@ -260,11 +260,11 @@ all `let` can be styled as `((a = a + b))` alike
         file /directory/file                              # show file attributes
 ```
 ```py
-        ls -al /directory/or_file                         # list all files
+        ls -alh /directory/or_file                        # list all files
         ls -al /directory/or_file | wc -l                 # count files and directories
 ```
 - - - -
-`tip`: you can add `alias ls='ls --color=always -al'` to your `/etc/bash.bashrc` to comfort your `ls` using
+`tip`: you can add `alias ls='ls --color=always -alh'` to your `/etc/bash.bashrc` to comfort your `ls` using
 ```asm
         .rw-r--r-- 3.6~MB user root 14-Jul-02:43 file_name.pdf
         │ │  │  │          │    └─ group-owner
