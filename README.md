@@ -635,6 +635,7 @@ simple network connection steps
         tail /directory/file                     # print buttom 10 lines of file contents
         tail -n 15 /directory/file               # print buttom 15 lines of file contents
         grep "keyword" /directory/file           # print line that contain keyword in file
+        grep -E "keyword" /directory/file        # hiloght all keywords in file
         diff /directory/file_1 /directory/file_2 # print difference between two files
         sort /directory/file                     # print sorted file contents by alphabet
         sort -r /directory/file                  # print sorted file contents by reversed alphabet
