@@ -28,7 +28,7 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
         bash -vx /directory/script.sh  # visualize execution for debuging
 ```
 ## general single command syntax
-```lua
+```c
         command_name --options parameters /source_directories/files /destination_directory/file
 ```
 - - - -
@@ -96,46 +96,46 @@ example\
 - - - -
 ## branch control
 ```bash
-if command      # check command exit code
+if command_0      # check command exit code
 then
-        command # execute if exit code is 0
+        command_1 # execute if exit code is 0
 else
-        command # execute if exit code is not 0
+        command_2 # execute if exit code is not 0
 fi
 ```
 ```bash
 case "string" in
         "string_0")
-                command
+                command_0
                 ;;
         "string_1")
-                command
+                command_1
                 ;;
         ...
 esac
 ```
 ```bash
-while command    # check command exit code
+while command_0    # check command exit code
 do
-        command  # execute if exit code is 0
+        command_1  # execute if exit code is 0
 done
 ```
 ```bash
-until command    # check command exit code
+until command_0    # check command exit code
 do
-        command  # execute if exit code is not 0
+        command_1  # execute if exit code is not 0
 done
 ```
 ```bash
 for variable in "contents"
 do
-        command
+        command_0
 done
 ```
 ```bash
 for (( counter=0; counter<6; counter++ ))
 do
-        command
+        command_0
 done
 ```
 ## shell function
@@ -143,12 +143,15 @@ done
 function name {
         local variable_name_0 variable_name_1 ...
         local variable_name="contents"
-        command
-        command
+        command_0
+        command_1
         ...
 }
 ```
 ## useful commands for shell script
+```sh
+        command your_command           # bypass your_command searching
+```
 ```py
         test "string_0" == "string_1"  # check if string_0 equal to string_1
         test "string_0" != "string_1"  # check if string_0 not equal to string_1
