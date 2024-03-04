@@ -141,7 +141,7 @@ done
 ```
 ## shell alias
 ```sh
-        alias name='contents'
+        alias name="contents"
 ```
 ## shell function
 ```bash
