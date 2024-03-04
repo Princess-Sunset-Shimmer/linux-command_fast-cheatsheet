@@ -629,36 +629,45 @@ simple network connection steps
 - [vim](#vim "goto vim")
 ## simple viewing
 ```py
-        cat /directory/file                      # print file contents
-        head /directory/file                     # print top 10 lines of file contents
-        head -n 15 /directory/file               # print top 15 lines of file contents
-        tail /directory/file                     # print buttom 10 lines of file contents
-        tail -n 15 /directory/file               # print buttom 15 lines of file contents
-        grep "keyword" /directory/file           # print line that contain keyword in file
-        diff /directory/file_1 /directory/file_2 # print difference between two files
-        sort /directory/file                     # print sorted file contents by alphabet
-        sort -r /directory/file                  # print sorted file contents by reversed alphabet
-        sort -n /directory/file                  # print sorted file contents by size of number
-        sort -rn /directory/file                 # print sorted file contents by reversed size of number
-        sort -k 2 /directory/file                # sort by secound column 
+        cat /directory/file                          # print file contents
 ```
 ```py
-        command | head                           # print top file contents in pipeline
-        command | tail                           # print buttom file contents in pipeline
-        command | sort                           # print sorted file contents in pipeline
-        command | grep "keyword"                 # print line that contains keyword in pipeline
+        head /directory/file                         # print top 10 lines of file contents
+        head -n 15 /directory/file                   # print top 15 lines of file contents
+        tail /directory/file                         # print buttom 10 lines of file contents
+        tail -n 15 /directory/file                   # print buttom 15 lines of file contents
+```
+```py
+        grep "keyword" /directory/file               # print line that contain keyword in file
+        grep "keyword_0\|keyword_1\|..."             # multiple keywords
+        grep --color "keyword\|"                     # highlight keyword
+        grep --color "keyword_0\|keyword_1\|...\|]"  # hilight multiple keywords
+        diff /directory/file_1 /directory/file_2     # print difference between two files
+```
+```py
+        sort /directory/file                         # print sorted file contents by alphabet
+        sort -r /directory/file                      # print sorted file contents by reversed alphabet
+        sort -n /directory/file                      # print sorted file contents by size of number
+        sort -rn /directory/file                     # print sorted file contents by reversed size of number
+        sort -k 2 /directory/file                    # sort by secound column 
+```
+```py
+        your_command | head                          # print top file contents in pipeline
+        your_command | tail                          # print buttom file contents in pipeline
+        your_command | sort                          # print sorted file contents in pipeline
+        your_command | grep "keyword"                # print line that contains keyword in pipeline
 ```
 - - - -
 `tip`: you can add `alias grep='grep --color=always'` and `alias diff='diff --color=always'`to `/etc/bash.bashrc`
 - - - -
 ## simple editing
 ```py
-        echo "contents" > /directory/file        # redirect contents immediately to file
-        echo "contents" >> /directory/file       # append contents immediately to file
-        echo -e "contents\n" > /directory/file   # redirect contents with escape char
-        echo -e "contents\n" >> /direcotry/file  # append contents with escape char
-        cat > /directory/file                    # redirect standard input to file
-        cat >> /directory/file                   # append standard input to file
+        echo "contents" > /directory/file            # redirect contents immediately to file
+        echo "contents" >> /directory/file           # append contents immediately to file
+        echo -e "contents\n" > /directory/file       # redirect contents with escape char
+        echo -e "contents\n" >> /direcotry/file      # append contents with escape char
+        cat > /directory/file                        # redirect standard input to file
+        cat >> /directory/file                       # append standard input to file
 ```
 - - - -
 `Ctrl` + `D` send `eof` to input
