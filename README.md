@@ -411,6 +411,7 @@ run `ls /directory/file` to ensure the file you want to remove
         mkfs.btrfs /dev/block_device_partition_name    # format partition btrfs
         mkfs.ntfs /dev/block_device_partition_name     # format partition ntfs
         mkfs.fat -F32 /dev/block_device_partition_name # format partition fat32
+        mkfs.fat -F16 /dev/block_device_partition_name # firmat partition fat16
 ```
 ```py
         mount /dev/block_device_partition_name /mount_point_directory/
