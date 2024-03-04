@@ -48,13 +48,13 @@ example\
 - - - -
 ## general multi command syntax
 ```bash
-        command; command             # run multiple commands
-        command && command           # if first command success then execute next command
-        command || command           # if first command fail then execute next command
+        command_0; command_1              # run multiple commands
+        command_0 && command_1            # if command_0 success then execute command_1
+        command_0 || command_1            # if command_0 fail then execute command_1
 ```
 ```lua
-        command 1> /directory/file   # redirection
-        command 1>> /directory/file  # append redirection
+        your_command 1> /directory/file   # redirection
+        your_command 1>> /directory/file  # append redirection
 ```
 - - - -
 | file discriptor | stands for      |
@@ -64,11 +64,11 @@ example\
 | `2`             | standard-error  |
 - - - -
 ```bash
-        command | command                              # command pipeline, standard output to standard input
-        command $(command)                             # command substitution, expand command standard output to string, then be used as another command parameter input
-        command `command`                              # command substitution too
+        command_0 | command_1                          # command pipeline, standard output to standard input
+        command_0 $(command_1)                         # command substitution, expand command_0 output to string, then be used as command_1 parameter input
+        command_0 `command_1`                          # command substitution too
 ```
-## string Variable and Array
+## string Variable and Array`
 ```bash
         variable_name="string_contents"                # define or redefine a string variable
         array_name=("string_0" "string_1" "string_2")  # define or redefine a string array
