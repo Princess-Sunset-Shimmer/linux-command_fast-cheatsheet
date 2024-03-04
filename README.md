@@ -20,6 +20,7 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
 - [general multi command syntax](#general-multi-command-syntax "goto general-multi-command-syntax")
 - [string Variable and Array](#string-Variable-and-Array "string-Variable-and-Array")
 - [branch control](#branch-control "goto branch-control")
+- [shell alias](#shell-alias "goto shell-alias")
 - [shell function](#shell-function "goto shell-function")
 - [useful commands for shell script](#useful-commands-for-shell-script "goto useful-commands-for-shell-script")
 ## execute a script
@@ -138,6 +139,10 @@ do
         command_0
 done
 ```
+## shell alias
+```sh
+        alias name='contents'
+```
 ## shell function
 ```bash
 function name {
@@ -151,6 +156,9 @@ function name {
 ## useful commands for shell script
 ```sh
         command your_command           # bypass your_command searching
+```
+```sh
+        retuen                         # return from a function or a script
 ```
 ```py
         test "string_0" == "string_1"  # check if string_0 equal to string_1
@@ -193,11 +201,11 @@ all `let` can be styled as `((a = a + b))` alike
         trap "your_command" DEBUG      # execute command when DEBUG
 ```
 ```py
-        tput lines           # print console hieght
-        tput cols            # print console width
-        tput cup 4 2         # move cursor position to line 4, column 2
-        tput sc              # store current cursor position
-        tput rc              # restore cursor position
+        tput lines                     # print console hieght
+        tput cols                      # print console width
+        tput cup 4 2                   # move cursor position to line 4, column 2
+        tput sc                        # store current cursor position
+        tput rc                        # restore cursor position
 ```
 # System info and control
 - [print info about system](#print-info-about-system "goto print-info-about-system")
