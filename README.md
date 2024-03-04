@@ -150,7 +150,7 @@ function name {
 ```
 ## useful commands for shell script
 ```py
-        test "string_0" == "string_1"   # check if string_0 equal to string_1
+        test "string_0" == "string_1"  # check if string_0 equal to string_1
         test "string_0" != "string_1"  # check if string_0 not equal to string_1
         test -z "string"               # check if string is empty
         test -n "string"               # check if string is Not empty
@@ -185,9 +185,9 @@ all `let` can be styled as `((a = a + b))` alike
         read -p "contents"             # print contents before read
 ```
 ```py
-        trap "command" EXIT            # execute command when EXIT
-        trap "command" SIGINT          # execute command when SIGINT
-        trap "command" DEBUG           # execute command when DEBUG
+        trap "your_command" EXIT       # execute command when EXIT
+        trap "your_command" SIGINT     # execute command when SIGINT
+        trap "your_command" DEBUG      # execute command when DEBUG
 ```
 ```py
         tput lines           # print console hieght
