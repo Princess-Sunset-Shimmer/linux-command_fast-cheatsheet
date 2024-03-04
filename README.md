@@ -450,7 +450,7 @@ run `ls /directory/file` to ensure the file you want to remove
 ```py
         su -l username                          # switch user as username
         su                                      # switch user as root
-        sudo command                            # super user do command
+        sudo your_command                       # super user do your_command
         exit                                    # logout
 ```
 - - - -
