@@ -268,8 +268,9 @@ all `let` can be styled as `((a = a + b))` alike
         find /starting_directory/ -type d -name "mlp-fim" # search directory contain keyword mlp-fim from starting_directory
 ```
 ```py
-        sha256sum /directory/file                         # check file SHA256
-        file /directory/file                              # show file attributes
+        du -sh /directory/file                            # print file size
+        sha256sum /directory/file                         # print file SHA256
+        file /directory/file                              # print file attributes
 ```
 ```py
         ls -alh /directory/or_file                        # list all files
