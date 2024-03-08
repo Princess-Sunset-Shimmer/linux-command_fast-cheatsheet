@@ -258,7 +258,8 @@ all `let` can be styled as `((a = a + b))` alike
 - [linux file system fast view](#linux-file-system-fast-view "goto linux-file-system-fast-view")
 ## view and manage Directory and File
 ```py
-        pwd                                               # show current directory
+        pwd                                               # print current directory
+        du -sh /directory/                                # print directory size
         cd /directory/                                    # change directory
 ```
 ```py
