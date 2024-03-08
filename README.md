@@ -421,6 +421,7 @@ run `ls /directory/file` to ensure the file you want to remove
         mkfs.ext4 /dev/block_device_partition_name     # format partition ext4
         mkfs.btrfs /dev/block_device_partition_name    # format partition btrfs
         mkfs.ntfs /dev/block_device_partition_name     # format partition ntfs
+        mkfs.exfar /dev/block_device_partition_name    # format partition exfat
         mkfs.fat -F32 /dev/block_device_partition_name # format partition fat32
         mkfs.fat -F16 /dev/block_device_partition_name # firmat partition fat16
 ```
