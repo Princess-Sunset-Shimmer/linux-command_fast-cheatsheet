@@ -228,7 +228,7 @@ all `let` can be styled as `((a = a + b))` alike
         uname -a             # print system kernel version
         sysctl -a            # print kernel parameters
         hostnamectl status   # print host name info
-        $SHELL --version     # print shell version
+        bash --version       # print bash shell version
         echo $PATH           # print directories that system searching for command
         fastfetch            # print system info
 ```
