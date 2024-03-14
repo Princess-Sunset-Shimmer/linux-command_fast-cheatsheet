@@ -212,6 +212,25 @@ all `let` can be styled as `((a = a + b))` alike
 - [control system](#control-system "goto control-system")
 ## print info about system
 ```py
+        uname -a             # print system kernel version
+        sysctl -a            # print kernel parameters
+        hostnamectl status   # print host name info
+        bash --version       # print bash shell version
+        echo $PATH           # print directories that system searching for command
+        fastfetch            # print system info
+```
+```
+        date                 # print system time
+        date +"%I:%M %p"     # print system time in format
+```
+```py
+        lspci                # print all PCIe devices
+        lsusb -t             # print all usb devices
+```
+- - - -
+`tip`: you can add `alias lspci='lspci -tv'` to your `/etc/bash.bashrc` to comfort your `lspci` using
+- - - -
+```py
         type command_name    # print command type info
         man command_name     # documentation about the command
         command_name --help  # quick help for the command
@@ -223,21 +242,6 @@ all `let` can be styled as `((a = a + b))` alike
 `ctrl` + `R` search command history by keywork\ 
 `Enter` to execute it, `─>` to confirm but not execute it\
 `ctrl` + `R` again to switch the saerch
-- - - -
-```py
-        uname -a             # print system kernel version
-        sysctl -a            # print kernel parameters
-        hostnamectl status   # print host name info
-        bash --version       # print bash shell version
-        echo $PATH           # print directories that system searching for command
-        fastfetch            # print system info
-```
-```py
-        lspci                # print all PCIe devices
-        lsusb -t             # print all usb devices
-```
-- - - -
-`tip`: you can add `alias lspci='lspci -tv'` to your `/etc/bash.bashrc` to comfort your `lspci` using
 - - - -
 ## system control
 ```py
@@ -389,6 +393,9 @@ run `ls /directory/file` to ensure the file you want to remove
         pacman -Rns $(pacman -Qdtq)        # remove all unneeded packages
         pacman -Scc                        # remove all package caches
 ```
+- - - -
+`tip`: you can add `alias pacman='pacman --color=always' to your `/etc/bash.bashrc`
+- - - -
 ## Fedora linux dnf
 ## Debian linux apt
 # use Terminal as Downloader
