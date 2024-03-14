@@ -219,7 +219,7 @@ all `let` can be styled as `((a = a + b))` alike
         echo $PATH           # print directories that system searching for command
         fastfetch            # print system info
 ```
-```
+```py
         date                 # print system time
         date +"%I:%M %p"     # print system time in format
 ```
@@ -239,7 +239,7 @@ all `let` can be styled as `((a = a + b))` alike
         history              # print command line history
 ```
 - - - -
-`ctrl` + `R` search command history by keywork\ 
+`ctrl` + `R` search command history by keyword\
 `Enter` to execute it, `─>` to confirm but not execute it\
 `ctrl` + `R` again to switch the saerch
 - - - -
