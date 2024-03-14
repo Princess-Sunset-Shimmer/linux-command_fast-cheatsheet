@@ -235,6 +235,9 @@ all `let` can be styled as `((a = a + b))` alike
         man command_name     # documentation about the command
         command_name --help  # quick help for the command
 ```
+```pay
+        time your_command    # print your command execution time
+```
 ```py
         history              # print command line history
 ```
