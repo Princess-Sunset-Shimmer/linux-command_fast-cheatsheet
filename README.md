@@ -16,7 +16,7 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
 
 # bash shell script
 - [execute a script](#execute-a-script "goto execute-a-script")
-- [general single command syntax](#general-single-command-syntax "goto general-single-command-syntax")
+- [general single command line syntax](#general-single-command-line-syntax "goto general-single-command-line-syntax")
 - [general multi command syntax](#general-multi-command-syntax "goto general-multi-command-syntax")
 - [string Variable and Array](#string-Variable-and-Array "string-Variable-and-Array")
 - [branch control](#branch-control "goto branch-control")
@@ -28,11 +28,14 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
         bash /directory/script.sh      # execute a shell script
         bash -vx /directory/script.sh  # visualize execution for debuging
 ```
-## general single command syntax
+## general single command line syntax
 ```py
         command_name --options parameters /source_directories/files /destination_directory/file
 ```
 - - - -
+Typically, you use command line to call `CLI` program, but you can call any `non-CLI` program.
+
+
 | special character | expand to                    |
 | ----------------- | ---------------------------- |
 | `~`               | current user home directory  |
