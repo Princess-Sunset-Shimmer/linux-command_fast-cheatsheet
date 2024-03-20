@@ -713,10 +713,10 @@ simple network connection steps
         cat /directory/file_0 /directory/file_1 ... >> /directory/file
 ```
 ```py
-        sed "s/keyword/replacement/g" /directory/file > /directory/file
-        sed "s#keyword#replacement#g" /directory/file > /directory/file
-        sed "3,9s/keyword/replacement/g" /directory/file > /directory/file
-        sed "3,$s/keyword/replacement/g" /directory/file > /directory/file
+        sed -i "s/keyword/replacement/g" /directory/file
+        sed -i "s#keyword#replacement#g" /directory/file
+        sed -i "3,9s/keyword/replacement/g" /directory/file
+        sed -i "3,$s/keyword/replacement/g" /directory/file
 ```
 ## vim
 - - - -
