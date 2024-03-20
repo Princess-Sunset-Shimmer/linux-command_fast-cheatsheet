@@ -681,10 +681,17 @@ simple network connection steps
         sort -k 2 /directory/file                    # sort by secound column 
 ```
 ```py
+        sed "s/keyword/replacement/g" /directory/file
+        sed "s#keyword#replacement#g" /directory/file
+        sed "3,9s/keyword/replacement/g" /directory/file
+        sed "3,$s/keyword/replacement/g" /directory/file
+```
+```py
         your_command | head                          # print top file contents in pipeline
         your_command | tail                          # print buttom file contents in pipeline
         your_command | sort                          # print sorted file contents in pipeline
         your_command | grep "keyword"                # print line that contains keyword in pipeline
+        your_command | sed "s/keyword/replacement/g" # replace keyword then print result
 ```
 - - - -
 `tip`: you can add `alias grep='grep --color=always'` and `alias diff='diff --color=always'`to `/etc/bash.bashrc`
@@ -704,6 +711,12 @@ simple network connection steps
 ```py
         cat /directory/file_0 /directory/file_1 ... > /directory/file
         cat /directory/file_0 /directory/file_1 ... >> /directory/file
+```
+```py
+        sed "s/keyword/replacement/g" /directory/file > /directory/file
+        sed "s#keyword#replacement#g" /directory/file > /directory/file
+        sed "3,9s/keyword/replacement/g" /directory/file > /directory/file
+        sed "3,$s/keyword/replacement/g" /directory/file > /directory/file
 ```
 ## vim
 - - - -
