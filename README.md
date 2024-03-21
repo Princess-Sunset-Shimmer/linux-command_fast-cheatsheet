@@ -272,7 +272,6 @@ all `let` can be styled as `((a = a + b))` alike
 ## view and manage Directory and File
 ```py
         pwd                                               # print current directory
-        du -sh /directory/                                # print directory size
         cd /directory/                                    # change directory
 ```
 ```py
@@ -281,7 +280,6 @@ all `let` can be styled as `((a = a + b))` alike
         find /starting_directory/ -type d -name "mlp-fim" # search directory contain keyword mlp-fim from starting_directory
 ```
 ```py
-        du -sh /directory/file                            # print file size
         sha256sum /directory/file                         # print file SHA256
         file /directory/file                              # print file attributes
 ```
@@ -421,6 +419,10 @@ run `ls /directory/file` to ensure the file you want to remove
 - [use Disk Destroyer to make bootable usb](#use-Disk-Destroyer-to-make-bootable-usb "goto use-Disk-Destroyer-to-make-bootable-usb")
 - [LVM](#LVM "goto LVM")
 ## manage single storage device
+```py
+        du -sh /directory/                             # print directory size
+        dust                                           # print whole disk usage graph
+```
 ```py
         lsblk                                          # list block devices
         lsblk -f                                       # list partition file_system Format
@@ -562,9 +564,12 @@ user group file `/etc/group` example
 ```
 ## TUI
 ```py
-        top    # open TUI process monitor
+        btop   # open btop process monitor
+        btop   # open htop process monitor
+        top    # open top process monitor
 ```
 - - - -
+top:\
 `Q` quit tasks monitor\
 `H` help\
 `1` show total or separate threads states\
