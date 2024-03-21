@@ -149,8 +149,7 @@ done
 ## shell function
 ```bash
 function name {
-        local variable_name_0 variable_name_1 ...
-        local variable_name="contents"
+        variable_name="contents"
         command_0
         command_1
         ...
@@ -162,6 +161,10 @@ function name {
 ```
 ```sh
         retuen                         # return from a function or a script
+```
+```sh
+        unset variable_name            # undefine a variable from current scope
+        unset -f function_name         # undefine a function from current scope
 ```
 ```py
         test "string_0" == "string_1"  # check if string_0 equal to string_1
