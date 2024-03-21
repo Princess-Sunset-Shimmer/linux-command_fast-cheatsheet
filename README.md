@@ -160,7 +160,7 @@ function name {
         command your_command           # bypass your_command searching
 ```
 ```sh
-        retuen                         # return from a function or a script
+        return                         # return from a function or a script
 ```
 ```sh
         unset variable_name            # undefine a variable from current scope
