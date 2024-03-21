@@ -565,7 +565,7 @@ user group file `/etc/group` example
 ## TUI
 ```py
         btop   # open btop process monitor
-        btop   # open htop process monitor
+        htop   # open htop process monitor
         top    # open top process monitor
 ```
 - - - -
