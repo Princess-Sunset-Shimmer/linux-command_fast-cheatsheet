@@ -28,6 +28,10 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
         bash /directory/script.sh      # execute a shell script
         bash -vx /directory/script.sh  # visualize execution for debuging
 ```
+```py
+        source /directory/script.sh
+        . /directory/script.sh
+```
 ## general single command line syntax
 ```py
         command_name --options parameters /source_directories/files /destination_directory/file
