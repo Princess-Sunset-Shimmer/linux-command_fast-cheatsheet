@@ -467,16 +467,17 @@ run `ls /directory/file` to ensure the file you want to remove
 
 # use Terminal as Archive manager
 ```py
-        tar cf /directory/archive.tar /directory/ # creat archive.tar
+        tar cf /directory/archive.tar /directory  # creat archive.tar
         tar tf /directory/archive.tar             # list archive.tar contents
         tar xf /directory/archive.tar             # extract archive.tar
 ```
 ```py
-        zip -r /directory/archive.zip /directory/ # creat archive.zip
+        zip -r /directory/archive.zip /directory  # creat archive.zip
         unzip -l /directory/archive.zip           # list archive.zip contents
         unzip /directory/archive.zip              # extract archive.zip
 ```
 # use Terminal as Disk cleaner
+
 # use Terminal as User manager
 ```py
         users | wc -w                           # show all current logged-in user number
@@ -542,7 +543,7 @@ user group file `/etc/group` example
 - [tmux](#tmux "goto tmux")
 ## CLI
 ```py
-        command &    # run command at background
+        your_command &    # run your command at background
 ```
 - - - -
 `Ctrl` + `C` terminate foreground task (`INT` interrupt signal)\
