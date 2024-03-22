@@ -320,7 +320,10 @@ all `let` can be styled as `((a = a + b))` alike
 ```py
         mkdir /new_directory/                                  # create new directory
         mkdir -p /new_directory/new_sub_directory/             # create new nested directory
-        ln -s /directory/file /directory/symbolic_link_file    # create symbolic link
+```
+```py
+        ln -s /directory/file /directory/symbolic_link         # create a symbolic link
+        unlink /directory/symbolic_link                        # remove a symbolic link
 ```
 ```py
         mv /source_directory/ /destination_directory/          # move directory
