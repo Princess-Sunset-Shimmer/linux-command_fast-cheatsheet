@@ -34,7 +34,7 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
 ```
 ## general single command line syntax
 ```py
-        command_name --options parameters /source_directories/files /destination_directory/file
+        command_name --options parameters /source_directory/file /destination_directory/file
 ```
 - - - -
 Typically, you use command line to call `CLI` program, but you can call any `non-CLI` program.
