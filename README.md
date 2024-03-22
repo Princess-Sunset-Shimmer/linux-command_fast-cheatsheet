@@ -345,9 +345,10 @@ run `ls /directory/file` to ensure the file you want to remove
 - - - -
 ## permission control
 ```py
-        chown user_name /directory/file                        # change owner to new user
-        chown user_name:group_name /directory/file             # change owner to new user and new group
-        chmod 750 /directory/file                              # set file permission to rwxr-x---
+        chown user_name /directory/file                        # change file owner to new user
+        chown user_name:group_name /directory/file             # change file owner to new user and new group
+        chown -R user_name:group_name /directory               # change directory owner to new user and new group
+        chmod 750 /directory/file                              # Change file permission to rwxr-x---
 ```
 - - - -
 | oct number | file mode |
