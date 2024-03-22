@@ -307,8 +307,8 @@ all `let` can be styled as `((a = a + b))` alike
 | `.`       | regular file          |
 | `c`       | character device file |
 | `b`       | block device file     |
-| `l`       | symbolic link         |
-| `d`       | directory             |
+| `l`       | symbolic link file    |
+| `d`       | directory file        |
 
 | file permission | mean       |
 | --------------: | ---------: |
