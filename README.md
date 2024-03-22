@@ -318,27 +318,24 @@ all `let` can be styled as `((a = a + b))` alike
 | `-`             | unable     |
 - - - -
 ```py
-        mkdir /new_directory/                                  # create new directory
-        mkdir -p /new_directory/new_sub_directory/             # create new nested directory
+        mkdir /new_directory                                   # create new directory
+        mkdir -p /new_directory/new_sub_directory              # create new nested directory
 ```
 ```py
         ln -s /directory/file /directory/symbolic_link         # create a symbolic link
         unlink /directory/symbolic_link                        # remove a symbolic link
 ```
 ```py
-        mv /source_directory/ /destination_directory/          # move directory
+        mv /source_directory /destination_directory/           # move directory
         mv /source_directory/file /destination_directory/      # move file
         mv old_file_name new_file_name                         # rename file
 ```
 ```py
-        cp -r /source_directory/ /destination_directory/       # copy directory
-        cp /source_directory/file /destination_directory/file  # copy file to new file
+        cp -r /source_directory /destination_directory/        # copy directory
+        cp -i /source_directory/file /destination_directory/   # copy file to new directory with interactive confirming
 ```
-- - - -
-add option `-i` for interactively confirm the copying action
-- - - -
 ```py
-        rm -r /directory/                                      # remove directory and its contents
+        rm -r /directory                                       # remove directory and its contents
         rm /directory/file                                     # remove file
 ```
 - - - -
