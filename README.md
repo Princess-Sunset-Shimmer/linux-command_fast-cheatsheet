@@ -417,7 +417,7 @@ run `ls /directory/file` to ensure the file you want to remove
 ```py
         wget https://downloading.link/url                                         # download to current directory
         wget -c https://downloading.link/url                                      # continune download
-        wget -P /directory_to_save_downloading_file/ https://downloading.link/url # assign saving directory
+        wget -P /directory_to_save_downloading_file https://downloading.link/url  # assign saving directory
 ```
 - - - -
 `tip`: you can add `alias wget='wget -c'` to your `/etc/bash.bashrc` to comfort `wget` using
@@ -428,7 +428,7 @@ run `ls /directory/file` to ensure the file you want to remove
 - [LVM](#LVM "goto LVM")
 ## manage single storage device
 ```py
-        du -sh /directory/                             # print directory size
+        du -sh /directory                              # print directory size
         dust                                           # print whole disk usage graph
 ```
 ```py
@@ -452,7 +452,7 @@ run `ls /directory/file` to ensure the file you want to remove
         mkfs.fat -F16 /dev/block_device_partition_name # firmat partition fat16
 ```
 ```py
-        mount /dev/block_device_partition_name /mount_point_directory/
+        mount /dev/block_device_partition_name /mount_point_directory 
         umount /dev/block_device_partition_name
         umount -a                                      # unmount all devices
 ```
@@ -470,12 +470,12 @@ run `ls /directory/file` to ensure the file you want to remove
 
 # use Terminal as Archive manager
 ```py
-        tar cf /directory/archive.tar /directory  # creat archive.tar
+        tar cf /directory/archive.tar /directory  # create archive.tar
         tar tf /directory/archive.tar             # list archive.tar contents
         tar xf /directory/archive.tar             # extract archive.tar
 ```
 ```py
-        zip -r /directory/archive.zip /directory  # creat archive.zip
+        zip -r /directory/archive.zip /directory  # create archive.zip
         unzip -l /directory/archive.zip           # list archive.zip contents
         unzip /directory/archive.zip              # extract archive.zip
 ```
@@ -502,8 +502,8 @@ run `ls /directory/file` to ensure the file you want to remove
 ```
 ```py
         usermod -l new_user_name old_user_name  # change user name
-        usermod -d /new_directory/ user_name    # change user directory
-        usermod -d /new_directory/ -m user_name # change user directory and move its contents
+        usermod -d /new_directory user_name     # change user directory
+        usermod -d /new_directory -m user_name  # change user directory and move its contents
 ```
 ```py
         usermod -g new_group_name user_name     # change primary group
