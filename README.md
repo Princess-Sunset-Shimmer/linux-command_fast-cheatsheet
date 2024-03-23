@@ -335,7 +335,7 @@ all `let` can be styled as `((a = a + b))` alike
 ```py
         cp -r /source_directory /destination_directory         # copy directory and its contents
         cp -i /source_directory/file /destination_directory    # copy file to new directory with interactive confirming
-```
+```     cp source_file0 source_file1 /destination_directory    # copy multiple files to new directory
 ```py
         rm -r /directory                                       # remove directory and its contents
         rm /directory/file                                     # remove file
