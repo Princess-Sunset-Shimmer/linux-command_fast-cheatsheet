@@ -276,12 +276,14 @@ all `let` can be styled as `((a = a + b))` alike
 ## view and manage Directory and File
 ```py
         pwd                                               # print current directory
-        cd /directory/                                    # change directory
+        cd                                                # change to current user home directory 
+        cd /                                              # change to file system root directory
+        cd /directory                                     # change to specific directory
 ```
 ```py
-        find /starting_directory/ -name "*mlp-fim*"       # search file contain keyword mlp-fim from starting_directory
-        find /starting_directory/ -iname "mlp-fim"        # search file ignore case
-        find /starting_directory/ -type d -name "mlp-fim" # search directory contain keyword mlp-fim from starting_directory
+        find /starting_directory -name "*mlp-fim*"        # search file contain keyword mlp-fim from starting_directory
+        find /starting_directory -iname "mlp-fim"         # search file ignore case
+        find /starting_directory -type d -name "mlp-fim"  # search directory contain keyword mlp-fim from starting_directory
 ```
 ```py
         sha256sum /directory/file                         # print file SHA256
@@ -326,8 +328,8 @@ all `let` can be styled as `((a = a + b))` alike
         unlink /directory/symbolic_link                        # remove a symbolic link
 ```
 ```py
-        mv /source_directory /destination_directory/           # move directory
-        mv /source_directory/file /destination_directory/      # move file
+        mv /source_directory /destination_directory            # move directory
+        mv /source_directory/file /destination_directory       # move file
         mv old_file_name new_file_name                         # rename file
 ```
 ```py
