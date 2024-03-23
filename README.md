@@ -243,6 +243,7 @@ all `let` can be styled as `((a = a + b))` alike
 ```py
         type command_name    # print command type info
         man command_name     # documentation about the command
+        tldr command_name    # fast cheat sheet about the command
         command_name --help  # quick help for the command
 ```
 ```pay
@@ -330,6 +331,7 @@ all `let` can be styled as `((a = a + b))` alike
 ```py
         mv /source_directory /destination_directory            # move directory to another directory
         mv /source_directory/file /destination_directory       # move file to another directory
+        mv source_file0 source_file1 /destination_directory    # move multiple files to new directory
         mv old_file_name new_file_name                         # rename file of current directory
 ```
 ```py
