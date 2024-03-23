@@ -324,17 +324,17 @@ all `let` can be styled as `((a = a + b))` alike
         mkdir -p /new_directory/new_sub_directory              # create new nested directory
 ```
 ```py
-        ln -s /directory/file /directory/symbolic_link         # create a symbolic link
+        ln -s /directory/file /directory/symbolic_link         # create a symbolic link to directory or file
         unlink /directory/symbolic_link                        # remove a symbolic link
 ```
 ```py
-        mv /source_directory /destination_directory            # move directory
-        mv /source_directory/file /destination_directory       # move file
-        mv old_file_name new_file_name                         # rename file
+        mv /source_directory /destination_directory            # move directory to another directory
+        mv /source_directory/file /destination_directory       # move file to another directory
+        mv old_file_name new_file_name                         # rename file of current directory
 ```
 ```py
-        cp -r /source_directory /destination_directory/        # copy directory
-        cp -i /source_directory/file /destination_directory/   # copy file to new directory with interactive confirming
+        cp -r /source_directory /destination_directory         # copy directory and its contents
+        cp -i /source_directory/file /destination_directory    # copy file to new directory with interactive confirming
 ```
 ```py
         rm -r /directory                                       # remove directory and its contents
