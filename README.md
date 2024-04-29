@@ -678,6 +678,7 @@ simple network connection steps
 ## simple viewing
 ```py
         cat /directory/file                          # print file contents
+        cat -n /directory/file                       # print file contents with line number
 ```
 ```py
         head /directory/file                         # print top 10 lines of file contents
