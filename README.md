@@ -392,6 +392,7 @@ run `ls /directory/file` to ensure the file you want to remove
 ```py
         pacman -Q                          # print all installed packages
         pacman -Qet                        # print explicit installed packages
+        pacman -Qdt                        # list all orphan packages
         pacman -Qs installed_package_name  # search explicit installed package by name
         pacman -Qii installed_package_name # print detail info about this installed package
 ```
@@ -406,8 +407,7 @@ run `ls /directory/file` to ensure the file you want to remove
 ```py
         pacman -Rns package_name           # remove package
         pacman -Rddns                      # remove package and crash dependencies
-        pacman -Qdt                        # list all unneeded packages
-        pacman -Rns $(pacman -Qdtq)        # remove all unneeded packages
+        pacman -Rns $(pacman -Qdtq)        # remove all orphan packages
         pacman -Scc                        # remove all package caches
 ```
 - - - -
