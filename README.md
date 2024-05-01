@@ -395,8 +395,6 @@ run `ls /directory/file` to ensure the file you want to remove
         pacman -Qdt                        # list all orphan packages
         pacman -Qs installed_package_name  # search explicit installed package by name
         pacman -Qii installed_package_name # print detail info about this installed package
-```
-```py
         pacman -Ss package_name            # search package online
         pacman -Sii package_name           # print detail info about this package online
 ```
