@@ -390,13 +390,12 @@ run `ls /directory/file` to ensure the file you want to remove
 - [Debian linux apt](#Debian-linux-apt "goto Debian-linux-apr")
 ## Arch linux pacman
 ```py
-        pacman -Q                          # print all installed packages
-        pacman -Qet                        # print explicit installed packages
+        pacman -Q                          # list all installed packages
+        pacman -Qet                        # list explicit installed packages
         pacman -Qdt                        # list all orphan packages
-        pacman -Qs installed_package_name  # search explicit installed package by name
-        pacman -Qii installed_package_name # print detail info about this installed package
+        pacman -Qs installed_package_name  # search installed package by name
         pacman -Ss package_name            # search package online
-        pacman -Sii package_name           # print detail info about this package online
+        pacman -Sii package_name           # show detail info about this package
 ```
 ```py
         pacman -Syu package_name           # install the package
@@ -406,7 +405,7 @@ run `ls /directory/file` to ensure the file you want to remove
         pacman -Rns package_name           # remove package
         pacman -Rddns                      # remove package and crash dependencies
         pacman -Rns $(pacman -Qdtq)        # remove all orphan packages
-        pacman -Scc                        # remove all package caches
+        pacman -Scc                        # clear all package caches
 ```
 - - - -
 `tip`: you can add `alias pacman='pacman --color=always' to your `/etc/bash.bashrc`
