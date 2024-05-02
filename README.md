@@ -398,7 +398,7 @@ run `ls /directory/file` to ensure the file you want to remove
         pacman -Sii package_name           # show detail info about this package
 ```
 ```py
-        pacman -Syu package_name           # install the package
+        pacman -Syu package_name           # update and install the package
         pacman -Syu                        # update the system
 ```
 ```py
