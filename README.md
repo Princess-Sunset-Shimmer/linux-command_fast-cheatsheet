@@ -398,8 +398,8 @@ run `ls /directory/file` to ensure the file you want to remove
         pacman -Sii package_name           # show detail info about this package
 ```
 ```py
-        pacman -S package_name             # update and install the package
-        pacman -Syu                        # update the system
+        pacman -S package_name             # update and install package
+        pacman -Syu                        # update system
 ```
 ```py
         pacman -Runs package_name          # remove package
@@ -415,10 +415,13 @@ run `ls /directory/file` to ensure the file you want to remove
 ```py
 ```
 ```py
-        apt install package_name           # update and install the package
-        apt update                         # update the system
+        apt install package_name           # update and install package
+        apt update                         # update system
 ```
 ```py
+        apt purge package_name             # remove package
+        apt autoremove                     # remove all orphan packages
+        apt clean                          # clear all package caches
 ```
 # use Terminal as Downloader
 ```py
