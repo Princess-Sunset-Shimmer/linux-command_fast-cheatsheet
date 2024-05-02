@@ -390,10 +390,10 @@ run `ls /directory/file` to ensure the file you want to remove
 - [Debian linux apt](#Debian-linux-apt "goto Debian-linux-apr")
 ## Arch linux pacman
 ```py
-        pacman -Q                          # list all installed packages
+        pacman -Qs                         # list all installed packages
+        pacman -Qs package_name            # list package by name
         pacman -Qet                        # list explicit installed packages
         pacman -Qdt                        # list all orphan packages
-        pacman -Qs installed_package_name  # search installed package by name
         pacman -Ss package_name            # search package online
         pacman -Sii package_name           # show detail info about this package
 ```
