@@ -402,9 +402,9 @@ run `ls /directory/file` to ensure the file you want to remove
         pacman -Syu                        # update the system
 ```
 ```py
-        pacman -Rns package_name           # remove package
-        pacman -Rddns                      # remove package and crash dependencies
-        pacman -Rns $(pacman -Qdtq)        # remove all orphan packages
+        pacman -Runs package_name          # remove package
+        pacman -Rdduns                     # remove package and crash dependencies
+        pacman -Runs $(pacman -Qdtq)       # remove all orphan packages
         pacman -Scc                        # clear all package caches
 ```
 - - - -
