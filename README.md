@@ -412,6 +412,10 @@ run `ls /directory/file` to ensure the file you want to remove
 - - - -
 ## Fedora linux dnf
 ## Debian linux apt
+```py
+        apt install package_name           # update and install the package
+        apt update                         # update the system
+```
 # use Terminal as Downloader
 ```py
         wget https://downloading.link/url                                         # download to current directory
