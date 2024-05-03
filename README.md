@@ -394,7 +394,7 @@ run `ls /directory/file` to ensure the file you want to remove
         pacman -Qs package_name            # list package by name
         pacman -Qet                        # list explicit installed packages
         pacman -Qdt                        # list all orphan packages
-        pacman -Ss package_name            # search package online
+        pacman -Ss keyword                 # search package by keyword
         pacman -Sii package_name           # show detail info about this package
 ```
 ```py
@@ -413,6 +413,8 @@ run `ls /directory/file` to ensure the file you want to remove
 ## Fedora linux dnf
 ## Debian linux apt
 ```py
+        apt search keyword                 # search package by keyword
+        apt show 
 ```
 ```py
         apt install package_name           # update and install package
