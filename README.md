@@ -414,7 +414,7 @@ run `ls /directory/file` to ensure the file you want to remove
 ## Debian linux apt
 ```py
         apt search keyword                 # search package by keyword
-        apt show 
+        apt show package_name              # show detail info about this package
 ```
 ```py
         apt install package_name           # update and install package
