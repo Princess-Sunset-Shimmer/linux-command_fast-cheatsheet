@@ -391,8 +391,8 @@ run `ls /directory/file` to ensure the file you want to remove
 ## Arch linux pacman
 ```py
         pacman -Qs                         # list all installed packages
-        pacman -Qs package_name            # list package by name
-        pacman -Qet                        # list explicit installed packages
+        pacman -Qs package_name            # list installed package by name
+        pacman -Qet                        # list manual installed packages
         pacman -Qdt                        # list all orphan packages
         pacman -Ss keyword                 # search package by keyword
         pacman -Sii package_name           # show detail info about this package
@@ -413,6 +413,8 @@ run `ls /directory/file` to ensure the file you want to remove
 ## Fedora linux dnf
 ## Debian linux apt
 ```py
+        apt list --installed               # list all installed packages
+        apt list --manual-installed=true   # list manual installed packages
         apt search keyword                 # search package by keyword
         apt show package_name              # show detail info about this package
 ```
