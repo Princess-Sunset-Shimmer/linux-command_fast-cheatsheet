@@ -164,7 +164,10 @@ function name {
         command your_command           # bypass your_command searching
 ```
 ```sh
-        return                         # return from a function or a script
+        return                         # return from a function or from a script
+```
+```sh
+        shift 3                        # move first 3 parameters out, then the 4th parameter becomes the new first parameter
 ```
 ```sh
         unset variable_name            # undefine a variable from current scope
