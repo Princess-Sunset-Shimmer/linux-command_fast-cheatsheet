@@ -420,7 +420,7 @@ run `ls /directory/file` to ensure the file you want to remove
 ```
 ```py
         apt install package_name           # update and install package
-        apt update                         # update system
+        apt upgrade                        # update system
 ```
 ```py
         apt purge package_name             # remove package
