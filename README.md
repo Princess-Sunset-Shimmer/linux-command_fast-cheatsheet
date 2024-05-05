@@ -415,8 +415,8 @@ run `ls /directory/file` to ensure the file you want to remove
 - - - -
 ## Fedora linux dnf
 ```py
-        dnf install package_name           # 
-        dnf upgrade                        # 
+        dnf install package_name           # update and install package
+        dnf upgrade                        # update system
 ```
 ## Debian linux apt
 ```py
