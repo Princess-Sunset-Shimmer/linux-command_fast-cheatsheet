@@ -419,9 +419,9 @@ run `ls /directory/file` to ensure the file you want to remove
         dnf upgrade                        # update system
 ```
 ```py
-        dnf remove package_name
-        dnf autoremove
-        dnf clean
+        dnf remove package_name            # remove package
+        dnf autoremove                     # remove orphan packages
+        dnf clean                          # clear package caches
 ```
 ## Debian linux apt
 ```py
