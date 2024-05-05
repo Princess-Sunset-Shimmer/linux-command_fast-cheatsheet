@@ -418,6 +418,11 @@ run `ls /directory/file` to ensure the file you want to remove
         dnf install package_name           # update and install package
         dnf upgrade                        # update system
 ```
+```py
+        dnf remove package_name
+        dnf autoremove
+        dnf clean
+```
 ## Debian linux apt
 ```py
         apt list --installed               # list all installed packages
