@@ -415,8 +415,10 @@ run `ls /directory/file` to ensure the file you want to remove
 - - - -
 ## Fedora linux dnf
 ```py
-        dnf list available
-        dnf list installed
+        dnf list all                       # list all installed packages
+        dnf list installed                 # 
+        dnf search all keyword             # 
+        dnf info package_name              # 
 ```
 ```py
         dnf install package_name           # update and install package
@@ -425,7 +427,7 @@ run `ls /directory/file` to ensure the file you want to remove
 ```py
         dnf remove package_name            # remove package
         dnf autoremove                     # remove orphan packages
-        dnf clean                          # clear package caches
+        dnf clean all                      # clear package caches
 ```
 ## Debian linux apt
 ```py
