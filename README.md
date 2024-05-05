@@ -396,7 +396,7 @@ run `ls /directory/file` to ensure the file you want to remove
         pacman -Qs                         # list all installed packages
         pacman -Qs package_name            # list installed package by name
         pacman -Qet                        # list manual installed packages
-        pacman -Qdt                        # list all orphan packages
+        pacman -Qdt                        # list orphan packages
         pacman -Ss keyword                 # search package by keyword
         pacman -Sii package_name           # show detail info about this package
 ```
@@ -407,13 +407,17 @@ run `ls /directory/file` to ensure the file you want to remove
 ```py
         pacman -Runs package_name          # remove package
         pacman -Rdduns                     # remove package and crash dependencies
-        pacman -Runs $(pacman -Qdtq)       # remove all orphan packages
-        pacman -Scc                        # clear all package caches
+        pacman -Runs $(pacman -Qdtq)       # remove orphan packages
+        pacman -Scc                        # clear package caches
 ```
 - - - -
 `tip`: you can add `alias pacman='pacman --color=always' to your `/etc/bash.bashrc`
 - - - -
 ## Fedora linux dnf
+```py
+        dnf install package_name           # 
+        dnf upgrade                        # 
+```
 ## Debian linux apt
 ```py
         apt list --installed               # list all installed packages
@@ -427,8 +431,8 @@ run `ls /directory/file` to ensure the file you want to remove
 ```
 ```py
         apt purge package_name             # remove package
-        apt autoremove                     # remove all orphan packages
-        apt clean                          # clear all package caches
+        apt autoremove                     # remove orphan packages
+        apt clean                          # clear package caches
 ```
 # use Terminal as Downloader
 ```py
