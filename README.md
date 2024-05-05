@@ -411,7 +411,7 @@ run `ls /directory/file` to ensure the file you want to remove
         pacman -Scc                        # clear package caches
 ```
 - - - -
-`tip`: you can add `alias pacman='pacman --color=always' to your `/etc/bash.bashrc`
+`tip`: you can add `alias pacman='pacman --color=always'1 to your `/etc/bash.bashrc`
 - - - -
 ## Fedora linux dnf
 ```py
