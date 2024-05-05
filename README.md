@@ -112,7 +112,7 @@ else
 fi
 ```
 ```bash
-case "string" in
+case ${expansion} in
         "string_0")
                 command_0
                 ;;
