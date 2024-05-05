@@ -415,10 +415,10 @@ run `ls /directory/file` to ensure the file you want to remove
 - - - -
 ## Fedora linux dnf
 ```py
-        dnf list all                       # list all installed packages
-        dnf list installed                 # 
-        dnf search all keyword             # 
-        dnf info package_name              # 
+        dnf list available                 # list all installed packages
+        dnf list installed                 # list manual installed packages
+        dnf search all keyword             # search package by keyword
+        dnf info package_name              # show detail info about this package
 ```
 ```py
         dnf install package_name           # update and install package
