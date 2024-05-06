@@ -170,6 +170,11 @@ function name {
         shift 3                        # move first 3 parameters out, then the 4th parameter becomes the new first parameter
 ```
 ```sh
+        alias name='contents'          # define alias
+        unalias name                   # undefine alias
+        unalias -a                     # undefine all aliases
+```
+```sh
         unset variable_name            # undefine a variable from current scope
         unset -f function_name         # undefine a function from current scope
 ```
