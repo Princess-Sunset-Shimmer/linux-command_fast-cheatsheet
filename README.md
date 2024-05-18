@@ -400,6 +400,8 @@ run `ls /directory/file` to ensure the file you want to remove
 ```py
         pacman -Qs                         # list all installed packages
         pacman -Qs package_name            # list installed package by name
+        pacman -Qg                         # list all package groups
+        pacman -Qg package_group_name      # list package group by name
         pacman -Qet                        # list manual installed packages
         pacman -Qdt                        # list orphan packages
         pacman -Ss keyword                 # search package by keyword
