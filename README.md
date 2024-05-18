@@ -424,6 +424,7 @@ run `ls /directory/file` to ensure the file you want to remove
 ```py
         dnf list available                 # list all installed packages
         dnf list installed                 # list manual installed packages
+        dnf group list                     # list all package groups
         dnf search all keyword             # search package by keyword
         dnf info package_name              # show detail info about this package
 ```
