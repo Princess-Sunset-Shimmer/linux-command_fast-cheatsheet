@@ -89,6 +89,8 @@ example\
 ```bash
         $variable_name                                 # expand string variable to string
         ${variable_name}                               # expand string variable to string
+        ${variable_name%'suffix'}                      # expand string variable to string and delete matched suffix
+        ${variable_name#'prefix'}                      # expand string variable to string and delete matched prefix
         ${array_name[2]}                               # expand an element of string array to string
         ${array_name[@]}                               # expand all elements of string array to strings
 ```
