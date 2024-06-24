@@ -513,14 +513,21 @@ run `ls /directory/file` to ensure the file you want to remove
 
 # use Terminal as Archive manager
 ```py
-        tar cf /directory/archive.tar /directory  # create archive.tar
-        tar tf /directory/archive.tar             # list archive.tar contents
-        tar xf /directory/archive.tar             # extract archive.tar
+        tar cfv /directory/archive.tar /directory/file  # create archive.tar
+        tar cfv /directory/aechibe.tar --directory=/directory
+        tar tfv /directory/archive.tar                  # list archive.tar contents
+        tar xfv /directory/archive.tar                  # extract archive.tar
 ```
 ```py
-        zip -r /directory/archive.zip /directory  # create archive.zip
-        unzip -l /directory/archive.zip           # list archive.zip contents
-        unzip /directory/archive.zip              # extract archive.zip
+        tar czfv /directory/archive.tar /directory/file # create archive.gz
+        tar czfv /directory/aechibe.tar --directory=/directory
+        tar tzfv /directory/archive.tar                 # list archive.gz contents
+        tar xzfv /directory/archive.tar                 # extract archive.gz
+```
+```py
+        zip -r /directory/archive.zip /directory        # create archive.zip
+        unzip -l /directory/archive.zip                 # list archive.zip contents
+        unzip /directory/archive.zip                    # extract archive.zip
 ```
 # use Terminal as Disk cleaner
 
