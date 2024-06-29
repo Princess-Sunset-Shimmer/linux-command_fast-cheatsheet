@@ -305,7 +305,7 @@ all `let` can be styled as `((a = a + b))` alike
         ls -al /directory/or_file | wc -l                 # count files and directories
 ```
 - - - -
-`tip`: you can add `alias ls='ls --color=always -alh'` to your `/etc/bash.bashrc` to comfort your `ls` using
+`tip`: you can add `alias ls='ls --color=always -FAXhl'` to your `/etc/bash.bashrc` to comfort your `ls` using
 ```asm
         .rw-r--r-- 3.6~MB user root 14-Jul-02:43 file_name.pdf
         │ │  │  │          │    └─ group-owner
