@@ -355,8 +355,11 @@ all `let` can be styled as `((a = a + b))` alike
 ```
 - - - -
 add option `-f` to add force to remove it\
-`tip`: you can add `alias rm='rm -f'` to `/etc/bahs.bashrc`\
-run `ls /directory/file` to ensure the file you want to remove
+`tip`: you can add\
+`alias cp='cp -v'`\
+`alias mv='mv -v'`\
+`alias rm='rm -vf'`  to `/etc/bahs.bashrc`\
+run `ls /directory/file` to Ensure the File is the File you want to remove
 - - - -
 ## permission control
 ```py
