@@ -115,10 +115,10 @@ fi
 ```
 ```bash
 case ${expansion} in
-        "string_0")
+        "string_0"|"string_1")
                 command_0
                 ;;
-        "string_1")
+        "string_2")
                 command_1
                 ;;
         ...
