@@ -603,7 +603,7 @@ user group file `/etc/group` example
         your_command_0 &; your_command_1 & ... # run multiple commands at background
 ```
 ```py
-        wait    # wait for all background to be finished
+        wait    # wait for all background processes to finish
 ```
 - - - -
 `Ctrl` + `C` terminate foreground task (`INT` interrupt signal)\
