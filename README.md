@@ -599,7 +599,11 @@ user group file `/etc/group` example
 - [tmux](#tmux "goto tmux")
 ## CLI
 ```py
-        your_command &    # run your command at background
+        your_command &                         # run your command at background
+        your_command_0 &; your_command_1 & ... # run multiple commands at background
+```
+```py
+        wait    # wait for all background to be finished
 ```
 - - - -
 `Ctrl` + `C` terminate foreground task (`INT` interrupt signal)\
