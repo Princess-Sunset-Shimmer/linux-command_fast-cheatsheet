@@ -56,7 +56,7 @@ example\
 - - - -
 ## general multi command syntax
 ```bash
-        command_0; command_1              # run multiple commands
+        command_0 ; command_1             # run multiple commands sequentially
         command_0 && command_1            # if command_0 success then execute command_1
         command_0 || command_1            # if command_0 fail then execute command_1
 ```
