@@ -600,7 +600,7 @@ user group file `/etc/group` example
 ## CLI
 ```py
         your_command &                   # run your command at background
-        your_command_0 & your_command_1  # run multiple commands at background
+        your_command_0 & your_command_1  # run multiple commands in parallel
 ```
 ```py
         wait    # wait for all background processes to finish
