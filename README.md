@@ -625,7 +625,10 @@ user group file `/etc/group` example
         bg %2        # move task background by jobspec number
 ```
 ```py
-        kill %3      # terminate task by jobspec number
+        kill 10859   # terminate task by PID with SIGTERM
+        kill %3      # terminate task by jobspec number with SIGTERM
+        kill -9 551  # terminate task by PID with SIGKILL
+        kill -L      # list all killing signal
         killall task_name
 ```
 ## TUI
