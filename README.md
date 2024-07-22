@@ -155,7 +155,7 @@ done
 ## shell function
 ```bash
 function name {
-        variable_name="contents"
+        local variable_name="contents"
         command_0
         command_1
         ...
