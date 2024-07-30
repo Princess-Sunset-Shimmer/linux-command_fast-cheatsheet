@@ -407,7 +407,7 @@ run `ls /directory/file` to Ensure the File is the File you want to remove
         pacman -Qs package_name            # list installed package by name
         pacman -Qg                         # list all installed package groups
         pacman -Qg package_group_name      # list installed package group by name
-        pacman -Qet                        # list manual installed packages
+        pacman -Qe                         # list explicit installed packages
         pacman -Qdt                        # list orphan packages
         pacman -Ss keyword                 # search package by keyword
         pacman -Sg package_group_name      # search package group by name
@@ -428,8 +428,8 @@ run `ls /directory/file` to Ensure the File is the File you want to remove
 - - - -
 ## Fedora linux dnf
 ```py
-        dnf list available                 # list all installed packages
-        dnf list installed                 # list manual installed packages
+        dnf list installed                 # list all installed packages
+        dnf history userinstalled          # list explicit installed packages
         dnf group list                     # list all package groups
         dnf search all keyword             # search package by keyword
         dnf info package_name              # show detail info about this package
