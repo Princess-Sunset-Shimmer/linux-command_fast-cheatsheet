@@ -122,6 +122,9 @@ case ${expansion} in
                 command_1
                 ;;
         ...
+        *)
+                command_default
+                ;;
 esac
 ```
 ```bash
