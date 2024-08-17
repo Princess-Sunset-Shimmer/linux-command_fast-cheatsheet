@@ -7,6 +7,7 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
 - [use Terminal as Downloader](#use-Terminal-as-Downloader "goto use-Terminal-as-Downloader")
 - [use Terminal as Storage manager](#use-Terminal-as-Storage-manager "goto use-Terminal-as-Storage-manager")
 - [use Terminal as Archive manager](#use-Terminal-as-Archive-manager "goto use-Terminal-as-Archive-manager")
+- [use Terminal as Media manager](#use-Terminal-as-Media-manager "goto use-Terminal-as-Media-manager")
 - [use Terminal as Disk cleaner](#use-Terminal-as-Disk-cleaner "goto use-Terminal-as-Disk-cleaner")
 - [use Terminal as User manager](#use-Terminal-as-User-manager "goto use-Terminal-as-User-manager")
 - [use Terminal as Multitask manager](#use-Terminal-as-Multitask-manager "goto use-Terminal-as-Multitask-manager")
@@ -535,6 +536,8 @@ run `ls /directory/file` to Ensure the File is the File you want to remove
         unzip -l /directory/archive.zip                 # list archive.zip contents
         unzip /directory/archive.zip                    # extract archive.zip
 ```
+# use Terminal as Media manager
+
 # use Terminal as Disk cleaner
 
 # use Terminal as User manager
