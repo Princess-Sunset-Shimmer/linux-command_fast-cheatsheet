@@ -255,6 +255,14 @@ all `let` can be styled as `((a = a + b))` alike
 `tip`: you can add `alias lspci='lspci -tv'` to your `/etc/bash.bashrc` to comfort your `lspci` using
 - - - -
 ```py
+        compgen -b           # print all bash Builtin commands
+        compgen -a           # print all Alias commands
+        compgen -c           # print all Commands
+        compgen -k           # print all bash reserved Keywords
+        compgen -A function  # print all Function commands
+        compgen -back -A function
+```
+```py
         type command_name    # print command type info
         man command_name     # documentation about the command
         tldr command_name    # fast cheat sheet about the command
