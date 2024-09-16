@@ -300,7 +300,7 @@ all `let` can be styled as `((a = a + b))` alike
 ```py
         pwd                                               # print current directory
         cd                                                # change to current user home directory 
-        cd /                                              # change to file system root directory
+        cd ..                                             # change to parent directory of current directory
         cd /directory                                     # change to specific directory
 ```
 ```py
