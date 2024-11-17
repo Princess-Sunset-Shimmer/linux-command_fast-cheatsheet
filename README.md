@@ -625,6 +625,10 @@ user group file `/etc/group` example
 - - - -
 ```py
         jobs         # print running jobs
+        fg %1        # move task foreground by jobspec number
+        bg %2        # move task background by jobspec number
+```
+```py
         ps           # print current user's running processes
         ps -x        # print current user's all processes
         ps -a        # print all user's running processes
@@ -635,15 +639,14 @@ user group file `/etc/group` example
 `tip`: you can add `alias ps='ps -uf'` to your `/etc/bash.bashrc` to comfort your `ps` using
 - - - -
 ```py
-        fg %1        # move task foreground by jobspec number
-        bg %2        # move task background by jobspec number
-```
-```py
         kill 10859   # terminate task by PID with SIGTERM
         kill %3      # terminate task by jobspec number with SIGTERM
         kill -9 551  # terminate task by PID with SIGKILL
         kill -L      # list all killing signal
         killall task_name
+```
+```py
+        free -ht     # print memory usage
 ```
 ## TUI
 ```py
