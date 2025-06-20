@@ -552,7 +552,7 @@ run `ls /directory/file` to Ensure the File is the File you want to remove
 ```py
         users | wc -w                           # show all current logged-in user number
         who                                     # show all current logged-in user names
-        passwd -Sa                              # show all user names
+        passwd -Sa                              # show all user status
 ```
 ```py
         su -l username                          # switch user as username
