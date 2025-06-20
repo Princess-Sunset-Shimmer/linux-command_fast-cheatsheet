@@ -705,6 +705,10 @@ top:\
         systemctl enable service_name                         # autostart a service
         systemctl disable service_name
 ```
+```py
+        systemctl get-default                                 # get default target
+        systemctl set-default new.target                      # change default target to new target
+```
 # use Terminal as Network manager
 - [network manager](#network-manager "goto network-manager")
 - [ip command](#ip-command "goto ip-command")
