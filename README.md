@@ -19,10 +19,10 @@ Terminal is the middle between the User and Operating System. Shell is Interpret
 - [execute a script](#execute-a-script "goto execute-a-script")
 - [general single command line syntax](#general-single-command-line-syntax "goto general-single-command-line-syntax")
 - [general multi command syntax](#general-multi-command-syntax "goto general-multi-command-syntax")
-- [string Variable and Array](#string-Variable-and-Array "string-Variable-and-Array")
+- [string Variable and Array](#string-Variable-and-Array "goto string-Variable-and-Array")
+- [here documents](#here-documents "goto here-documents")
 - [branch control](#branch-control "goto branch-control")
-- [shell alias](#shell-alias "goto shell-alias")
-- [shell function](#shell-function "goto shell-function")
+- [shell alias and function](#shell-alias "goto shell-alias-and-function")
 - [useful commands for shell script](#useful-commands-for-shell-script "goto useful-commands-for-shell-script")
 ## execute a script
 ```py
@@ -105,6 +105,16 @@ example\
         $(command_1)                         # command substitution, expand command_0 output to string
         `command_1`                          # command substitution too
 ```
+## here documents
+```bash
+        command_that_accept_stdin << 'EOF'
+string contents ${variable} $(command_0)
+EOF 
+```
+here string
+```bash
+        command_that_accept_stdin <<< "string_contents"
+```
 ## branch control
 ```bash
 if command_0      # check command exit code
@@ -152,11 +162,10 @@ do
         command_0
 done
 ```
-## shell alias
+## shell alias and function
 ```sh
         alias name="contents"
 ```
-## shell function
 ```bash
 function name {
         local variable_name="contents"
