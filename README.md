@@ -107,8 +107,12 @@ example\
 ```
 ## here documents
 ```bash
+        command_that_accept_stdin << EOF
+string contents with ${variable} and $(command_0) expansions
+EOF
+
         command_that_accept_stdin << 'EOF'
-string contents ${variable} $(command_0)
+string contents but disable ${variable} and $(command_0) expansions
 EOF 
 ```
 here string
