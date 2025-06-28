@@ -65,6 +65,7 @@ example\
 ```lua
         your_command 1> /directory/file   # redirection
         your_command 1>> /directory/file  # append redirection
+        your_command 2>&1 /directory/file # append stdin and stderr redirection
 ```
 - - - -
 | file discriptor | stands for      |
