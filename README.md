@@ -57,6 +57,7 @@ example\
 - - - -
 ## general multi command syntax
 ```bash
+        command_0 | command_1             # command pipeline, standard output to standard input
         command_0 ; command_1             # run multiple commands sequentially
         command_0 && command_1            # if command_0 success then execute command_1
         command_0 || command_1            # if command_0 fail then execute command_1
@@ -72,11 +73,6 @@ example\
 | `1`             | standard-output |
 | `2`             | standard-error  |
 - - - -
-```bash
-        command_0 | command_1                          # command pipeline, standard output to standard input
-        command_0 $(command_1)                         # command substitution, expand command_0 output to string, then be used as command_1 parameter input
-        command_0 `command_1`                          # command substitution too
-```
 ## string Variable and Array`
 ```bash
         variable_name="string_contents"                # define or redefine a string variable
@@ -105,6 +101,10 @@ example\
 | `$#`               | number of parameters passed to script                   |
 | `$$`               | shell process ID                                        |
 - - - -
+```bash
+        $(command_1)                         # command substitution, expand command_0 output to string
+        `command_1`                          # command substitution too
+```
 ## branch control
 ```bash
 if command_0      # check command exit code
