@@ -646,11 +646,14 @@ user group file `/etc/group` example
         ps           # print current user's running processes
         ps -x        # print current user's all processes
         ps -a        # print all user's running processes
-        ps -ax       # print all user's all processes
+        ps -ef       # print all user's all processes with full detail
+        ps aux       # print all user's all processes in BSD style
+        ps aux --sort=-%mem
+        ps aux --sort=-%cpu
         pstree       # print processes tree
 ```
 - - - -
-`tip`: you can add `alias ps='ps -uf'` to your `/etc/bash.bashrc` to comfort your `ps` using
+`tip`: you can use **ps** with **grep** or **fzf** like `ps aux | fzf`
 - - - -
 ```py
         kill 10859   # terminate task by PID with SIGTERM
