@@ -653,7 +653,7 @@ user group file `/etc/group` example
         pstree       # print processes tree
 ```
 - - - -
-`tip`: you can use **ps** with **grep** or **fzf** like `ps aux | fzf`
+`tip`: you can use **ps** with **grep** or **fzf** like `ps aux --sort=-%mem,-%cpu | fzf`
 - - - -
 ```py
         kill 10859   # terminate task by PID with SIGTERM
